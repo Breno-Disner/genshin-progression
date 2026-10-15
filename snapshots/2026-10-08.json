@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-08",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    180,
+    181,
+    182,
+    183,
+    184
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [],
+  "observations_verbatim": [
+    {
+      "paragraph": 180,
+      "text": "out. 8, 2026"
+    },
+    {
+      "paragraph": 181,
+      "text": "• Pré-farm da Skirk iniciado: Unresolved Chess Game (Trounce Domain) concluído no Lv70 após tentativas anteriores sem sucesso; 1 Ascended Sample: Knight obtido como recompensa."
+    },
+    {
+      "paragraph": 182,
+      "text": "• Standard Wish: Chevreuse obtida C0. Snapshot inicial: Lv1/20, amizade 1; HP 1.003 / ATQ 39 / DEF 51 / EM 0. Arma, talentos e detalhes dos artefatos não confirmados neste registro."
+    },
+    {
+      "paragraph": 183,
+      "text": "• Conta alcançou AR52; World Level avançou para 6."
+    },
+    {
+      "paragraph": 184,
+      "text": "• Pré-farm atualizado: Mora 1.517.521 e Hero’s Wit 124. Correção: materiais de Clockwork Meka ainda não estão concluídos; inventário SEELE confirmado em 35 / 7 / 3 entre as três raridades. O 92 / 26 / 1 interpretado anteriormente correspondia a Handguards."
+    }
+  ]
+}

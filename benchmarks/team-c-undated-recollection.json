@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "record_type": "benchmark_recollection_series",
+  "id": "team-c-undated-recollection",
+  "source_id": "genlab2-retrieved",
+  "source_turn": "7d18557e-f658-4e1c-bf20-95dfab4622f8",
+  "evidence_quality": "conversation_recollection",
+  "account_scope": null,
+  "team": "C",
+  "team_identity": "genlab2-skirk-team-c-unresolved",
+  "members": null,
+  "comparison_group": null,
+  "comparability": "unverified",
+  "sequence": [
+    {
+      "sequence": 1,
+      "event_date": null,
+      "dps": 1643,
+      "total_damage": null,
+      "duration_seconds": null,
+      "max_hit": null
+    },
+    {
+      "sequence": 2,
+      "event_date": null,
+      "dps": 3503,
+      "total_damage": null,
+      "duration_seconds": null,
+      "max_hit": null
+    },
+    {
+      "sequence": 3,
+      "event_date": null,
+      "dps": 4475,
+      "total_damage": null,
+      "duration_seconds": null,
+      "max_hit": null
+    },
+    {
+      "sequence": 4,
+      "event_date": null,
+      "dps": 4974,
+      "total_damage": null,
+      "duration_seconds": null,
+      "max_hit": null
+    },
+    {
+      "sequence": 5,
+      "event_date": null,
+      "dps": 5187,
+      "total_damage": null,
+      "duration_seconds": null,
+      "max_hit": null
+    }
+  ],
+  "limitations": [
+    "Assistant summary only, not primary screenshots or raw test exports.",
+    "Dates, target, resistance, rotations, builds and account environment unknown.",
+    "Context mentions Skirk and Scoffi; complete membership not confirmed.",
+    "Not evidence of Skirk ownership on diary account."
+  ]
+}

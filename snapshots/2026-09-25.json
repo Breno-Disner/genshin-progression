@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-09-25",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    69,
+    70,
+    71,
+    72,
+    73,
+    74
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [],
+  "observations_verbatim": [
+    {
+      "paragraph": 69,
+      "text": "25/09/2026 — Atualização da conta / Diona"
+    },
+    {
+      "paragraph": 70,
+      "text": "• Conta permanece AR49; Primogems chegaram a exatamente 12.000."
+    },
+    {
+      "paragraph": 71,
+      "text": "• Diona Lv70 C0, talentos 1/5/3, Sacrificial Bow Lv70 R1. Build atualizado para 25.575 HP / 959 ATQ / 594 DEF / 126 EM / 10,4% CR / 69,4% CD / 176,4% ER / 12,0% Cryo DMG."
+    },
+    {
+      "paragraph": 72,
+      "text": "• Artefatos atuais: 2pc Tenacity of the Millelith + 2pc Vourukasha's Glow, com Gladiator como off-piece. Flower Tenacity +20; Feather Vourukasha +20; HP% Sands Tenacity +20; ATK% Goblet Vourukasha +0 ainda provisório; HP% Gladiator Circlet +20."
+    },
+    {
+      "paragraph": 73,
+      "text": "• Novo Gladiator HP% Circlet 5★ +20: HP% 46,6%; ER 22,0%; HP +508; EM 42; ATQ +14. Substituiu o antigo circlet HP% 4★."
+    },
+    {
+      "paragraph": 74,
+      "text": "• Diona subiu de 21.543 → 25.575 HP (+4.032) e agora possui 176,4% ER. O build 2pc Tenacity + 2pc Vourukasha já está ativo; principal peça provisória restante é o Goblet ATK% +0, futuramente visando HP%"
+    }
+  ]
+}

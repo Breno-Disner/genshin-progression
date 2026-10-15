@@ -1,0 +1,7 @@
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.docx binary
+.gitattributes text eol=lf
+provenance/diary-docx-extracted.txt whitespace=-blank-at-eof

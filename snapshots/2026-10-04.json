@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-04",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [
+    {
+      "name": "Ganyu",
+      "level": 80,
+      "constellation": 0,
+      "talents_normal_skill_burst": [
+        8,
+        3,
+        1
+      ],
+      "source_paragraph": 131,
+      "details_verbatim": "• Snapshot — Ganyu Lv80 C0; talentos 8/3/1; amizade 8; Hamayumi Lv80 R1 (ATQ base 401; ATQ 50,3%). Stats: HP 15.524, ATQ 1.798, DEF 701, EM 360, CR 60,2%, CD 117,9%, ER 111,7%, Cryo DMG 46,6%, bônus de cura/cura recebida 0,0%."
+    },
+    {
+      "name": "Diluc",
+      "level": 57,
+      "constellation": 0,
+      "talents_normal_skill_burst": [
+        2,
+        2,
+        2
+      ],
+      "source_paragraph": 133,
+      "details_verbatim": "• Snapshot — Diluc Lv57 C0; talentos 2/2/2; amizade 1; Prototype Archaic Lv50 R1 (ATQ base 293; ATQ 17,9%). Stats: HP 15.486, ATQ 736, DEF 571, EM 156, CR 20,0%, CD 115,6%, ER 116,2%, Pyro DMG 61,6%, bônus de cura/cura recebida 0,0%."
+    }
+  ],
+  "observations_verbatim": [
+    {
+      "paragraph": 119,
+      "text": "04/10/2026"
+    },
+    {
+      "paragraph": 120,
+      "text": "• Benchmark Team A — DPS Test Dummy++, preset Abyss 12, Mitachurl Lv100 com 10% de resistência a todos os tipos de dano; equipe Ganyu Lv80 / Xiangling Lv80 / Sucrose Lv60 / Diona Lv70. Teste bem-sucedido: 10.275 DPS, 205.920 de dano total em 20,04s; maior hit 37.348."
+    },
+    {
+      "paragraph": 121,
+      "text": "• Distribuição do dano: Ganyu 190.084 (92%); Xiangling 12.888 (6%); Sucrose 1.547 (1%); Diona 1.401 (1%). Percentuais exibidos pelo teste, arredondados. Distribuição elemental exibida: Cryo 93%, Pyro 6%, demais 0%; campo de modificadores vazio e detecção de rotação desativada."
+    },
+    {
+      "paragraph": 122,
+      "text": "• Contexto recuperado do GenLab: o usuário relatou que o E da Diona não conectou na primeira tentativa, impedindo o setup de Cryo Swirl/redução de resistência pela Sucrose. Essa tentativa anterior registrou 9.459 DPS e 189.400 de dano em 20,02s, com Diona causando 0 dano; manter como amostra de setup falho, separada do benchmark bem-sucedido."
+    },
+    {
+      "paragraph": 123,
+      "text": "• Log do teste bem-sucedido: Diona acertou a partir de 2,189s; Sucrose registrou Swirl em 3,45s; trocas Diona → Sucrose em 2,22s, Sucrose → Xiangling em 3,689s e Xiangling → Ganyu em 6,269s. Primeiro par de hits da Ganyu: 21.969 em 9,78s + 37.348 em 10,109s, ambos associados a Melt, total 59.317. Mais tarde, par 16.549 + 28.133; hits finais 7.035 + 11.959 sem registro de Melt. Melhora observada entre tentativas: cerca de 8,6% no DPS e 8,7% no dano total; não atribuir a mudança de build nem tratar como comparação perfeitamente controlada."
+    },
+    {
+      "paragraph": 124,
+      "text": "• Benchmark Team B — teste de rotação completa no DPS Test Dummy++, preset Abyss 12; Mitachurl Lv100, resistências de 10% a todos os tipos de dano. Equipe: Tighnari Lv80 / Lisa Lv80 / Fischl Lv60 / Kuki Shinobu Lv40. Resultado: 7.684 DPS, 153.858 de dano total em 20,02s; maior hit 12.413."
+    },
+    {
+      "paragraph": 125,
+      "text": "• Dano por personagem: Tighnari 125.470 (82%); Lisa 18.868 (12%); Fischl 7.557 (5%); Shinobu 1.963 (1%). Distribuição elemental: Dendro 82%, Electro 18%, demais 0%. Percentuais conforme exibidos. Modificadores: campo vazio; detecção automática de rotação desativada."
+    },
+    {
+      "paragraph": 126,
+      "text": "• Log visível: primeiro dano da Shinobu em 1,783s; trocas Shinobu → Fischl em 3,673s, Fischl → Lisa em 5,174s e Lisa → Tighnari em 9,253s. Primeiro dano visível de Tighnari em 10,484s (1.602); Spread em 11,833s com hit de 5.526; outros hits com Spread de 8.112 e 12.413. Aggravate registrado para Lisa, Fischl e Shinobu. Capturas mostram trechos da página 1/2, até evento 72 em 15,104s; trecho final da rotação não fornecido."
+    },
+    {
+      "paragraph": 127,
+      "text": "• Stats exibidos no teste (percentuais arredondados; EM não informado, mostrado como “—”): Tighnari — HP 14.373, ATQ base 511/total 979, DEF base 556/total 690, CR 58%, CD 125%, ER 121%, Dendro 68%; Lisa — HP 14.531, ATQ base 552/total 1.119, DEF base 508/total 640, CR 5%, CD 103%, ER 111%, Electro 46%; Fischl — HP 7.639, ATQ base 562/total 777, DEF base 391/total 431, CR 12%, CD 62%, ER 165%, bônus elementais/físico 0%; Shinobu — HP 10.979, ATQ base 293/total 420, DEF base 313/total 409, CR 11%, CD 71%, ER 105%, Dendro 15%, demais bônus 0%. Bônus não citados para Tighnari/Lisa: 0%. Lisa avançou de Lv75 para Lv80; constelação C0 mantida conforme último registro."
+    },
+    {
+      "paragraph": 128,
+      "text": "• Dragonspine revisitada para limpeza completa de exploração; todos os baús e puzzles restantes foram coletados/concluídos, conforme relato do usuário."
+    },
+    {
+      "paragraph": 129,
+      "text": "• Quest do Albedo em Dragonspine concluída."
+    },
+    {
+      "paragraph": 130,
+      "text": "• Recursos atualizados: 17.962 Primogems e 29 Intertwined Fates. Genesis Crystals: último saldo informado 1.330, sem nova confirmação neste snapshot; Mora fora do acompanhamento regular."
+    },
+    {
+      "paragraph": 131,
+      "text": "• Snapshot — Ganyu Lv80 C0; talentos 8/3/1; amizade 8; Hamayumi Lv80 R1 (ATQ base 401; ATQ 50,3%). Stats: HP 15.524, ATQ 1.798, DEF 701, EM 360, CR 60,2%, CD 117,9%, ER 111,7%, Cryo DMG 46,6%, bônus de cura/cura recebida 0,0%."
+    },
+    {
+      "paragraph": 132,
+      "text": "• Ganyu — 4pc Wanderer’s Troupe, todos 5★: Flor +16 (HP 3.967; EM +19; ATQ 4,1%; CR 10,1%; DEF 12,4%); Pluma +20 (ATQ 311; CD 15,5%; CR 7,4%; EM +75; DEF 7,3%); Areia ATQ% +20 (46,6%; HP +478; HP 9,9%; CD 14,0%; EM +56); Cálice Cryo off-set +20 (46,6%; ER 5,2%; CR 6,6%; EM +72; HP 5,8%); Tiara CR +20 (31,1%; ATQ +56; HP +538; ER 6,5%; EM +58)."
+    },
+    {
+      "paragraph": 133,
+      "text": "• Snapshot — Diluc Lv57 C0; talentos 2/2/2; amizade 1; Prototype Archaic Lv50 R1 (ATQ base 293; ATQ 17,9%). Stats: HP 15.486, ATQ 736, DEF 571, EM 156, CR 20,0%, CD 115,6%, ER 116,2%, Pyro DMG 61,6%, bônus de cura/cura recebida 0,0%."
+    },
+    {
+      "paragraph": 134,
+      "text": "• Diluc — 4pc Crimson Witch of Flames, todos 5★: Flor +20 (HP 4.780; CD 14,0%; EM +58; ER 5,8%; CR 5,4%); Pluma +0 (ATQ 47; ATQ 4,7%; EM +21; DEF +19; ER 4,5%); Areia DEF% +0 (7,9%; ATQ 4,7%; HP 4,2%); Cálice Pyro off-set +20 (46,6%; ER 5,8%; HP +717; ATQ +49; EM +42); Tiara CD +16 (51,6%; HP +209; EM +35; HP 15,7%; DEF +21)."
+    },
+    {
+      "paragraph": 135,
+      "text": "• Evidência adicional: screenshot de Stygian Onslaught confirma os 324s (116s / 98s / 110s) já registrados em 03/10; não tratado como nova conclusão. Screenshot de Exaiphanes Blade mostra “Grand Wish of the Shifting Stars” ativado, Lv90/90, 5★, ATQ base 608 e CR 33,1%; sem inferir posse de arma equipável ou refinamento."
+    }
+  ]
+}

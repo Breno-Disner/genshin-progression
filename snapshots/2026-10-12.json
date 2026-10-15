@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-12",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [],
+  "observations_verbatim": [
+    {
+      "paragraph": 190,
+      "text": "12/10/2026"
+    },
+    {
+      "paragraph": 191,
+      "text": "• Pré-farm — Skirk mantém prioridade sobre Escoffier. Metas atuais no SEELE: Skirk Lv80/80, talentos 1/8/8 e Finale of the Deep Lv80/80; Escoffier Lv80/80, talentos 1/6/6 e Frostbreath Lv80/80. São metas de planejamento, não confirmação de obtenção dos personagens ou armas. Ascensão 5 preservada conforme exportação, sem substituir pela proposta anterior de 80/90."
+    },
+    {
+      "paragraph": 192,
+      "text": "• Snapshot de materiais mantidos pelo usuário no SEELE, exportado em 12/10 às 11h27 (Brasília): Contention — 52 Teachings / 47 Guides / 6 Philosophies; Ascended Sample: Knight — 1; Clockwork Meka gears — 35 Meshing / 7 Mechanical Spur / 3 Artificed Dynamic. Gears e gemas são estoque compartilhado, com reserva prioritária para Skirk; não contar duas vezes entre as metas."
+    },
+    {
+      "paragraph": 193,
+      "text": "• Shivada Jade: 1 Fragment e 1 Chunk registrados. Livros de EXP: 249 Hero’s Wit / 204 Adventurer’s Experience / 72 Wanderer’s Advice; 6 Crowns of Insight. Hero’s Wit avançou de 124 no registro de 08/10 para 249 neste snapshot. Mora permanece fora do acompanhamento regular."
+    },
+    {
+      "paragraph": 194,
+      "text": "• Materiais de armas (raridades em ordem crescente): Handguards 92 / 26 / 1 para Finale of the Deep; família chimeric 50 / 22, terceira raridade não informada; família accreted 88 / 23 / 6 para Frostbreath. Ausência de entrada no export não significa saldo zero."
+    },
+    {
+      "paragraph": 195,
+      "text": "• Pendências de Skirk 1/8/8: livros exigem 6 / 42 / 20; após reservar as raridades inferiores e converter o excedente a 3:1, o estoque cobre 12 Philosophies, faltando 8 equivalentes roxos. Ascended Sample: Knight: 1/4, faltam 3. Conversões são projeção, não crafting já realizado."
+    },
+    {
+      "paragraph": 196,
+      "text": "• Quantidades de Skysplit Gembloom, Beryl Conch, Ensnaring Gaze, Secret Source Airflow Accumulator, Justice, Eroded Horn e materiais de ascensão das armas não informadas neste snapshot; permanecem desconhecidas. Atualização restrita ao pré-farm: sem nova leitura OCR e sem mudanças inferidas no roster, builds, AR/WL, wishes ou pity."
+    }
+  ]
+}

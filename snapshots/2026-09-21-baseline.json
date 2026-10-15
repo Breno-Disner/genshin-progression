@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "record_type": "account_baseline",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-09-21",
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "account": {
+    "adventure_rank": 48,
+    "world_level": 5
+  },
+  "resources": {
+    "primogems": 10029,
+    "intertwined_fates": 18,
+    "genesis_crystals": 1050,
+    "fragile_resin": 43,
+    "mora": {
+      "value": 237000,
+      "approximate": true
+    },
+    "starglitter": 36
+  },
+  "pity": {
+    "limited": 0,
+    "limited_guaranteed": true,
+    "standard": 5
+  },
+  "teams": {
+    "A": [
+      "Ganyu",
+      "Xiangling",
+      "Sucrose",
+      "Diona"
+    ],
+    "B_in_development": [
+      "Tighnari",
+      "Fischl",
+      "Lisa",
+      "Kuki Shinobu"
+    ]
+  },
+  "progress": {
+    "spiral_abyss": "5-1 em tentativa",
+    "archon_quest": "temporariamente bloqueada por quests pendentes"
+  }
+}

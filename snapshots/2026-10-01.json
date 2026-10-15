@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-01",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    108,
+    109,
+    110,
+    111,
+    112
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [
+    {
+      "name": "Diona",
+      "level": 70,
+      "constellation": 1,
+      "talents_normal_skill_burst": [
+        1,
+        5,
+        3
+      ],
+      "source_paragraph": 111,
+      "details_verbatim": "• Snapshot — Diona Lv70 C1; talentos 1/5/3; Sacrificial Bow Lv70 R1 (ATQ base 429; ER 25,2%); amizade 7. Stats: 25.575 HP / 959 ATQ / 594 DEF / 126 EM / 10,4% CR / 69,4% CD / 176,4% ER / 12,0% Cryo DMG / 0,0% bônus de cura e cura recebida."
+    }
+  ],
+  "observations_verbatim": [
+    {
+      "paragraph": 108,
+      "text": "01/10/2026"
+    },
+    {
+      "paragraph": 109,
+      "text": "• 12 wishes realizadas no banner da Vesna; Diona obtida e avançou de C0 para C1. Nenhum 5★ obtido; pity limitado avançou para 12 e a garantia foi preservada."
+    },
+    {
+      "paragraph": 110,
+      "text": "• Recursos atualizados: 16.658 Primogems, 26 Intertwined Fates e 1.330 Genesis Crystals. Mora permanece fora do acompanhamento regular."
+    },
+    {
+      "paragraph": 111,
+      "text": "• Snapshot — Diona Lv70 C1; talentos 1/5/3; Sacrificial Bow Lv70 R1 (ATQ base 429; ER 25,2%); amizade 7. Stats: 25.575 HP / 959 ATQ / 594 DEF / 126 EM / 10,4% CR / 69,4% CD / 176,4% ER / 12,0% Cryo DMG / 0,0% bônus de cura e cura recebida."
+    },
+    {
+      "paragraph": 112,
+      "text": "• Diona — artefatos mostrados, todos 5★: Flor +20 (HP 4.780; CD 19,4%; HP 5,8%; EM +61; CR 5,4%); Pluma +20 (ATQ 311; HP 14,6%; ER 10,4%; HP +777; EM +23); Areia HP% +20 (46,6%; DEF +58; ER 18,8%; HP +209; DEF 11,7%); Cálice ATQ% +0 (7,0%; DEF +19; HP +209; HP 4,7%); Tiara HP% +20 (46,6%; ATQ +14; EM +42; ER 22,0%; HP +508)."
+    }
+  ]
+}

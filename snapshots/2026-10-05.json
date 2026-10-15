@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-05",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [
+    {
+      "name": "Ganyu",
+      "level": 82,
+      "constellation": 0,
+      "talents_normal_skill_burst": [
+        8,
+        3,
+        1
+      ],
+      "source_paragraph": 140,
+      "details_verbatim": "• Snapshot — Ganyu Lv82 C0, talentos 8/3/1, amizade 8, Hamayumi Lv80 R1 (ATQ base 401; ATQ 50,3%). HP 15.683 / ATQ 1.808 / DEF 712 / EM 360 / CR 60,2% / CD 117,9% / ER 111,7% / Cryo 46,6%; cura/cura recebida 0%. 4pc Wanderer’s Troupe, todos 5★: Flor +16 (HP 3.967; EM +19; ATQ 4,1%; CR 10,1%; DEF 12,4%); Pluma +20 (ATQ 311; CD 15,5%; CR 7,4%; EM +75; DEF 7,3%); Areia ATQ +20 (46,6%; HP +478; HP 9,9%; CD 14%; EM +56); Cálice Cryo off-set +20 (46,6%; ER 5,2%; CR 6,6%; EM +72; HP 5,8%); Tiara CR +20 (31,1%; ATQ +56; HP +538; ER 6,5%; EM +58)."
+    },
+    {
+      "name": "Diluc",
+      "level": 58,
+      "constellation": 0,
+      "talents_normal_skill_burst": [
+        4,
+        4,
+        3
+      ],
+      "source_paragraph": 141,
+      "details_verbatim": "• Snapshot — Diluc Lv58 C0, talentos 4/4/3, amizade 1, Prototype Archaic Lv50 R2 (ATQ base 293; ATQ 17,9%). HP 15.042 / ATQ 927 / DEF 566 / EM 131 / CR 59,7% / CD 82,6% / ER 129,8% / Pyro 61,6%; cura/cura recebida 0%. 4pc Crimson Witch of Flames, todos 5★: Flor +20 (HP 4.780; DEF 5,8%; EM +21; CD 19,4%; CR 10,5%); Pluma +16 (ATQ 258; EM +21; HP +418; ER 14,9%; CR 3,5%); Areia DEF +0 (7,9%; ATQ 4,7%; HP 4,2%); Cálice Pyro off-set +20 (46,6%; ER 5,8%; HP +717; ATQ +49; EM +42); Tiara CR +20 (31,1%; ER 9,1%; HP +538; EM +47; CD 13,2%)."
+    },
+    {
+      "name": "Varesa",
+      "level": 23,
+      "constellation": 0,
+      "talents_normal_skill_burst": [
+        1,
+        1,
+        1
+      ],
+      "source_paragraph": 142,
+      "details_verbatim": "• Snapshot — Varesa Lv23 C0, talentos 1/1/1, amizade 1; Apprentice’s Notes Lv1 R1, ATQ base 23; sem artefatos equipados. HP 3.664 / ATQ 126 / DEF 226 / EM 0 / CR 5% / CD 50% / ER 100% / Electro 0%; cura/cura recebida 0%. Forma/data de obtenção e efeito sobre pity/garantia não informados; não inferidos."
+    }
+  ],
+  "observations_verbatim": [
+    {
+      "paragraph": 136,
+      "text": "05/10/2026"
+    },
+    {
+      "paragraph": 137,
+      "text": "• Concluída a questline atualmente disponível de Snezhnaya, conforme relato do usuário. Retorno a Inazuma: Atos I e II concluídos; Ato III iniciado."
+    },
+    {
+      "paragraph": 138,
+      "text": "• Conta AR50, World Level 5; Adventure EXP 48.210/26.400, com ascensão disponível. Usuário optou por adiar a missão de ascensão por enquanto e pretende realizá-la em breve; EXP continua acumulando. A decisão foi registrada sem assumir ausência de outros efeitos de adiar a ascensão."
+    },
+    {
+      "paragraph": 139,
+      "text": "• Recursos: 18.927 Primogems, 34 Intertwined Fates e 40 Masterless Starglitter (MG). Genesis Crystals: último saldo confirmado 1.330 em 02/10; não reconfirmado hoje. Mora não acompanhada."
+    },
+    {
+      "paragraph": 140,
+      "text": "• Snapshot — Ganyu Lv82 C0, talentos 8/3/1, amizade 8, Hamayumi Lv80 R1 (ATQ base 401; ATQ 50,3%). HP 15.683 / ATQ 1.808 / DEF 712 / EM 360 / CR 60,2% / CD 117,9% / ER 111,7% / Cryo 46,6%; cura/cura recebida 0%. 4pc Wanderer’s Troupe, todos 5★: Flor +16 (HP 3.967; EM +19; ATQ 4,1%; CR 10,1%; DEF 12,4%); Pluma +20 (ATQ 311; CD 15,5%; CR 7,4%; EM +75; DEF 7,3%); Areia ATQ +20 (46,6%; HP +478; HP 9,9%; CD 14%; EM +56); Cálice Cryo off-set +20 (46,6%; ER 5,2%; CR 6,6%; EM +72; HP 5,8%); Tiara CR +20 (31,1%; ATQ +56; HP +538; ER 6,5%; EM +58)."
+    },
+    {
+      "paragraph": 141,
+      "text": "• Snapshot — Diluc Lv58 C0, talentos 4/4/3, amizade 1, Prototype Archaic Lv50 R2 (ATQ base 293; ATQ 17,9%). HP 15.042 / ATQ 927 / DEF 566 / EM 131 / CR 59,7% / CD 82,6% / ER 129,8% / Pyro 61,6%; cura/cura recebida 0%. 4pc Crimson Witch of Flames, todos 5★: Flor +20 (HP 4.780; DEF 5,8%; EM +21; CD 19,4%; CR 10,5%); Pluma +16 (ATQ 258; EM +21; HP +418; ER 14,9%; CR 3,5%); Areia DEF +0 (7,9%; ATQ 4,7%; HP 4,2%); Cálice Pyro off-set +20 (46,6%; ER 5,8%; HP +717; ATQ +49; EM +42); Tiara CR +20 (31,1%; ER 9,1%; HP +538; EM +47; CD 13,2%)."
+    },
+    {
+      "paragraph": 142,
+      "text": "• Snapshot — Varesa Lv23 C0, talentos 1/1/1, amizade 1; Apprentice’s Notes Lv1 R1, ATQ base 23; sem artefatos equipados. HP 3.664 / ATQ 126 / DEF 226 / EM 0 / CR 5% / CD 50% / ER 100% / Electro 0%; cura/cura recebida 0%. Forma/data de obtenção e efeito sobre pity/garantia não informados; não inferidos."
+    },
+    {
+      "paragraph": 143,
+      "text": "• Referência atual dos personagens ampliada para reunir nível/constelação, talentos, arma/refinamento, stats e resumo dos artefatos com data por informação. Campos sem registro ficam explicitamente não informados; snapshots históricos preservados."
+    }
+  ]
+}

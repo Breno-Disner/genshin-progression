@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "record_type": "content_clear",
+  "id": "team-c-2026-10-06-domain",
+  "source_id": "diary-docx",
+  "evidence_quality": "diary_transcription",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-06",
+  "event_date": "2026-10-06",
+  "team": "C",
+  "team_identity": "diary-domain-team-c",
+  "members": null,
+  "known_context": "Diluc developed for Team C in September; first domain clear after Amber was replaced by Jean. Remaining members not reconfirmed.",
+  "content": "Midsummer Courtyard / Fires of Purification VI",
+  "clear_seconds": 207,
+  "dps": null,
+  "total_damage": null,
+  "comparison_group": null,
+  "attempt": "first attempt after substitution",
+  "limitations": [
+    "Not a DPS benchmark.",
+    "Source also records that user called Amber→Jean Team B in a later submission.",
+    "Do not merge with Skirk Team C series."
+  ],
+  "source_section": "../snapshots/2026-10-06.json",
+  "source_paragraphs": [
+    145,
+    146,
+    147,
+    149,
+    151,
+    152,
+    155,
+    157,
+    159,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166
+  ]
+}

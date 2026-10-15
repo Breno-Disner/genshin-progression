@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-09",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    185,
+    186,
+    187,
+    188
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [],
+  "observations_verbatim": [
+    {
+      "paragraph": 185,
+      "text": "out. 9, 2026"
+    },
+    {
+      "paragraph": 186,
+      "text": "• Banner Against the Dark — “Flames Roar, And Demons Are Purged from the World”: Fearless ×18 concluído com 22.842 pontos e 41 depleções de HP do chefe; requisito de 18.000 superado."
+    },
+    {
+      "paragraph": 187,
+      "text": "• Recursos atualizados: 21.099 Primogems e 40 Intertwined Fates. Pity limitado permanece em 12, com próximo 5★ garantido."
+    },
+    {
+      "paragraph": 188,
+      "text": "• Archon Quest — Capítulo II, Ato III concluído."
+    }
+  ]
+}

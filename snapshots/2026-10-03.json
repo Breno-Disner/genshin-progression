@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-03",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    117,
+    118
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [],
+  "observations_verbatim": [
+    {
+      "paragraph": 117,
+      "text": "03/10/2026"
+    },
+    {
+      "paragraph": 118,
+      "text": "• Stygian Onslaught — Luminous Battlefront: dificuldade Advancing concluída pela primeira vez em Single-Player, com tempo total de 324s. Tempos: Battle-Hardened Domovoy Sculptor 116s; Secret Source Automation: Overseer Device 98s; Guardian Blade of Drifting Snow 110s."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "record_type": "benchmark_transcription",
+  "source_id": "diary-docx",
+  "evidence_quality": "diary_transcription",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-04",
+  "event_date": "2026-10-04",
+  "comparison_group": "dummy-abyss12-mitachurl100-res10",
+  "protocol": {
+    "tool": "DPS Test Dummy++",
+    "tool_version": null,
+    "preset": "Abyss 12",
+    "enemy": "Mitachurl",
+    "enemy_level": 100,
+    "resistance_all_damage_pct": 10,
+    "modifiers_field": "empty",
+    "automatic_rotation_detection": false
+  },
+  "raw_capture_available": false,
+  "id": "team-a-2026-10-04-success",
+  "team": "A",
+  "members": [
+    {
+      "name": "Ganyu",
+      "level": 80
+    },
+    {
+      "name": "Xiangling",
+      "level": 80
+    },
+    {
+      "name": "Sucrose",
+      "level": 60
+    },
+    {
+      "name": "Diona",
+      "level": 70
+    }
+  ],
+  "outcome": "successful_setup",
+  "dps": 10275,
+  "total_damage": 205920,
+  "duration_seconds": 20.04,
+  "max_hit": 37348,
+  "damage_by_character": {
+    "Ganyu": 190084,
+    "Xiangling": 12888,
+    "Sucrose": 1547,
+    "Diona": 1401
+  },
+  "displayed_damage_share_pct": {
+    "Ganyu": 92,
+    "Xiangling": 6,
+    "Sucrose": 1,
+    "Diona": 1
+  },
+  "displayed_element_share_pct": {
+    "Cryo": 93,
+    "Pyro": 6,
+    "others": 0
+  },
+  "log_coverage": "selected events only; full raw log unavailable",
+  "events": [
+    {
+      "t": 2.189,
+      "type": "first_diona_hit"
+    },
+    {
+      "t": 2.22,
+      "type": "swap",
+      "from": "Diona",
+      "to": "Sucrose"
+    },
+    {
+      "t": 3.45,
+      "type": "swirl",
+      "character": "Sucrose"
+    },
+    {
+      "t": 3.689,
+      "type": "swap",
+      "from": "Sucrose",
+      "to": "Xiangling"
+    },
+    {
+      "t": 6.269,
+      "type": "swap",
+      "from": "Xiangling",
+      "to": "Ganyu"
+    },
+    {
+      "t": 9.78,
+      "damage": 21969,
+      "reaction": "Melt"
+    },
+    {
+      "t": 10.109,
+      "damage": 37348,
+      "reaction": "Melt"
+    },
+    {
+      "t": null,
+      "damage_pair": [
+        16549,
+        28133
+      ],
+      "reaction": null
+    },
+    {
+      "t": null,
+      "damage_pair": [
+        7035,
+        11959
+      ],
+      "reaction_recorded": false
+    }
+  ],
+  "limitations": [
+    "No complete raw log.",
+    "Percentages are displayed rounded values.",
+    "No perfectly controlled build progression inference."
+  ],
+  "source_section": "../snapshots/2026-10-04.json",
+  "source_paragraphs": [
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135
+  ]
+}

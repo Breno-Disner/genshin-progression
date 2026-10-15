@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-09-22",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    46,
+    47,
+    49,
+    51
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [],
+  "observations_verbatim": [
+    {
+      "paragraph": 46,
+      "text": "22/09/2026"
+    },
+    {
+      "paragraph": 47,
+      "text": "• [Sistema] Diário criado. A partir desta data, eventos minimamente relevantes de progressão devem ser adicionados como novas entradas."
+    },
+    {
+      "paragraph": 49,
+      "text": "• [Sistema] Regra de snapshots: sempre que houver um snapshot geral da conta, registrar integralmente e em detalhes todos os dados fornecidos — conta/AR/WL, recursos, pity, progresso, personagens, níveis/constelações/talentos, armas/refinamentos, stats e artefatos mostrados, equipes e quaisquer outras informações presentes no snapshot. Snapshots são registros completos; não resumir apenas as mudanças."
+    },
+    {
+      "paragraph": 51,
+      "text": "• Concluída a Story Quest de Kamisato Ayaka. (Emotional Damage)"
+    }
+  ]
+}

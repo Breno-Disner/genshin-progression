@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-07",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [],
+  "observations_verbatim": [
+    {
+      "paragraph": 167,
+      "text": "out. 7, 2026"
+    },
+    {
+      "paragraph": 168,
+      "text": "• Stygian Onslaught — Luminous Battlefront: dificuldade Hard concluída pela primeira vez. Equipe usada nos três campos: Ganyu Lv84 / Diona Lv70 / Sucrose Lv60 / Viajante Cryo Lv70."
+    },
+    {
+      "paragraph": 169,
+      "text": "• Tempo total: 833s. Battle-Hardened Domovoy Sculptor: 304s; Secret Source Automation: Overseer Device: 223s; Guardian Blade of Drifting Snow: 306s."
+    },
+    {
+      "paragraph": 170,
+      "text": "• Ganyu foi a maior fonte de dano nos três campos: Domovoy — 1.305.235 de dano total, maior hit 16.037; Overseer — 924.790, maior hit 19.523; Guardian Blade — 692.873, maior hit 16.734."
+    },
+    {
+      "paragraph": 171,
+      "text": "• Adaptação específica para Stygian: Xiangling foi retirada porque a aplicação Pyro interferia repetidamente no Stellar Swirl. Cryo Traveler entrou para manter a ativação do mecanismo; Diona foi mantida para escudo/cura e aplicação Cryo. No Domovoy, as bonecas eram a principal ameaça, causando aproximadamente 70% da barra de HP por acerto segundo relato do usuário."
+    },
+    {
+      "paragraph": 172,
+      "text": "• Marco de progressão em combate: ao teleportar para uma área com trials de inimigos, o usuário reencontrou um inimigo que anteriormente havia tentado derrotar numerosas vezes sem sucesso. No reencontro, o inimigo foi eliminado em uma única rotação + 2 Charged Attacks da Ganyu. Inimigo/trial exato não identificado neste registro; não inferir."
+    },
+    {
+      "paragraph": 173,
+      "text": "Relato retrospectivo (provavelmente realizado no dia anterior): progresso no Abyssal Moon Spire."
+    },
+    {
+      "paragraph": 174,
+      "text": "Floor 9: 8/9 estrelas — Chambers 1 e 2 com 3★; Chamber 3 com 2★."
+    },
+    {
+      "paragraph": 175,
+      "text": "Floor 10: 6/9 estrelas — Chambers 1 e 2 com 3★; Chamber 3 sem estrelas."
+    },
+    {
+      "paragraph": 176,
+      "text": "Observação: a última chamber apresentou dificuldade alta para ambas as equipes; principal barreira atual do Abyss."
+    },
+    {
+      "paragraph": 177,
+      "text": "Atualização de recursos — 07/10/2026: 20.294 Primogems; 39 Intertwined Fates."
+    },
+    {
+      "paragraph": 178,
+      "text": "Correção de registro — Varesa C0 foi obtida gratuitamente pelo evento/seletor de personagem 5★, motivo pelo qual a questline de Snezhnaya foi adiantada. A obtenção de Varesa não consumiu desejos e não alterou pity nem garantia do banner limitado. Portanto, permanece válido o estado após os 12 pulls de 01/10: pity 12, próximo 5★ limitado garantido."
+    },
+    {
+      "paragraph": 179,
+      "text": "Planejamento de recursos — 07/10/2026: Masterless Starglitter fica reservado para Bennett e deve ser excluído dos cálculos/projeções de wishes. Stash de wishes deve considerar Primogems + Intertwined Fates e, quando explicitado, Genesis Crystals."
+    }
+  ]
+}

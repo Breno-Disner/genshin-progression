@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-02",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    113,
+    114,
+    115,
+    116
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [],
+  "observations_verbatim": [
+    {
+      "paragraph": 113,
+      "text": "02/10/2026"
+    },
+    {
+      "paragraph": 114,
+      "text": "• Tighnari alcançou Lv80 C1. Talentos avançaram para 6/3/4; Slingshot permanece Lv70 R2. Stats: 14.373 HP, 979 ATK, 690 DEF, 187 EM, 57,6% CRIT Rate, 124,6% CRIT DMG, 121,4% ER e 68,2% Dendro DMG."
+    },
+    {
+      "paragraph": 115,
+      "text": "• Lisa avançou para Lv75 C0. Talentos 3/4/4, Eye of Perception Lv70 R1. Stats: 14.142 HP, 1.105 ATK, 618 DEF, 128 EM, 5,0% CRIT Rate, 102,6% CRIT DMG, 111,0% ER e 45,8% Electro DMG."
+    },
+    {
+      "paragraph": 116,
+      "text": "• Recursos atualizados: 17.026 Primogems e 27 Intertwined Fates. Genesis Crystals permanecem em 1.330."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-06",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    145,
+    146,
+    147,
+    149,
+    151,
+    152,
+    155,
+    157,
+    159,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [
+    {
+      "name": "Jean",
+      "level": 40,
+      "constellation": 0,
+      "talents_normal_skill_burst": [
+        2,
+        2,
+        2
+      ],
+      "source_paragraph": 149,
+      "details_verbatim": "• Snapshot — Jean Lv40 C0, amizade 1; talentos 2/2/2; The Flute Lv60 R2 (ATQ base 327; ATQ 30,4%). HP 12.365 / ATQ 1.269 / DEF 488 / EM 23 / CR 13,9% / CD 77,2% / ER 128,5% / Anemo DMG 0% / Bônus de Cura 5,5% / Cura Recebida 0%. Artefatos montados após farm no Momiji-Dyed Court: 2pc Gladiator + 2pc Shimenawa, com Pluma Lavawalker off-set. Flor Gladiator +19 (HP 4.577; CD 7,0%; CR 3,5%; DEF +23; ER 22,0%); Pluma Lavawalker +9 (ATQ 166; ATQ 4,7%; ER 6,5%; CD 6,2%; DEF +42); Areia Gladiator ATQ% +0 (7,0%; ATQ +18; DEF 5,1%; EM +23; CR 2,7%); Cálice Shimenawa ATQ% +12 (30,8%; CR 2,7%; HP +269; CD 14,0%; DEF +44); Tiara Shimenawa ATQ% +12 (30,8%; HP +568; DEF +16; ATQ +45; HP 5,3%). Antes deste farm, Jean não possuía conjunto de artefatos funcional, conforme relato do usuário."
+    },
+    {
+      "name": "Ganyu",
+      "level": 84,
+      "constellation": 0,
+      "talents_normal_skill_burst": [
+        8,
+        3,
+        1
+      ],
+      "source_paragraph": 164,
+      "details_verbatim": "• Snapshot — Ganyu Lv84 C0, talentos 8/3/1, amizade 8, Hamayumi Lv80 R1 (ATQ base 401; ATQ 50,3%). HP 15.842 / ATQ 1.817 / DEF 722 / EM 360 / CR 60,2% / CD 117,9% / ER 111,7% / Cryo 46,6%; bônus de cura/cura recebida 0%. 4pc Wanderer’s Troupe, todos 5★: Flor +16 (HP 3.967; EM +19; ATQ 4,1%; CR 10,1%; DEF 12,4%); Pluma +20 (ATQ 311; CD 15,5%; CR 7,4%; EM +75; DEF 7,3%); Areia ATQ +20 (46,6%; HP +478; HP 9,9%; CD 14%; EM +56); Cálice Cryo off-set +20 (46,6%; ER 5,2%; CR 6,6%; EM +72; HP 5,8%); Tiara CR +20 (31,1%; ATQ +56; HP +538; ER 6,5%; EM +58)."
+    },
+    {
+      "name": "Lisa",
+      "level": 80,
+      "constellation": 0,
+      "talents_normal_skill_burst": [
+        3,
+        4,
+        4
+      ],
+      "source_paragraph": 165,
+      "details_verbatim": "• Snapshot — Lisa Lv80 C0, talentos 3/4/4, amizade 4; Thrilling Tales of Dragon Slayers Lv50 R2 (ATQ base 216; HP 22,8%). HP 16.321 / ATQ 665 / DEF 605 / EM 126 / CR 15,5% / CD 87,0% / ER 183,5% / Electro 30,8%; bônus de cura/cura recebida 0%. 4pc Noblesse Oblige, todos 5★: Flor Royal Flora +18 (HP 4.374; ER 10,4%; HP 4,7%; ATQ +19; DEF +65); Pluma Royal Plume +8 (ATQ 152; CR 3,5%; ER 11%; HP +209; CD 6,2%); Areia Royal Pocket Watch ER +20 (51,8%; HP +717; ATQ +35; CR 7%; EM +19); Cálice Scarlet Vessel Electro off-set +12 (30,8%; DEF +16; ER 5,8%; CD 10,9%; EM +35); Tiara Royal Masque CD +4 (19,9%; ER 4,5%; HP +209; ATQ +37; DEF +16)."
+    }
+  ],
+  "observations_verbatim": [
+    {
+      "paragraph": 145,
+      "text": "06/10/2026"
+    },
+    {
+      "paragraph": 146,
+      "text": "• Momiji-Dyed Court (domínio de Shimenawa/Emblem): concluído em 1min22s sem receber dano (hitless). Marco relevante por ter sido um dos primeiros grandes obstáculos de farm da conta."
+    },
+    {
+      "paragraph": 147,
+      "text": "• Midsummer Courtyard / Fires of Purification VI (domínio usado para farm dos artefatos da Lisa): primeira clear obtida com a Team C após substituir Amber por Jean; concluído na primeira tentativa em 3min27s."
+    },
+    {
+      "paragraph": 149,
+      "text": "• Snapshot — Jean Lv40 C0, amizade 1; talentos 2/2/2; The Flute Lv60 R2 (ATQ base 327; ATQ 30,4%). HP 12.365 / ATQ 1.269 / DEF 488 / EM 23 / CR 13,9% / CD 77,2% / ER 128,5% / Anemo DMG 0% / Bônus de Cura 5,5% / Cura Recebida 0%. Artefatos montados após farm no Momiji-Dyed Court: 2pc Gladiator + 2pc Shimenawa, com Pluma Lavawalker off-set. Flor Gladiator +19 (HP 4.577; CD 7,0%; CR 3,5%; DEF +23; ER 22,0%); Pluma Lavawalker +9 (ATQ 166; ATQ 4,7%; ER 6,5%; CD 6,2%; DEF +42); Areia Gladiator ATQ% +0 (7,0%; ATQ +18; DEF 5,1%; EM +23; CR 2,7%); Cálice Shimenawa ATQ% +12 (30,8%; CR 2,7%; HP +269; CD 14,0%; DEF +44); Tiara Shimenawa ATQ% +12 (30,8%; HP +568; DEF +16; ATQ +45; HP 5,3%). Antes deste farm, Jean não possuía conjunto de artefatos funcional, conforme relato do usuário."
+    },
+    {
+      "paragraph": 151,
+      "text": "• Recursos de Resina esgotados: 0 Original Resin disponível no momento e 0 Fragile Resin restante. Próximo farm de Noblesse para Lisa depende de regeneração natural de Resina."
+    },
+    {
+      "paragraph": 152,
+      "text": "• Spiral Abyss Floor 7 concluído com facilidade. Lisa ainda está com ER baixo devido a drops desfavoráveis no farm, mas o usuário já percebe melhora prática na recarga/disponibilidade do Burst."
+    },
+    {
+      "paragraph": 155,
+      "text": "• Spiral Abyss Floor 8 concluído com ampla margem: requisito informado para 3★ era terminar com ≥180s restantes; clear terminou com 7min27s (447s) restantes, margem de 4min27s acima do requisito. Team B enfrentou um Cryo Regisvine, matchup desfavorável para a composição Tighnari/Fischl/Kuki/Lisa, e ainda assim a conclusão foi confortável."
+    },
+    {
+      "paragraph": 157,
+      "text": "• Achievements: concluídos “My Precious” (Spiral Abyss 2-2 com o Ley Line Monolith sem sofrer dano) e “Down to Dodge” (Spiral Abyss 2-3 sem receber dano). Total de achievements concluídos chegou a 312."
+    },
+    {
+      "paragraph": 159,
+      "text": "• Lisa — obtida Areia 5★ Noblesse Oblige com Recarga de Energia como atributo principal (7,8% em +0), destinada ao novo build de suporte. Substats iniciais: HP +239, ATQ +16, Taxa CRIT +3,1% e EM +19. Peça ainda +0; resultado dos rolls não confirmado."
+    },
+    {
+      "paragraph": 161,
+      "text": "• Lisa — Royal Pocket Watch (Noblesse Oblige) ER Sands 5★ elevado a +20: ER 51,8%; HP +717; ATQ +35; CR 7,0%; EM +19. Primeira peça ER Sands funcional do novo build de suporte/Noblesse."
+    },
+    {
+      "paragraph": 162,
+      "text": "• Recursos atualizados: 19.934 Primogems; Fragile Resin 0 reconfirmado. Demais moedas não reconfirmadas neste envio."
+    },
+    {
+      "paragraph": 163,
+      "text": "• Conferência de equipes: usuário referiu Amber → Jean como Team B neste envio; diário já registra a substituição na Team C de Midsummer Courtyard. Mantida a nomenclatura histórica, sem inferir alteração dos outros integrantes."
+    },
+    {
+      "paragraph": 164,
+      "text": "• Snapshot — Ganyu Lv84 C0, talentos 8/3/1, amizade 8, Hamayumi Lv80 R1 (ATQ base 401; ATQ 50,3%). HP 15.842 / ATQ 1.817 / DEF 722 / EM 360 / CR 60,2% / CD 117,9% / ER 111,7% / Cryo 46,6%; bônus de cura/cura recebida 0%. 4pc Wanderer’s Troupe, todos 5★: Flor +16 (HP 3.967; EM +19; ATQ 4,1%; CR 10,1%; DEF 12,4%); Pluma +20 (ATQ 311; CD 15,5%; CR 7,4%; EM +75; DEF 7,3%); Areia ATQ +20 (46,6%; HP +478; HP 9,9%; CD 14%; EM +56); Cálice Cryo off-set +20 (46,6%; ER 5,2%; CR 6,6%; EM +72; HP 5,8%); Tiara CR +20 (31,1%; ATQ +56; HP +538; ER 6,5%; EM +58)."
+    },
+    {
+      "paragraph": 165,
+      "text": "• Snapshot — Lisa Lv80 C0, talentos 3/4/4, amizade 4; Thrilling Tales of Dragon Slayers Lv50 R2 (ATQ base 216; HP 22,8%). HP 16.321 / ATQ 665 / DEF 605 / EM 126 / CR 15,5% / CD 87,0% / ER 183,5% / Electro 30,8%; bônus de cura/cura recebida 0%. 4pc Noblesse Oblige, todos 5★: Flor Royal Flora +18 (HP 4.374; ER 10,4%; HP 4,7%; ATQ +19; DEF +65); Pluma Royal Plume +8 (ATQ 152; CR 3,5%; ER 11%; HP +209; CD 6,2%); Areia Royal Pocket Watch ER +20 (51,8%; HP +717; ATQ +35; CR 7%; EM +19); Cálice Scarlet Vessel Electro off-set +12 (30,8%; DEF +16; ER 5,8%; CD 10,9%; EM +35); Tiara Royal Masque CD +4 (19,9%; ER 4,5%; HP +209; ATQ +37; DEF +16)."
+    },
+    {
+      "paragraph": 166,
+      "text": "• Snapshots reenviados de Jean e Diluc conferidos: Jean Lv40 C0, talentos 2/2/2, The Flute Lv60 R2 e stats/artefatos coincidem com o registro de 06/10; Diluc Lv58 C0, talentos 4/4/3, Prototype Archaic Lv50 R2 e stats/artefatos coincidem com 05/10. Sem mudanças observadas nessas duas fichas."
+    }
+  ]
+}

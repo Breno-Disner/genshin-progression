@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-09-27",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [],
+  "observations_verbatim": [
+    {
+      "paragraph": 84,
+      "text": "27/09/2026 — Progressão do dia"
+    },
+    {
+      "paragraph": 85,
+      "text": "•  Courtyard/Fires of Purification VI."
+    },
+    {
+      "paragraph": 86,
+      "text": "• Diluc elevado para Lv34; Protótipo Arcaico Lv40 R1 e conjunto provisório 4pc Gladiator equipado para a Team C."
+    },
+    {
+      "paragraph": 87,
+      "text": "• Banner Against the Dark — Ineffa/Flins: Fearless ×18 concluído com 20.610 pontos e 37 depleções de HP do chefe; recompensas de pontuação obtidas."
+    },
+    {
+      "paragraph": 88,
+      "text": "• Silver Light alcançou R5 (refinamento máximo); passiva em R5 concede +104 EM por 12s após usar Habilidade Elemental, até 2 stacks independentes."
+    },
+    {
+      "paragraph": 89,
+      "text": "• Exportação reconheceu Tighnari Lv64 C1, Jean Lv40 C0, Ningguang Lv40 C0 e Dori Lv20 C0; roster de referência atualizado."
+    },
+    {
+      "paragraph": 90,
+      "text": "• Dragon's Bane confirmado Lv37 R3 equipado na Xiangling; exportação registrou 152.691 Mora."
+    },
+    {
+      "paragraph": 91,
+      "text": "• Archon Quest de Snezhnaya: progressão até aproximadamente o fim do Ato II, incluindo a sequência do Teatro/Ronova"
+    },
+    {
+      "paragraph": 92,
+      "text": "• Conta alcançou AR50; missão de ascensão de World Level ainda não realizada.• Recursos atualizados: 14.176 Primogems, 20 Intertwined Fates, 736.378 Mora e 28 Fragile Resin. Genesis Crystals permanecem em 1.050."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-09-26",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [],
+  "observations_verbatim": [
+    {
+      "paragraph": 75,
+      "text": "26/09/2026 — Silverwing in Pursuit of the • Espada do evento alcançou Refinement Rank 4 (R4); falta apenas o último material de refinamento para R• Fragile Resin confirmado em 38."
+    },
+    {
+      "paragraph": 76,
+      "text": "5."
+    },
+    {
+      "paragraph": 77,
+      "text": "Moon"
+    },
+    {
+      "paragraph": 78,
+      "text": "."
+    },
+    {
+      "paragraph": 79,
+      "text": "26/09/2026 — Spiral Abyss"
+    },
+    {
+      "paragraph": 80,
+      "text": "• Floor 5 concluído com 3 estrelas usando as equipes atuais."
+    },
+    {
+      "paragraph": 81,
+      "text": "• Floor 6 concluído; última câmara terminou com 410s restantes. Kuki morreu por erro de execução, mas não impediu a clear."
+    },
+    {
+      "paragraph": 82,
+      "text": "Diluc elevado para Lv26; começou o planejamento da Team C para Midsummer"
+    }
+  ]
+}

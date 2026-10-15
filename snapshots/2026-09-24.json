@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-09-24",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [],
+  "observations_verbatim": [
+    {
+      "paragraph": 60,
+      "text": "24/09/2026"
+    },
+    {
+      "paragraph": 61,
+      "text": "• Diona: novo Sands 5★ HP% elevado a +20 (46,6% HP; 18,8% ER; HP +209; DEF +58; DEF% 11,7%). HP total reportado após as mudanças: 21.543. Build de escudo ainda em desenvolvimento, com cerca de três artefatos a substituir."
+    },
+    {
+      "paragraph": 62,
+      "text": "• Evento Silverwing in Pursuit of the Moon/Moonchase iniciado; testados Skirk e Escoffier Lv90 como personagens Trial no desafio Banner Against the Dark. Em Fearless ×18, alcançados 26.532 pontos e 49 depleções da barra do chefe."
+    },
+    {
+      "paragraph": 63,
+      "text": "• Momiji-Dyed Court: clear atual em aproximadamente 1min50s, mostrando melhora significativa no farm do domínio."
+    },
+    {
+      "paragraph": 64,
+      "text": "• Xingqiu C4 começou a receber investimento para suporte da futura equipe da Skirk: permanece Lv40; Favonius Sword R1 elevada a Lv56; montado 4pc Emblem of Severed Fate provisório; ER total 229,0%; Hydro DMG 38,7%; CR 7,2%; CD 69,6%; ATQ 589. Sands ER 5★ +17 (45,2% ER; 72 EM / 37 DEF / 5,3% ATQ / 14 ATQ) e Cálice Hydro 4★ +16 (38,7% Hydro; 11,7% DEF / 37 ATQ / 14,0% CD / 9,7% ER). Build ainda provisória, com prioridade futura para Taxa CRIT e desenvolvimento de arma/talento do Burst."
+    },
+    {
+      "paragraph": 65,
+      "text": "• Investimentos recentes em artefatos/arma de Xingqiu consumiram aproximadamente 200 mil Mora; saldo chegou a 4 Mora."
+    },
+    {
+      "paragraph": 66,
+      "text": "• Conta alcançou AR49."
+    }
+  ]
+}

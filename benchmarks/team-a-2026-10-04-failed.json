@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "record_type": "benchmark_transcription",
+  "source_id": "diary-docx",
+  "evidence_quality": "diary_transcription",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-04",
+  "event_date": null,
+  "comparison_group": "dummy-abyss12-mitachurl100-res10",
+  "protocol": {
+    "tool": "DPS Test Dummy++",
+    "tool_version": null,
+    "preset": "Abyss 12",
+    "enemy": "Mitachurl",
+    "enemy_level": 100,
+    "resistance_all_damage_pct": 10,
+    "modifiers_field": null,
+    "automatic_rotation_detection": null
+  },
+  "raw_capture_available": false,
+  "id": "team-a-2026-10-04-failed",
+  "team": "A",
+  "members": [
+    "Ganyu",
+    "Xiangling",
+    "Sucrose",
+    "Diona"
+  ],
+  "outcome": "failed_setup",
+  "dps": 9459,
+  "total_damage": 189400,
+  "duration_seconds": 20.02,
+  "max_hit": null,
+  "damage_by_character": {
+    "Diona": 0
+  },
+  "limitations": [
+    "Attempt described retrospectively in the October 4 entry.",
+    "User report recovered in diary: Diona skill missed, preventing intended Cryo Swirl/resistance reduction setup.",
+    "Keep separate from successful run; do not infer build change."
+  ],
+  "source_section": "../snapshots/2026-10-04.json",
+  "source_paragraphs": [
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135
+  ]
+}

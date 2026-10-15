@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-09-21",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [],
+  "observations_verbatim": [
+    {
+      "paragraph": 37,
+      "text": "BASELINE — 21/09/2026"
+    },
+    {
+      "paragraph": 38,
+      "text": "• Conta: AR48, WL5."
+    },
+    {
+      "paragraph": 39,
+      "text": "• Recursos: 10.029 Primogems; 18 Intertwined Fates; 1.050 Genesis Crystals; 43 Fragile Resin; ~237.000 Mora; 36 Starglitter."
+    },
+    {
+      "paragraph": 40,
+      "text": "• Pity: Limited 0, garantido; Standard 5."
+    },
+    {
+      "paragraph": 41,
+      "text": "• Progresso: Spiral Abyss 5-1 em tentativa; Archon Quest temporariamente bloqueada por quests pendentes."
+    },
+    {
+      "paragraph": 42,
+      "text": "• Main team: Ganyu / Xiangling / Sucrose / Diona."
+    },
+    {
+      "paragraph": 43,
+      "text": "• Second team em construção: Tighnari / Fischl / Lisa / Kuki Shinobu."
+    },
+    {
+      "paragraph": 44,
+      "text": "• Destaques recentes: Diluc obtido no Standard em 0 pity; pull seguinte trouxe Xiangling C1; Tighnari recebeu Slingshot e começou a ser desenvolvido como DPS de Spread."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "record_type": "benchmark_transcription",
+  "source_id": "diary-docx",
+  "evidence_quality": "diary_transcription",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-10-04",
+  "event_date": "2026-10-04",
+  "comparison_group": "dummy-abyss12-mitachurl100-res10",
+  "protocol": {
+    "tool": "DPS Test Dummy++",
+    "tool_version": null,
+    "preset": "Abyss 12",
+    "enemy": "Mitachurl",
+    "enemy_level": 100,
+    "resistance_all_damage_pct": 10,
+    "modifiers_field": "empty",
+    "automatic_rotation_detection": false
+  },
+  "raw_capture_available": false,
+  "id": "team-b-2026-10-04",
+  "team": "B",
+  "members": [
+    {
+      "name": "Tighnari",
+      "level": 80
+    },
+    {
+      "name": "Lisa",
+      "level": 80
+    },
+    {
+      "name": "Fischl",
+      "level": 60
+    },
+    {
+      "name": "Kuki Shinobu",
+      "level": 40
+    }
+  ],
+  "outcome": "full_rotation_test",
+  "dps": 7684,
+  "total_damage": 153858,
+  "duration_seconds": 20.02,
+  "max_hit": 12413,
+  "damage_by_character": {
+    "Tighnari": 125470,
+    "Lisa": 18868,
+    "Fischl": 7557,
+    "Kuki Shinobu": 1963
+  },
+  "displayed_damage_share_pct": {
+    "Tighnari": 82,
+    "Lisa": 12,
+    "Fischl": 5,
+    "Kuki Shinobu": 1
+  },
+  "displayed_element_share_pct": {
+    "Dendro": 82,
+    "Electro": 18,
+    "others": 0
+  },
+  "log_coverage": "Page 1/2 fragments, through event 72 at 15.104s. Final rotation segment not supplied.",
+  "events": [
+    {
+      "t": 1.783,
+      "type": "first_shinobu_damage"
+    },
+    {
+      "t": 3.673,
+      "type": "swap",
+      "from": "Kuki Shinobu",
+      "to": "Fischl"
+    },
+    {
+      "t": 5.174,
+      "type": "swap",
+      "from": "Fischl",
+      "to": "Lisa"
+    },
+    {
+      "t": 9.253,
+      "type": "swap",
+      "from": "Lisa",
+      "to": "Tighnari"
+    },
+    {
+      "t": 10.484,
+      "character": "Tighnari",
+      "damage": 1602
+    },
+    {
+      "t": 11.833,
+      "character": "Tighnari",
+      "damage": 5526,
+      "reaction": "Spread"
+    },
+    {
+      "t": null,
+      "damage": 8112,
+      "reaction": "Spread"
+    },
+    {
+      "t": null,
+      "damage": 12413,
+      "reaction": "Spread"
+    }
+  ],
+  "limitations": [
+    "Displayed stats rounded; EM not supplied in test.",
+    "No full raw log."
+  ],
+  "source_section": "../snapshots/2026-10-04.json",
+  "source_paragraphs": [
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135
+  ]
+}

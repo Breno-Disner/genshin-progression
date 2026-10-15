@@ -1,0 +1,197 @@
+Genshin Progression — Diário de Eventos
+
+Objetivo
+Registro cronológico de eventos minimamente relevantes da conta para servir como fonte do chat “Resumo Diário”. As entradas devem ser curtas, factuais e datadas, evitando repetir o snapshot inteiro quando só uma mudança aconteceu.
+
+ROSTER — REFERÊNCIA ATUAL (sem data)
+
+Referência consolidada para consultas: cada personagem mantém os últimos dados confirmados, com datas por campo quando as fontes diferem. Talentos = Normal/Skill/Burst; CR/CD = Taxa/Dano CRIT; ER = Recarga; EM = Proficiência. Dados de testes arredondados são identificados e não substituem valores precisos mais recentes. Para personagens listados apenas com nível/C, talentos, armas, stats e artefatos não foram informados neste diário. Atualizar esta referência a cada mudança confirmada; preservar snapshots históricos completos.
+
+• Ganyu — Lv84 C0 | 06/10: talentos 8/3/1; Hamayumi Lv80 R1; HP 15.842 / ATQ 1.817 / DEF 722 / EM 360 / CR 60,2% / CD 117,9% / ER 111,7% / Cryo 46,6%. 4pc Wanderer’s Troupe: Flor +16, Pluma +20, Areia ATQ +20, Cálice Cryo off-set +20, Tiara CR +20.
+• Varesa — Lv23 C0 | 05/10: talentos 1/1/1; Apprentice’s Notes Lv1 R1; HP 3.664 / ATQ 126 / DEF 226 / EM 0 / CR 5% / CD 50% / ER 100% / Electro 0%; sem artefatos.
+• Xiangling — Lv80 C1 | Arma 27/09: Dragon’s Bane Lv37 R3; teste 04/10: HP 14.717 / ATQ 555 / DEF 852 / CR 52% / CD 72% / ER 196% / Pyro 39% (arredondados); EM não exibido; talentos/artefatos não informados.
+• Viajante (Aether) — Lv70, C6
+• Diona — Lv70 C1 | 01/10: talentos 1/5/3; Sacrificial Bow Lv70 R1; HP 25.575 / ATQ 959 / DEF 594 / EM 126 / CR 10,4% / CD 69,4% / ER 176,4% / Cryo 12%. 2pc Tenacity + 2pc Vourukasha: Flor +20, Pluma +20, Areia HP +20, Cálice ATQ +0, Tiara HP Gladiator +20.
+• Tighnari — Lv80 C1 | 02/10: talentos 6/3/4; Slingshot Lv70 R2; HP 14.373 / ATQ 979 / DEF 690 / EM 187 / CR 57,6% / CD 124,6% / ER 121,4% / Dendro 68,2%. Artefatos 30/09: 4pc Gilded Dreams, Flor +12, Pluma +12, Areia ATQ +12, Cálice Dendro off-set +20, Tiara CD +20; sem mudança posterior informada.
+• Sucrose — Lv60 C2 | Teste 04/10: HP 9.785 / ATQ 731 / DEF 567 / CR 11% / CD 58% / ER 158% / Anemo 27% (arredondados); EM não exibido; talentos/arma não informados. Setup de Cryo Swirl registrado; conjunto equipado não reconfirmado por snapshot.
+• Fischl — Lv60 C0 | Teste 04/10: HP 7.639 / ATQ 777 / DEF 431 / CR 12% / CD 62% / ER 165% (arredondados); bônus elementais 0%, EM não exibido; talentos/arma/artefatos não informados.
+• Lisa — Lv80 C0 | 06/10: talentos 3/4/4; Thrilling Tales of Dragon Slayers Lv50 R2; HP 16.321 / ATQ 665 / DEF 605 / EM 126 / CR 15,5% / CD 87% / ER 183,5% / Electro 30,8%; 4pc Noblesse Oblige: Flor +18, Pluma +8, Areia ER +20, Cálice Electro off-set +12, Tiara CD +4.
+• Amber — Lv50, C0
+• Razor — Lv50, C0
+• Kaeya — Lv50, C1
+• Lynette — Lv40, C1
+• Collei — Lv40, C2
+• Kuki Shinobu — Lv40 C0 | Teste 04/10: HP 10.979 / ATQ 420 / DEF 409 / CR 11% / CD 71% / ER 105% / Dendro 15% (percentuais arredondados); EM não exibido. Talentos/arma não informados. Artefatos 23/09: Flor +19; demais +0 provisórios, sem confirmação recente.
+• Noelle — Lv40, C0
+• Xingqiu — Lv40 C4 | Build 24/09: Favonius Sword Lv56 R1; talentos não informados; ATQ 589 / CR 7,2% / CD 69,6% / ER 229% / Hydro 38,7%; 4pc Emblem provisório, Areia ER +17 e Cálice Hydro 4★ +16; demais stats/peças não informados.
+• Barbara — Lv40, C2
+• Yun Jin — Lv36, C0
+• Manequina — Lv20, C0
+• Jean — Lv40 C0 | 06/10: talentos 2/2/2; The Flute Lv60 R2; HP 12.365 / ATQ 1.269 / DEF 488 / EM 23 / CR 13,9% / CD 77,2% / ER 128,5% / Anemo 0% / Bônus de Cura 5,5%. 2pc Gladiator + 2pc Shimenawa; Pluma Lavawalker off-set.
+• Diluc — Lv58 C0 | 05/10: talentos 4/4/3; Prototype Archaic Lv50 R2; HP 15.042 / ATQ 927 / DEF 566 / EM 131 / CR 59,7% / CD 82,6% / ER 129,8% / Pyro 61,6%; 4pc Crimson Witch: Flor +20, Pluma +16, Areia DEF +0, Cálice Pyro off-set +20, Tiara CR +20.
+• Alyosha — Lv1, C4
+• Dori — Lv20, C0
+• Ningguang — Lv40, C0
+• Chevreuse — Lv1 C0 | 08/10: obtida no Standard Wish; amizade 1; HP 1.003 / ATQ 39 / DEF 51 / EM 0. Arma, talentos e detalhes dos artefatos não informados.
+
+BASELINE — 21/09/2026
+• Conta: AR48, WL5.
+• Recursos: 10.029 Primogems; 18 Intertwined Fates; 1.050 Genesis Crystals; 43 Fragile Resin; ~237.000 Mora; 36 Starglitter.
+• Pity: Limited 0, garantido; Standard 5.
+• Progresso: Spiral Abyss 5-1 em tentativa; Archon Quest temporariamente bloqueada por quests pendentes.
+• Main team: Ganyu / Xiangling / Sucrose / Diona.
+• Second team em construção: Tighnari / Fischl / Lisa / Kuki Shinobu.
+• Destaques recentes: Diluc obtido no Standard em 0 pity; pull seguinte trouxe Xiangling C1; Tighnari recebeu Slingshot e começou a ser desenvolvido como DPS de Spread.
+
+22/09/2026
+• [Sistema] Diário criado. A partir desta data, eventos minimamente relevantes de progressão devem ser adicionados como novas entradas.
+
+• [Sistema] Regra de snapshots: sempre que houver um snapshot geral da conta, registrar integralmente e em detalhes todos os dados fornecidos — conta/AR/WL, recursos, pity, progresso, personagens, níveis/constelações/talentos, armas/refinamentos, stats e artefatos mostrados, equipes e quaisquer outras informações presentes no snapshot. Snapshots são registros completos; não resumir apenas as mudanças.
+
+• Concluída a Story Quest de Kamisato Ayaka. (Emotional Damage)
+23/09/2026
+• Jean obtida C0 pelo seletor de personagem 5★ do evento da versão 7.1.• Tighnari: artefatos provisórios desenvolvidos — Flor +12, Pluma +12 e Areia ATQ% +12; mantém Cálice Dendro +20 e Tiara Dano CRIT +20. Destaques atuais: Flor com 7,0% Taxa CRIT e 9,3% ATQ; Tiara com 10,9% Taxa CRIT / 9,7% ER / 8,7% ATQ.
+• Kuki Shinobu: Flor elevada para +19, com 21,0% Dano CRIT / 6,2% Taxa CRIT / 42 EM / 18 ATQ; demais artefatos ainda +0 e provisórios.
+• Mora praticamente esgotada; próximo gasto de Resina deve incluir farm de Mora.
+
+
+
+
+24/09/2026
+• Diona: novo Sands 5★ HP% elevado a +20 (46,6% HP; 18,8% ER; HP +209; DEF +58; DEF% 11,7%). HP total reportado após as mudanças: 21.543. Build de escudo ainda em desenvolvimento, com cerca de três artefatos a substituir.
+• Evento Silverwing in Pursuit of the Moon/Moonchase iniciado; testados Skirk e Escoffier Lv90 como personagens Trial no desafio Banner Against the Dark. Em Fearless ×18, alcançados 26.532 pontos e 49 depleções da barra do chefe.
+• Momiji-Dyed Court: clear atual em aproximadamente 1min50s, mostrando melhora significativa no farm do domínio.
+• Xingqiu C4 começou a receber investimento para suporte da futura equipe da Skirk: permanece Lv40; Favonius Sword R1 elevada a Lv56; montado 4pc Emblem of Severed Fate provisório; ER total 229,0%; Hydro DMG 38,7%; CR 7,2%; CD 69,6%; ATQ 589. Sands ER 5★ +17 (45,2% ER; 72 EM / 37 DEF / 5,3% ATQ / 14 ATQ) e Cálice Hydro 4★ +16 (38,7% Hydro; 11,7% DEF / 37 ATQ / 14,0% CD / 9,7% ER). Build ainda provisória, com prioridade futura para Taxa CRIT e desenvolvimento de arma/talento do Burst.
+• Investimentos recentes em artefatos/arma de Xingqiu consumiram aproximadamente 200 mil Mora; saldo chegou a 4 Mora.
+• Conta alcançou AR49.
+
+
+25/09/2026 — Atualização da conta / Diona
+• Conta permanece AR49; Primogems chegaram a exatamente 12.000.
+• Diona Lv70 C0, talentos 1/5/3, Sacrificial Bow Lv70 R1. Build atualizado para 25.575 HP / 959 ATQ / 594 DEF / 126 EM / 10,4% CR / 69,4% CD / 176,4% ER / 12,0% Cryo DMG.
+• Artefatos atuais: 2pc Tenacity of the Millelith + 2pc Vourukasha's Glow, com Gladiator como off-piece. Flower Tenacity +20; Feather Vourukasha +20; HP% Sands Tenacity +20; ATK% Goblet Vourukasha +0 ainda provisório; HP% Gladiator Circlet +20.
+• Novo Gladiator HP% Circlet 5★ +20: HP% 46,6%; ER 22,0%; HP +508; EM 42; ATQ +14. Substituiu o antigo circlet HP% 4★.
+• Diona subiu de 21.543 → 25.575 HP (+4.032) e agora possui 176,4% ER. O build 2pc Tenacity + 2pc Vourukasha já está ativo; principal peça provisória restante é o Goblet ATK% +0, futuramente visando HP%
+26/09/2026 — Silverwing in Pursuit of the • Espada do evento alcançou Refinement Rank 4 (R4); falta apenas o último material de refinamento para R• Fragile Resin confirmado em 38.
+5.
+Moon
+.
+26/09/2026 — Spiral Abyss
+• Floor 5 concluído com 3 estrelas usando as equipes atuais.
+• Floor 6 concluído; última câmara terminou com 410s restantes. Kuki morreu por erro de execução, mas não impediu a clear.
+Diluc elevado para Lv26; começou o planejamento da Team C para Midsummer
+
+27/09/2026 — Progressão do dia
+•  Courtyard/Fires of Purification VI.
+• Diluc elevado para Lv34; Protótipo Arcaico Lv40 R1 e conjunto provisório 4pc Gladiator equipado para a Team C.
+• Banner Against the Dark — Ineffa/Flins: Fearless ×18 concluído com 20.610 pontos e 37 depleções de HP do chefe; recompensas de pontuação obtidas.
+• Silver Light alcançou R5 (refinamento máximo); passiva em R5 concede +104 EM por 12s após usar Habilidade Elemental, até 2 stacks independentes.
+• Exportação reconheceu Tighnari Lv64 C1, Jean Lv40 C0, Ningguang Lv40 C0 e Dori Lv20 C0; roster de referência atualizado.
+• Dragon's Bane confirmado Lv37 R3 equipado na Xiangling; exportação registrou 152.691 Mora.
+• Archon Quest de Snezhnaya: progressão até aproximadamente o fim do Ato II, incluindo a sequência do Teatro/Ronova
+• Conta alcançou AR50; missão de ascensão de World Level ainda não realizada.• Recursos atualizados: 14.176 Primogems, 20 Intertwined Fates, 736.378 Mora e 28 Fragile Resin. Genesis Crystals permanecem em 1.050.
+
+28/09/2026 —- progressao• Silverwing in Pursuit of the Moon concluído; Primogems atualizados para 14.448.
+30/09/2026
+Progressão de personagens
+Tighnari alcançou Lv74 C1. Talentos 4/3/3; Slingshot Lv70 R2.
+Tighnari: 13.859 HP | 962 ATK | 658 DEF | 187 EM | 57,6% CR | 124,6% CD | 121,4% ER | 68,2% Dendro DMG.
+Build atual do Tighnari: 4pc Gilded Dreams — Flower +12, Feather +12, ATK% Sands +12, Dendro DMG Goblet +20 off-set, CRIT DMG Circlet +20.
+Diluc alcançou Lv54 C0. Talentos 2/2/2; Prototype Archaic Lv40 R1.
+Diluc: 15.166 HP | 631 ATK | 553 DEF | 156 EM | 20,0% CR | 115,6% CD | 116,2% ER | 61,6% Pyro DMG.
+Build atual do Diluc: 4pc Crimson Witch of Flames — Flower +20, Feather +0, DEF% Sands +0, Pyro DMG Goblet +20 off-set, CRIT DMG Circlet +16.
+Recursos
+Primogems: 16.038
+Intertwined Fates: 21
+Genesis Crystals: 1.350
+Mora removida do acompanhamento regular, devido à alta volatilidade.
+01/10/2026
+• 12 wishes realizadas no banner da Vesna; Diona obtida e avançou de C0 para C1. Nenhum 5★ obtido; pity limitado avançou para 12 e a garantia foi preservada.
+• Recursos atualizados: 16.658 Primogems, 26 Intertwined Fates e 1.330 Genesis Crystals. Mora permanece fora do acompanhamento regular.
+• Snapshot — Diona Lv70 C1; talentos 1/5/3; Sacrificial Bow Lv70 R1 (ATQ base 429; ER 25,2%); amizade 7. Stats: 25.575 HP / 959 ATQ / 594 DEF / 126 EM / 10,4% CR / 69,4% CD / 176,4% ER / 12,0% Cryo DMG / 0,0% bônus de cura e cura recebida.
+• Diona — artefatos mostrados, todos 5★: Flor +20 (HP 4.780; CD 19,4%; HP 5,8%; EM +61; CR 5,4%); Pluma +20 (ATQ 311; HP 14,6%; ER 10,4%; HP +777; EM +23); Areia HP% +20 (46,6%; DEF +58; ER 18,8%; HP +209; DEF 11,7%); Cálice ATQ% +0 (7,0%; DEF +19; HP +209; HP 4,7%); Tiara HP% +20 (46,6%; ATQ +14; EM +42; ER 22,0%; HP +508).
+02/10/2026
+• Tighnari alcançou Lv80 C1. Talentos avançaram para 6/3/4; Slingshot permanece Lv70 R2. Stats: 14.373 HP, 979 ATK, 690 DEF, 187 EM, 57,6% CRIT Rate, 124,6% CRIT DMG, 121,4% ER e 68,2% Dendro DMG.
+• Lisa avançou para Lv75 C0. Talentos 3/4/4, Eye of Perception Lv70 R1. Stats: 14.142 HP, 1.105 ATK, 618 DEF, 128 EM, 5,0% CRIT Rate, 102,6% CRIT DMG, 111,0% ER e 45,8% Electro DMG.
+• Recursos atualizados: 17.026 Primogems e 27 Intertwined Fates. Genesis Crystals permanecem em 1.330.
+03/10/2026
+• Stygian Onslaught — Luminous Battlefront: dificuldade Advancing concluída pela primeira vez em Single-Player, com tempo total de 324s. Tempos: Battle-Hardened Domovoy Sculptor 116s; Secret Source Automation: Overseer Device 98s; Guardian Blade of Drifting Snow 110s.
+04/10/2026
+• Benchmark Team A — DPS Test Dummy++, preset Abyss 12, Mitachurl Lv100 com 10% de resistência a todos os tipos de dano; equipe Ganyu Lv80 / Xiangling Lv80 / Sucrose Lv60 / Diona Lv70. Teste bem-sucedido: 10.275 DPS, 205.920 de dano total em 20,04s; maior hit 37.348.
+• Distribuição do dano: Ganyu 190.084 (92%); Xiangling 12.888 (6%); Sucrose 1.547 (1%); Diona 1.401 (1%). Percentuais exibidos pelo teste, arredondados. Distribuição elemental exibida: Cryo 93%, Pyro 6%, demais 0%; campo de modificadores vazio e detecção de rotação desativada.
+• Contexto recuperado do GenLab: o usuário relatou que o E da Diona não conectou na primeira tentativa, impedindo o setup de Cryo Swirl/redução de resistência pela Sucrose. Essa tentativa anterior registrou 9.459 DPS e 189.400 de dano em 20,02s, com Diona causando 0 dano; manter como amostra de setup falho, separada do benchmark bem-sucedido.
+• Log do teste bem-sucedido: Diona acertou a partir de 2,189s; Sucrose registrou Swirl em 3,45s; trocas Diona → Sucrose em 2,22s, Sucrose → Xiangling em 3,689s e Xiangling → Ganyu em 6,269s. Primeiro par de hits da Ganyu: 21.969 em 9,78s + 37.348 em 10,109s, ambos associados a Melt, total 59.317. Mais tarde, par 16.549 + 28.133; hits finais 7.035 + 11.959 sem registro de Melt. Melhora observada entre tentativas: cerca de 8,6% no DPS e 8,7% no dano total; não atribuir a mudança de build nem tratar como comparação perfeitamente controlada.
+• Benchmark Team B — teste de rotação completa no DPS Test Dummy++, preset Abyss 12; Mitachurl Lv100, resistências de 10% a todos os tipos de dano. Equipe: Tighnari Lv80 / Lisa Lv80 / Fischl Lv60 / Kuki Shinobu Lv40. Resultado: 7.684 DPS, 153.858 de dano total em 20,02s; maior hit 12.413.
+• Dano por personagem: Tighnari 125.470 (82%); Lisa 18.868 (12%); Fischl 7.557 (5%); Shinobu 1.963 (1%). Distribuição elemental: Dendro 82%, Electro 18%, demais 0%. Percentuais conforme exibidos. Modificadores: campo vazio; detecção automática de rotação desativada.
+• Log visível: primeiro dano da Shinobu em 1,783s; trocas Shinobu → Fischl em 3,673s, Fischl → Lisa em 5,174s e Lisa → Tighnari em 9,253s. Primeiro dano visível de Tighnari em 10,484s (1.602); Spread em 11,833s com hit de 5.526; outros hits com Spread de 8.112 e 12.413. Aggravate registrado para Lisa, Fischl e Shinobu. Capturas mostram trechos da página 1/2, até evento 72 em 15,104s; trecho final da rotação não fornecido.
+• Stats exibidos no teste (percentuais arredondados; EM não informado, mostrado como “—”): Tighnari — HP 14.373, ATQ base 511/total 979, DEF base 556/total 690, CR 58%, CD 125%, ER 121%, Dendro 68%; Lisa — HP 14.531, ATQ base 552/total 1.119, DEF base 508/total 640, CR 5%, CD 103%, ER 111%, Electro 46%; Fischl — HP 7.639, ATQ base 562/total 777, DEF base 391/total 431, CR 12%, CD 62%, ER 165%, bônus elementais/físico 0%; Shinobu — HP 10.979, ATQ base 293/total 420, DEF base 313/total 409, CR 11%, CD 71%, ER 105%, Dendro 15%, demais bônus 0%. Bônus não citados para Tighnari/Lisa: 0%. Lisa avançou de Lv75 para Lv80; constelação C0 mantida conforme último registro.
+• Dragonspine revisitada para limpeza completa de exploração; todos os baús e puzzles restantes foram coletados/concluídos, conforme relato do usuário.
+• Quest do Albedo em Dragonspine concluída.
+• Recursos atualizados: 17.962 Primogems e 29 Intertwined Fates. Genesis Crystals: último saldo informado 1.330, sem nova confirmação neste snapshot; Mora fora do acompanhamento regular.
+• Snapshot — Ganyu Lv80 C0; talentos 8/3/1; amizade 8; Hamayumi Lv80 R1 (ATQ base 401; ATQ 50,3%). Stats: HP 15.524, ATQ 1.798, DEF 701, EM 360, CR 60,2%, CD 117,9%, ER 111,7%, Cryo DMG 46,6%, bônus de cura/cura recebida 0,0%.
+• Ganyu — 4pc Wanderer’s Troupe, todos 5★: Flor +16 (HP 3.967; EM +19; ATQ 4,1%; CR 10,1%; DEF 12,4%); Pluma +20 (ATQ 311; CD 15,5%; CR 7,4%; EM +75; DEF 7,3%); Areia ATQ% +20 (46,6%; HP +478; HP 9,9%; CD 14,0%; EM +56); Cálice Cryo off-set +20 (46,6%; ER 5,2%; CR 6,6%; EM +72; HP 5,8%); Tiara CR +20 (31,1%; ATQ +56; HP +538; ER 6,5%; EM +58).
+• Snapshot — Diluc Lv57 C0; talentos 2/2/2; amizade 1; Prototype Archaic Lv50 R1 (ATQ base 293; ATQ 17,9%). Stats: HP 15.486, ATQ 736, DEF 571, EM 156, CR 20,0%, CD 115,6%, ER 116,2%, Pyro DMG 61,6%, bônus de cura/cura recebida 0,0%.
+• Diluc — 4pc Crimson Witch of Flames, todos 5★: Flor +20 (HP 4.780; CD 14,0%; EM +58; ER 5,8%; CR 5,4%); Pluma +0 (ATQ 47; ATQ 4,7%; EM +21; DEF +19; ER 4,5%); Areia DEF% +0 (7,9%; ATQ 4,7%; HP 4,2%); Cálice Pyro off-set +20 (46,6%; ER 5,8%; HP +717; ATQ +49; EM +42); Tiara CD +16 (51,6%; HP +209; EM +35; HP 15,7%; DEF +21).
+• Evidência adicional: screenshot de Stygian Onslaught confirma os 324s (116s / 98s / 110s) já registrados em 03/10; não tratado como nova conclusão. Screenshot de Exaiphanes Blade mostra “Grand Wish of the Shifting Stars” ativado, Lv90/90, 5★, ATQ base 608 e CR 33,1%; sem inferir posse de arma equipável ou refinamento.
+05/10/2026
+• Concluída a questline atualmente disponível de Snezhnaya, conforme relato do usuário. Retorno a Inazuma: Atos I e II concluídos; Ato III iniciado.
+• Conta AR50, World Level 5; Adventure EXP 48.210/26.400, com ascensão disponível. Usuário optou por adiar a missão de ascensão por enquanto e pretende realizá-la em breve; EXP continua acumulando. A decisão foi registrada sem assumir ausência de outros efeitos de adiar a ascensão.
+• Recursos: 18.927 Primogems, 34 Intertwined Fates e 40 Masterless Starglitter (MG). Genesis Crystals: último saldo confirmado 1.330 em 02/10; não reconfirmado hoje. Mora não acompanhada.
+• Snapshot — Ganyu Lv82 C0, talentos 8/3/1, amizade 8, Hamayumi Lv80 R1 (ATQ base 401; ATQ 50,3%). HP 15.683 / ATQ 1.808 / DEF 712 / EM 360 / CR 60,2% / CD 117,9% / ER 111,7% / Cryo 46,6%; cura/cura recebida 0%. 4pc Wanderer’s Troupe, todos 5★: Flor +16 (HP 3.967; EM +19; ATQ 4,1%; CR 10,1%; DEF 12,4%); Pluma +20 (ATQ 311; CD 15,5%; CR 7,4%; EM +75; DEF 7,3%); Areia ATQ +20 (46,6%; HP +478; HP 9,9%; CD 14%; EM +56); Cálice Cryo off-set +20 (46,6%; ER 5,2%; CR 6,6%; EM +72; HP 5,8%); Tiara CR +20 (31,1%; ATQ +56; HP +538; ER 6,5%; EM +58).
+• Snapshot — Diluc Lv58 C0, talentos 4/4/3, amizade 1, Prototype Archaic Lv50 R2 (ATQ base 293; ATQ 17,9%). HP 15.042 / ATQ 927 / DEF 566 / EM 131 / CR 59,7% / CD 82,6% / ER 129,8% / Pyro 61,6%; cura/cura recebida 0%. 4pc Crimson Witch of Flames, todos 5★: Flor +20 (HP 4.780; DEF 5,8%; EM +21; CD 19,4%; CR 10,5%); Pluma +16 (ATQ 258; EM +21; HP +418; ER 14,9%; CR 3,5%); Areia DEF +0 (7,9%; ATQ 4,7%; HP 4,2%); Cálice Pyro off-set +20 (46,6%; ER 5,8%; HP +717; ATQ +49; EM +42); Tiara CR +20 (31,1%; ER 9,1%; HP +538; EM +47; CD 13,2%).
+• Snapshot — Varesa Lv23 C0, talentos 1/1/1, amizade 1; Apprentice’s Notes Lv1 R1, ATQ base 23; sem artefatos equipados. HP 3.664 / ATQ 126 / DEF 226 / EM 0 / CR 5% / CD 50% / ER 100% / Electro 0%; cura/cura recebida 0%. Forma/data de obtenção e efeito sobre pity/garantia não informados; não inferidos.
+• Referência atual dos personagens ampliada para reunir nível/constelação, talentos, arma/refinamento, stats e resumo dos artefatos com data por informação. Campos sem registro ficam explicitamente não informados; snapshots históricos preservados.
+
+06/10/2026
+• Momiji-Dyed Court (domínio de Shimenawa/Emblem): concluído em 1min22s sem receber dano (hitless). Marco relevante por ter sido um dos primeiros grandes obstáculos de farm da conta.
+• Midsummer Courtyard / Fires of Purification VI (domínio usado para farm dos artefatos da Lisa): primeira clear obtida com a Team C após substituir Amber por Jean; concluído na primeira tentativa em 3min27s.
+
+• Snapshot — Jean Lv40 C0, amizade 1; talentos 2/2/2; The Flute Lv60 R2 (ATQ base 327; ATQ 30,4%). HP 12.365 / ATQ 1.269 / DEF 488 / EM 23 / CR 13,9% / CD 77,2% / ER 128,5% / Anemo DMG 0% / Bônus de Cura 5,5% / Cura Recebida 0%. Artefatos montados após farm no Momiji-Dyed Court: 2pc Gladiator + 2pc Shimenawa, com Pluma Lavawalker off-set. Flor Gladiator +19 (HP 4.577; CD 7,0%; CR 3,5%; DEF +23; ER 22,0%); Pluma Lavawalker +9 (ATQ 166; ATQ 4,7%; ER 6,5%; CD 6,2%; DEF +42); Areia Gladiator ATQ% +0 (7,0%; ATQ +18; DEF 5,1%; EM +23; CR 2,7%); Cálice Shimenawa ATQ% +12 (30,8%; CR 2,7%; HP +269; CD 14,0%; DEF +44); Tiara Shimenawa ATQ% +12 (30,8%; HP +568; DEF +16; ATQ +45; HP 5,3%). Antes deste farm, Jean não possuía conjunto de artefatos funcional, conforme relato do usuário.
+
+• Recursos de Resina esgotados: 0 Original Resin disponível no momento e 0 Fragile Resin restante. Próximo farm de Noblesse para Lisa depende de regeneração natural de Resina.
+• Spiral Abyss Floor 7 concluído com facilidade. Lisa ainda está com ER baixo devido a drops desfavoráveis no farm, mas o usuário já percebe melhora prática na recarga/disponibilidade do Burst.
+
+
+• Spiral Abyss Floor 8 concluído com ampla margem: requisito informado para 3★ era terminar com ≥180s restantes; clear terminou com 7min27s (447s) restantes, margem de 4min27s acima do requisito. Team B enfrentou um Cryo Regisvine, matchup desfavorável para a composição Tighnari/Fischl/Kuki/Lisa, e ainda assim a conclusão foi confortável.
+
+• Achievements: concluídos “My Precious” (Spiral Abyss 2-2 com o Ley Line Monolith sem sofrer dano) e “Down to Dodge” (Spiral Abyss 2-3 sem receber dano). Total de achievements concluídos chegou a 312.
+
+• Lisa — obtida Areia 5★ Noblesse Oblige com Recarga de Energia como atributo principal (7,8% em +0), destinada ao novo build de suporte. Substats iniciais: HP +239, ATQ +16, Taxa CRIT +3,1% e EM +19. Peça ainda +0; resultado dos rolls não confirmado.
+
+• Lisa — Royal Pocket Watch (Noblesse Oblige) ER Sands 5★ elevado a +20: ER 51,8%; HP +717; ATQ +35; CR 7,0%; EM +19. Primeira peça ER Sands funcional do novo build de suporte/Noblesse.
+• Recursos atualizados: 19.934 Primogems; Fragile Resin 0 reconfirmado. Demais moedas não reconfirmadas neste envio.
+• Conferência de equipes: usuário referiu Amber → Jean como Team B neste envio; diário já registra a substituição na Team C de Midsummer Courtyard. Mantida a nomenclatura histórica, sem inferir alteração dos outros integrantes.
+• Snapshot — Ganyu Lv84 C0, talentos 8/3/1, amizade 8, Hamayumi Lv80 R1 (ATQ base 401; ATQ 50,3%). HP 15.842 / ATQ 1.817 / DEF 722 / EM 360 / CR 60,2% / CD 117,9% / ER 111,7% / Cryo 46,6%; bônus de cura/cura recebida 0%. 4pc Wanderer’s Troupe, todos 5★: Flor +16 (HP 3.967; EM +19; ATQ 4,1%; CR 10,1%; DEF 12,4%); Pluma +20 (ATQ 311; CD 15,5%; CR 7,4%; EM +75; DEF 7,3%); Areia ATQ +20 (46,6%; HP +478; HP 9,9%; CD 14%; EM +56); Cálice Cryo off-set +20 (46,6%; ER 5,2%; CR 6,6%; EM +72; HP 5,8%); Tiara CR +20 (31,1%; ATQ +56; HP +538; ER 6,5%; EM +58).
+• Snapshot — Lisa Lv80 C0, talentos 3/4/4, amizade 4; Thrilling Tales of Dragon Slayers Lv50 R2 (ATQ base 216; HP 22,8%). HP 16.321 / ATQ 665 / DEF 605 / EM 126 / CR 15,5% / CD 87,0% / ER 183,5% / Electro 30,8%; bônus de cura/cura recebida 0%. 4pc Noblesse Oblige, todos 5★: Flor Royal Flora +18 (HP 4.374; ER 10,4%; HP 4,7%; ATQ +19; DEF +65); Pluma Royal Plume +8 (ATQ 152; CR 3,5%; ER 11%; HP +209; CD 6,2%); Areia Royal Pocket Watch ER +20 (51,8%; HP +717; ATQ +35; CR 7%; EM +19); Cálice Scarlet Vessel Electro off-set +12 (30,8%; DEF +16; ER 5,8%; CD 10,9%; EM +35); Tiara Royal Masque CD +4 (19,9%; ER 4,5%; HP +209; ATQ +37; DEF +16).
+• Snapshots reenviados de Jean e Diluc conferidos: Jean Lv40 C0, talentos 2/2/2, The Flute Lv60 R2 e stats/artefatos coincidem com o registro de 06/10; Diluc Lv58 C0, talentos 4/4/3, Prototype Archaic Lv50 R2 e stats/artefatos coincidem com 05/10. Sem mudanças observadas nessas duas fichas.
+out. 7, 2026
+• Stygian Onslaught — Luminous Battlefront: dificuldade Hard concluída pela primeira vez. Equipe usada nos três campos: Ganyu Lv84 / Diona Lv70 / Sucrose Lv60 / Viajante Cryo Lv70.
+• Tempo total: 833s. Battle-Hardened Domovoy Sculptor: 304s; Secret Source Automation: Overseer Device: 223s; Guardian Blade of Drifting Snow: 306s.
+• Ganyu foi a maior fonte de dano nos três campos: Domovoy — 1.305.235 de dano total, maior hit 16.037; Overseer — 924.790, maior hit 19.523; Guardian Blade — 692.873, maior hit 16.734.
+• Adaptação específica para Stygian: Xiangling foi retirada porque a aplicação Pyro interferia repetidamente no Stellar Swirl. Cryo Traveler entrou para manter a ativação do mecanismo; Diona foi mantida para escudo/cura e aplicação Cryo. No Domovoy, as bonecas eram a principal ameaça, causando aproximadamente 70% da barra de HP por acerto segundo relato do usuário.
+• Marco de progressão em combate: ao teleportar para uma área com trials de inimigos, o usuário reencontrou um inimigo que anteriormente havia tentado derrotar numerosas vezes sem sucesso. No reencontro, o inimigo foi eliminado em uma única rotação + 2 Charged Attacks da Ganyu. Inimigo/trial exato não identificado neste registro; não inferir.
+Relato retrospectivo (provavelmente realizado no dia anterior): progresso no Abyssal Moon Spire.
+Floor 9: 8/9 estrelas — Chambers 1 e 2 com 3★; Chamber 3 com 2★.
+Floor 10: 6/9 estrelas — Chambers 1 e 2 com 3★; Chamber 3 sem estrelas.
+Observação: a última chamber apresentou dificuldade alta para ambas as equipes; principal barreira atual do Abyss.
+Atualização de recursos — 07/10/2026: 20.294 Primogems; 39 Intertwined Fates.
+Correção de registro — Varesa C0 foi obtida gratuitamente pelo evento/seletor de personagem 5★, motivo pelo qual a questline de Snezhnaya foi adiantada. A obtenção de Varesa não consumiu desejos e não alterou pity nem garantia do banner limitado. Portanto, permanece válido o estado após os 12 pulls de 01/10: pity 12, próximo 5★ limitado garantido.
+Planejamento de recursos — 07/10/2026: Masterless Starglitter fica reservado para Bennett e deve ser excluído dos cálculos/projeções de wishes. Stash de wishes deve considerar Primogems + Intertwined Fates e, quando explicitado, Genesis Crystals.
+out. 8, 2026
+• Pré-farm da Skirk iniciado: Unresolved Chess Game (Trounce Domain) concluído no Lv70 após tentativas anteriores sem sucesso; 1 Ascended Sample: Knight obtido como recompensa.
+• Standard Wish: Chevreuse obtida C0. Snapshot inicial: Lv1/20, amizade 1; HP 1.003 / ATQ 39 / DEF 51 / EM 0. Arma, talentos e detalhes dos artefatos não confirmados neste registro.
+• Conta alcançou AR52; World Level avançou para 6.
+• Pré-farm atualizado: Mora 1.517.521 e Hero’s Wit 124. Correção: materiais de Clockwork Meka ainda não estão concluídos; inventário SEELE confirmado em 35 / 7 / 3 entre as três raridades. O 92 / 26 / 1 interpretado anteriormente correspondia a Handguards.
+out. 9, 2026
+• Banner Against the Dark — “Flames Roar, And Demons Are Purged from the World”: Fearless ×18 concluído com 22.842 pontos e 41 depleções de HP do chefe; requisito de 18.000 superado.
+• Recursos atualizados: 21.099 Primogems e 40 Intertwined Fates. Pity limitado permanece em 12, com próximo 5★ garantido.
+• Archon Quest — Capítulo II, Ato III concluído.
+
+12/10/2026
+• Pré-farm — Skirk mantém prioridade sobre Escoffier. Metas atuais no SEELE: Skirk Lv80/80, talentos 1/8/8 e Finale of the Deep Lv80/80; Escoffier Lv80/80, talentos 1/6/6 e Frostbreath Lv80/80. São metas de planejamento, não confirmação de obtenção dos personagens ou armas. Ascensão 5 preservada conforme exportação, sem substituir pela proposta anterior de 80/90.
+• Snapshot de materiais mantidos pelo usuário no SEELE, exportado em 12/10 às 11h27 (Brasília): Contention — 52 Teachings / 47 Guides / 6 Philosophies; Ascended Sample: Knight — 1; Clockwork Meka gears — 35 Meshing / 7 Mechanical Spur / 3 Artificed Dynamic. Gears e gemas são estoque compartilhado, com reserva prioritária para Skirk; não contar duas vezes entre as metas.
+• Shivada Jade: 1 Fragment e 1 Chunk registrados. Livros de EXP: 249 Hero’s Wit / 204 Adventurer’s Experience / 72 Wanderer’s Advice; 6 Crowns of Insight. Hero’s Wit avançou de 124 no registro de 08/10 para 249 neste snapshot. Mora permanece fora do acompanhamento regular.
+• Materiais de armas (raridades em ordem crescente): Handguards 92 / 26 / 1 para Finale of the Deep; família chimeric 50 / 22, terceira raridade não informada; família accreted 88 / 23 / 6 para Frostbreath. Ausência de entrada no export não significa saldo zero.
+• Pendências de Skirk 1/8/8: livros exigem 6 / 42 / 20; após reservar as raridades inferiores e converter o excedente a 3:1, o estoque cobre 12 Philosophies, faltando 8 equivalentes roxos. Ascended Sample: Knight: 1/4, faltam 3. Conversões são projeção, não crafting já realizado.
+• Quantidades de Skysplit Gembloom, Beryl Conch, Ensnaring Gaze, Secret Source Airflow Accumulator, Justice, Eroded Horn e materiais de ascensão das armas não informadas neste snapshot; permanecem desconhecidas. Atualização restrita ao pré-farm: sem nova leitura OCR e sem mudanças inferidas no roster, builds, AR/WL, wishes ou pity.
+

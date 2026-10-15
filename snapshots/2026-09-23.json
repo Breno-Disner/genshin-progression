@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_observations",
+  "account_scope": "diary-account",
+  "recorded_date": "2026-09-23",
+  "event_date": null,
+  "evidence_quality": "diary_transcription",
+  "source_id": "diary-docx",
+  "source_paragraphs": [
+    52,
+    53,
+    54,
+    55
+  ],
+  "coverage": "All supplied text in this dated section, including artifact details. Not a complete account snapshot; no carry-forward.",
+  "characters": [],
+  "observations_verbatim": [
+    {
+      "paragraph": 52,
+      "text": "23/09/2026"
+    },
+    {
+      "paragraph": 53,
+      "text": "• Jean obtida C0 pelo seletor de personagem 5★ do evento da versão 7.1.• Tighnari: artefatos provisórios desenvolvidos — Flor +12, Pluma +12 e Areia ATQ% +12; mantém Cálice Dendro +20 e Tiara Dano CRIT +20. Destaques atuais: Flor com 7,0% Taxa CRIT e 9,3% ATQ; Tiara com 10,9% Taxa CRIT / 9,7% ER / 8,7% ATQ."
+    },
+    {
+      "paragraph": 54,
+      "text": "• Kuki Shinobu: Flor elevada para +19, com 21,0% Dano CRIT / 6,2% Taxa CRIT / 42 EM / 18 ATQ; demais artefatos ainda +0 e provisórios."
+    },
+    {
+      "paragraph": 55,
+      "text": "• Mora praticamente esgotada; próximo gasto de Resina deve incluir farm de Mora."
+    }
+  ]
+}

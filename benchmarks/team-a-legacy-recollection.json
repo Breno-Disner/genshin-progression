@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "record_type": "legacy_observation_series",
+  "id": "team-a-legacy-recollection",
+  "source_id": "genlab2-retrieved",
+  "source_turn": "b69fcf96-7f1c-4c5d-b492-21648b78b950",
+  "evidence_quality": "conversation_recollection",
+  "account_scope": null,
+  "team": "A",
+  "comparison_group": null,
+  "comparability": "not comparable to standardized DPS",
+  "observations": [
+    {
+      "date_description": "approximately September 7, 2026",
+      "event_date": null,
+      "metric": "Frostflake arrow and bloom damage",
+      "arrow_approx": 1500,
+      "bloom_approx": 3000
+    },
+    {
+      "date_description": "approximately September 17, 2026",
+      "event_date": null,
+      "metric": "unreacted Frostflake arrow and bloom damage",
+      "arrow_approx": 5500,
+      "bloom_approx_range": [
+        10000,
+        11000
+      ]
+    },
+    {
+      "date_description": "around same early period; exact date unknown",
+      "event_date": null,
+      "metric": "team_dps",
+      "dps_approx": 10000,
+      "duration_seconds_approx": 20
+    },
+    {
+      "date_description": "later September; exact date unknown",
+      "event_date": null,
+      "metric": "Melt critical hit damage",
+      "damage_approx": 20000
+    }
+  ],
+  "limitations": [
+    "Assistant recollections from older conversations, not independently verified primary data.",
+    "Do not turn 10000–11000 range into exact 10500 measurement.",
+    "Units differ among observations; never plot as a continuous DPS curve."
+  ]
+}
