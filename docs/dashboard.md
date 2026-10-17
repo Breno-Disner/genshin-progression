@@ -25,8 +25,10 @@ O build usa apenas a biblioteca padrão do Python. A interface usa HTML, CSS e J
 
 O workflow `.github/workflows/pages.yml` valida os registros, constrói somente a interface em `_site/` e publica esse artefato pelo GitHub Pages. Após a ativação do Pages com origem GitHub Actions, pushes em `main` atualizam o site automaticamente; também há acionamento manual.
 
-O repositório está privado na verificação de 17/10/2026. O usuário aprovou explicitamente a publicação pública do dashboard, mantendo o repositório privado. A tentativa de ativação foi recusada pelo GitHub com HTTP 422: “Your current plan does not support GitHub Pages for this repository.” O site ainda não está publicado; o plano atual bloqueia Pages neste repositório privado. Alternativas: plano com suporte a Pages em repositórios privados ou um repositório público separado contendo somente o site gerado.
+Em 17/10/2026, a primeira tentativa de ativação foi recusada pelo GitHub porque o plano não suportava Pages no repositório privado. Em seguida, o usuário autorizou explicitamente tornar público o repositório canônico inteiro, incluindo documentos de origem e histórico Git. A visibilidade foi alterada para pública e GitHub Pages foi ativado com origem GitHub Actions.
 
-Publicar um site público expõe o texto do diário e todos os campos dos snapshots e benchmarks exibidos. O workflow não muda a visibilidade do repositório e não inclui o DOCX ou o diretório de proveniência no artefato publicado. Para evitar falhas de deploy enquanto o bloqueio do plano persiste, a publicação automática depende da variável de repositório `PAGES_ENABLED` com valor `true`; ativá-la após configurar Pages.
+O endereço configurado do dashboard é [Genshin Progression](https://breno-disner.github.io/genshin-progression/). Pushes em `main` validam, constroem e publicam automaticamente; não é necessária credencial entre repositórios nem variável de ativação.
+
+O site público expõe o texto do diário e todos os campos dos snapshots e benchmarks exibidos. O workflow não inclui o DOCX ou o diretório de proveniência no artefato do site; esses arquivos e o histórico Git estão acessíveis diretamente no repositório público.
 
 Documentação oficial: [workflows personalizados do GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
