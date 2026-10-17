@@ -4,6 +4,7 @@ Registro canônico de progressão da conta documentada no Diário de Eventos. A 
 
 ## Navegação
 
+- Interface: dashboard estático com diário pesquisável, snapshots e benchmarks. Veja [como visualizar e publicar](docs/dashboard.md).
 - [Setembro de 2026](diary/2026-09.md) e [outubro de 2026](diary/2026-10.md): entradas datadas integrais.
 - [Snapshots](snapshots/README.md): observações estruturadas, baseline e pré-farm.
 - [Benchmarks](benchmarks/README.md): resultados das Teams A, B e C, com métricas e escopos separados.
