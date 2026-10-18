@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-10-18-team-c",
+  "evidence_quality": "user_report",
+  "source_document": "../provenance/2026-10-18-team-c.md",
+  "recorded_date": "2026-10-18",
+  "account_scope": "user-reported-progression-account",
+  "record_type": "team_build_snapshot",
+  "id": "team-c-2026-10-18",
+  "event_date": "2026-10-18",
+  "team": "C",
+  "team_identity": "skirk-escoffier-xingqiu-dahlia",
+  "characters": [
+    {
+      "name": "Skirk",
+      "level": 80,
+      "constellation": 0,
+      "talents_normal_skill_burst": [
+        1,
+        8,
+        6
+      ],
+      "talent_levels_basis": "base_invested",
+      "weapon": {
+        "name": "Exaiphanes Blade",
+        "level": 90,
+        "refinement": null
+      },
+      "stats": {
+        "hp": 16580,
+        "atk": 1475,
+        "def": 851,
+        "em": 58,
+        "crit_rate_pct": 74.2,
+        "crit_damage_pct": 125.1,
+        "energy_recharge_pct": 127.2,
+        "elemental_damage_bonus_pct": 22.8
+      },
+      "damage_bonus_element": "Cryo",
+      "artifacts": null,
+      "team_effective_talent_levels": {
+        "skill": {
+          "name": "Havoc: Warp",
+          "base": 8,
+          "team_bonus": 1,
+          "effective": 9,
+          "effect_provider": null
+        }
+      }
+    },
+    {
+      "name": "Escoffier",
+      "level": 50,
+      "constellation": 0,
+      "talents_normal_skill_burst": [
+        1,
+        2,
+        2
+      ],
+      "talent_levels_basis": "base_invested",
+      "weapon": {
+        "name": "Frostbreath",
+        "level": 50,
+        "refinement": null
+      },
+      "stats": {
+        "hp": 9466,
+        "atk": 564,
+        "def": 458,
+        "em": 40,
+        "crit_rate_pct": 16.8,
+        "crit_damage_pct": 62.1,
+        "energy_recharge_pct": 139,
+        "elemental_damage_bonus_pct": 0
+      },
+      "damage_bonus_element": "Cryo",
+      "artifacts": null
+    },
+    {
+      "name": "Xingqiu",
+      "level": 60,
+      "constellation": 4,
+      "talents_normal_skill_burst": [
+        1,
+        2,
+        5
+      ],
+      "talent_levels_basis": "base_invested",
+      "weapon": {
+        "name": "Favonius Sword",
+        "level": 60,
+        "refinement": null
+      },
+      "stats": {
+        "hp": 11173,
+        "atk": 716,
+        "def": 632,
+        "em": 96,
+        "crit_rate_pct": 7.2,
+        "crit_damage_pct": 69.6,
+        "energy_recharge_pct": 231.7,
+        "elemental_damage_bonus_pct": 38.7
+      },
+      "damage_bonus_element": "Hydro",
+      "artifacts": null
+    },
+    {
+      "name": "Dahlia",
+      "level": 40,
+      "constellation": 0,
+      "talents_normal_skill_burst": [
+        1,
+        1,
+        1
+      ],
+      "talent_levels_basis": "base_invested",
+      "weapon": {
+        "name": "Skyrider Sword",
+        "level": 50,
+        "refinement": null
+      },
+      "stats": {
+        "hp": 8617,
+        "atk": 359,
+        "def": 278,
+        "em": 42,
+        "crit_rate_pct": 12.4,
+        "crit_damage_pct": 71,
+        "energy_recharge_pct": 144.1,
+        "elemental_damage_bonus_pct": 0
+      },
+      "damage_bonus_element": "Hydro",
+      "artifacts": null
+    }
+  ],
+  "limitations": [
+    "User-provided snapshot; no independent screenshot/log inspection.",
+    "Weapon refinements, ascension stages and artifact details not supplied.",
+    "Skirk skill investment is level 8; effective level 9 applies only with the reported +1 team effect.",
+    "No changes to AR/WL, currencies, pity or other characters inferred."
+  ]
+}

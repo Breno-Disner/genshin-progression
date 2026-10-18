@@ -4,6 +4,8 @@ Resultados transcritos; JSONs não são exports originais do DPS Test Dummy++. D
 
 | Registro | Data/precisão | Métrica | Qualidade |
 | --- | --- | --- | --- |
+| [Team C — seis runs de 20s](team-c-2026-10-18-20s.json) | 18/10/2026 | Mediana 9.999,5 DPS (~10k); média 9.857,7; melhor 10.331 | Relato direto; agregado calculado |
+| [Team C — resumo anterior de 20s](team-c-previous-20s-summary.json) | data de teste não informada | 9 runs; mediana 8.182; média ~8.300 | Resumo retrospectivo do usuário; runs não fornecidos |
 | [Team A — sucesso](team-a-2026-10-04-success.json) | 04/10/2026 | 10.275 DPS; 205.920 dano; 20,04s; max 37.348 | Diário |
 | [Team A — setup falho](team-a-2026-10-04-failed.json) | seção 04/10/2026 | 9.459 DPS; 189.400 dano; 20,02s | Diário, contexto recuperado |
 | [Team B](team-b-2026-10-04.json) | 04/10/2026 | 7.684 DPS; 153.858 dano; 20,02s; max 12.413 | Diário |
@@ -14,3 +16,5 @@ Resultados transcritos; JSONs não são exports originais do DPS Test Dummy++. D
 A/B: preset Abyss 12, Mitachurl Lv100, resistências 10%; comparabilidade limitada por execução, builds e ausência de logs completos. O teste A falho não representa um estágio anterior de build. O valor da Team C no domínio é tempo de clear, não DPS.
 
 A série Skirk chamada Team C no chat tem identidade separada da Team C do diário. Não compare com A/B até recuperar os testes primários. Consulte [as convenções](../docs/conventions.md).
+
+Em 18/10, o usuário forneceu a composição Skirk/Escoffier/Xingqiu/Dahlia e o protocolo de 20s contra Maguu Kenki. Esse novo dataset não resolve retroativamente a identidade/condições das recordações antigas. A série de 20s fica separada da curva histórica de 30s. Referência prática: mediana de ~10.000 DPS, aumento de 22,2% sobre 8.182; marco da equipe com mudanças em Skirk E7→E8 base e Xingqiu Lv50→Lv60, sem atribuir todo o ganho a um único upgrade.

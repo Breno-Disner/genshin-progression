@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-10-18-team-c",
+  "evidence_quality": "user_report",
+  "source_document": "../provenance/2026-10-18-team-c.md",
+  "recorded_date": "2026-10-18",
+  "account_scope": "user-reported-progression-account",
+  "record_type": "benchmark_dataset_summary",
+  "id": "team-c-previous-20s-summary",
+  "event_date": null,
+  "team": "C",
+  "comparison_group": "team-c-20s-abyss12-maguu-kenki100-res10",
+  "series_window_seconds": 20,
+  "protocol": null,
+  "build_snapshot": null,
+  "summary": {
+    "run_count": 9,
+    "median_dps": 8182,
+    "mean_dps_approx": 8300,
+    "best_dps": 9025,
+    "worst_dps": 7527
+  },
+  "runs": null,
+  "known_previous_build_fields": {
+    "Skirk": {
+      "base_skill_talent": 7
+    },
+    "Xingqiu": {
+      "level": 50
+    }
+  },
+  "limitations": [
+    "Retrospective summary supplied on 2026-10-18; test date and nine raw runs not supplied.",
+    "20s series membership is user-reported; exact prior target, duration and other conditions not reconfirmed.",
+    "Do not reconstruct missing runs from summary statistics."
+  ]
+}

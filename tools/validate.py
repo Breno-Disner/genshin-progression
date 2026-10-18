@@ -3,6 +3,7 @@ from pathlib import Path
 import hashlib
 import json
 import re
+import statistics
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -31,6 +32,32 @@ def main():
                 assert 1 <= p <= len(lines), (path, p)
             if r.get('source_section'):
                 assert (path.parent / r['source_section']).exists()
+            for field in ('source_document', 'build_snapshot', 'previous_dataset'):
+                if r.get(field):
+                    assert (path.parent / r[field]).exists(), (path, field)
+            if r.get('record_type') == 'benchmark_dataset':
+                runs = r['runs']
+                assert len(runs) >= 3 and r['unchanged_build_within_dataset'], path
+                for run in runs:
+                    assert sum(run['damage_by_character'].values()) == run['total_damage'], (path, run['run'])
+                    assert abs(run['total_damage'] / run['duration_seconds'] - run['dps']) / run['dps'] < 0.002
+                values = [run['dps'] for run in runs]
+                aggregate = r['aggregate']
+                assert aggregate['run_count'] == len(values)
+                assert aggregate['median_dps'] == statistics.median(values)
+                assert abs(aggregate['mean_dps'] - statistics.mean(values)) < 1e-9
+                assert aggregate['mean_dps_rounded_1dp'] == round(statistics.mean(values), 1)
+                assert aggregate['best_dps'] == max(values) and aggregate['worst_dps'] == min(values)
+                assert aggregate['range_dps'] == max(values) - min(values)
+                previous = json.loads((path.parent / r['previous_dataset']).read_text(encoding='utf-8'))
+                increase = (statistics.median(values) / previous['summary']['median_dps'] - 1) * 100
+                assert r['progression']['median_increase_pct_rounded_1dp'] == round(increase, 1)
+                assert r['series_window_seconds'] == previous['series_window_seconds'] == 20
+                build = json.loads((path.parent / r['build_snapshot']).read_text(encoding='utf-8'))
+                skirk = next(c for c in build['characters'] if c['name'] == 'Skirk')
+                skill = skirk['team_effective_talent_levels']['skill']
+                assert skirk['talents_normal_skill_burst'][1] == skill['base']
+                assert skill['base'] + skill['team_bonus'] == skill['effective']
             contributions = r.get('damage_by_character', {})
             if len(contributions) == 4:
                 assert sum(contributions.values()) == r['total_damage'], path

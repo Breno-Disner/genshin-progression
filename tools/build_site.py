@@ -94,7 +94,11 @@ def build():
     benchmark_cards = []
     for path, item in benchmarks:
         metric = ''
-        if item.get('dps') is not None:
+        if item.get('aggregate', {}).get('median_dps') is not None:
+            median = item['aggregate']['median_dps']
+            formatted = f'{median:,.1f}'.replace(',', 'X').replace('.', ',').replace('X', '.')
+            metric = f'<div class="metric">{esc(formatted)}<small>DPS mediano · {esc(item["aggregate"]["run_count"])} runs · série {esc(item["series_window_seconds"])}s</small></div>'
+        elif item.get('dps') is not None:
             metric = f'<div class="metric">{esc(format(item["dps"], ",").replace(",", "."))}<small>DPS · {esc(item.get("outcome", "resultado registrado"))}</small></div>'
         elif item.get('clear_seconds') is not None:
             metric = f'<div class="metric">{esc(item["clear_seconds"])}<small>segundos de clear · não é DPS</small></div>'

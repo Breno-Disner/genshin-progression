@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-10-18-team-c",
+  "evidence_quality": "user_report",
+  "source_document": "../provenance/2026-10-18-team-c.md",
+  "recorded_date": "2026-10-18",
+  "account_scope": "user-reported-progression-account",
+  "record_type": "benchmark_dataset",
+  "id": "team-c-2026-10-18-20s",
+  "event_date": "2026-10-18",
+  "team": "C",
+  "team_identity": "skirk-escoffier-xingqiu-dahlia",
+  "build_snapshot": "../snapshots/2026-10-18-team-c.json",
+  "comparison_group": "team-c-20s-abyss12-maguu-kenki100-res10",
+  "series_window_seconds": 20,
+  "protocol": {
+    "tool": "DPS Test Dummy++",
+    "tool_version": null,
+    "preset": "Abyss 12",
+    "enemy": "Maguu Kenki",
+    "enemy_level": 100,
+    "resistance_all_elements_and_physical_pct": 10,
+    "modifiers": [],
+    "duration_seconds": 20.04,
+    "automatic_rotation_detection": false,
+    "rotation_details": null
+  },
+  "unchanged_build_within_dataset": true,
+  "raw_capture_available": false,
+  "runs": [
+    {
+      "run": 1,
+      "dps": 9125,
+      "total_damage": 182861,
+      "max_hit": 10675,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 149803,
+        "Escoffier": 16158,
+        "Xingqiu": 16036,
+        "Dahlia": 864
+      }
+    },
+    {
+      "run": 2,
+      "dps": 10286,
+      "total_damage": 206123,
+      "max_hit": 13578,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 172463,
+        "Escoffier": 15253,
+        "Xingqiu": 16929,
+        "Dahlia": 1478
+      }
+    },
+    {
+      "run": 3,
+      "dps": 9861,
+      "total_damage": 197624,
+      "max_hit": 13578,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 165558,
+        "Escoffier": 14269,
+        "Xingqiu": 16933,
+        "Dahlia": 864
+      }
+    },
+    {
+      "run": 4,
+      "dps": 10331,
+      "total_damage": 207020,
+      "max_hit": 13578,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 176797,
+        "Escoffier": 14407,
+        "Xingqiu": 14952,
+        "Dahlia": 864
+      }
+    },
+    {
+      "run": 5,
+      "dps": 9405,
+      "total_damage": 188470,
+      "max_hit": 13578,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 157101,
+        "Escoffier": 14828,
+        "Xingqiu": 15677,
+        "Dahlia": 864
+      }
+    },
+    {
+      "run": 6,
+      "dps": 10138,
+      "total_damage": 203153,
+      "max_hit": 13578,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 170940,
+        "Escoffier": 15309,
+        "Xingqiu": 16040,
+        "Dahlia": 864
+      }
+    }
+  ],
+  "aggregate": {
+    "evidence_quality": "derived",
+    "run_count": 6,
+    "median_dps": 9999.5,
+    "mean_dps": 9857.666666666666,
+    "mean_dps_rounded_1dp": 9857.7,
+    "best_dps": 10331,
+    "worst_dps": 9125,
+    "range_dps": 1206,
+    "practical_benchmark_dps_approx": 10000,
+    "representative_statistic": "median",
+    "formula": "Median of displayed run DPS; mean=sum(DPS)/6; range=max-min."
+  },
+  "previous_dataset": "team-c-previous-20s-summary.json",
+  "progression": {
+    "classification": "team_state_milestone",
+    "previous_median_dps": 8182,
+    "current_median_dps": 9999.5,
+    "median_increase_pct_rounded_1dp": 22.2,
+    "formula": "(9999.5 / 8182 - 1) * 100",
+    "changed_variables": [
+      {
+        "character": "Skirk",
+        "field": "base_skill_talent",
+        "previous": 7,
+        "current": 8
+      },
+      {
+        "character": "Xingqiu",
+        "field": "level",
+        "previous": 50,
+        "current": 60
+      }
+    ],
+    "interpretation": "Approximately 10,000 median DPS is repeatable central performance across this six-run dataset, not just the best-run execution ceiling. Multiple changed variables prevent attributing the full increase to Skirk E7→E8.",
+    "causal_attribution_to_single_upgrade": false
+  },
+  "limitations": [
+    "Raw runs are user transcriptions, not original capture files.",
+    "Previous dataset has summary only and unknown test date; exact prior protocol details not independently reconfirmed.",
+    "Do not merge or directly compare this 20s series with the historical Team C 30s curve.",
+    "Do not compare directly with historical A/B Mitachurl tests as though the target were unchanged."
+  ]
+}

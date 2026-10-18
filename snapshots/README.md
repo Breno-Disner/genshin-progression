@@ -1,5 +1,7 @@
 # Snapshots
 
+- [Team C — build 18/10/2026](2026-10-18-team-c.json): quatro personagens e todos os stats fornecidos; Skirk 1/8/6 base, E9 efetivo em equipe. Refinamentos e artefatos desconhecidos.
+
 - `YYYY-MM-DD.json`: observações parciais integrais da seção datada do DOCX, com parágrafos de origem. Incluem todos os dados fornecidos em texto; não completam campos ausentes com dados posteriores.
 - [Baseline estruturado 21/09](2026-09-21-baseline.json): conta, recursos, pity e equipes explicitamente registrados.
 - [Pré-farm 12/10](2026-10-12-prefarm.json): wrapper da exportação local, com escopo de planejamento. Níveis “current” do planejador não provam posse.
