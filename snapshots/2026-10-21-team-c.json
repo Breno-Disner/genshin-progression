@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-10-21-team-c",
+  "evidence_quality": "user_report",
+  "source_document": "../provenance/2026-10-21-team-c.md",
+  "recorded_date": "2026-10-21",
+  "event_date": "2026-10-21",
+  "account_scope": "user-reported-progression-account",
+  "team": "C",
+  "team_identity": "skirk-escoffier-xingqiu-dahlia",
+  "record_type": "partial_team_build_snapshot",
+  "id": "team-c-2026-10-21",
+  "previous_snapshot": "2026-10-18-team-c.json",
+  "characters": [
+    {
+      "name": "Skirk",
+      "level": 80,
+      "level_cap": 80,
+      "constellation": null,
+      "talents_normal_skill_burst": null,
+      "weapon": null,
+      "stats": null,
+      "artifacts": null
+    },
+    {
+      "name": "Escoffier",
+      "level": 70,
+      "level_cap": 80,
+      "constellation": null,
+      "talents_normal_skill_burst": null,
+      "weapon": null,
+      "stats": null,
+      "artifacts": null
+    },
+    {
+      "name": "Xingqiu",
+      "level": 60,
+      "level_cap": 60,
+      "constellation": null,
+      "talents_normal_skill_burst": null,
+      "weapon": null,
+      "stats": null,
+      "artifacts": null
+    },
+    {
+      "name": "Dahlia",
+      "level": 40,
+      "level_cap": 40,
+      "constellation": null,
+      "talents_normal_skill_burst": null,
+      "weapon": null,
+      "stats": null,
+      "artifacts": null
+    }
+  ],
+  "confirmed_progression": {
+    "character": "Escoffier",
+    "previous_level": 50,
+    "current_level": 70,
+    "current_level_cap": 80,
+    "ascension": 4,
+    "passive": {
+      "name": "Inspiration-Immersed Seasoning",
+      "active": true,
+      "hydro_cryo_team_members": 4,
+      "cryo_hydro_res_reduction_pct": 55,
+      "trigger": "After Escoffier Skill/Burst hits",
+      "evidence_quality": "user_report"
+    }
+  },
+  "limitations": [
+    "Only levels/caps and Escoffier A4/passive state supplied today.",
+    "October 18 talents, weapons, stats and constellations are historical, not reconfirmed or silently carried forward.",
+    "Skirk base E8/effective E9 remains the October 18 record; no new talent measurement today.",
+    "Same unchanged-build six-run state as reported; no independent captures inspected."
+  ]
+}

@@ -50,14 +50,27 @@ def main():
                 assert aggregate['best_dps'] == max(values) and aggregate['worst_dps'] == min(values)
                 assert aggregate['range_dps'] == max(values) - min(values)
                 previous = json.loads((path.parent / r['previous_dataset']).read_text(encoding='utf-8'))
-                increase = (statistics.median(values) / previous['summary']['median_dps'] - 1) * 100
+                previous_stats = previous.get('aggregate', previous.get('summary'))
+                increase = (statistics.median(values) / previous_stats['median_dps'] - 1) * 100
                 assert r['progression']['median_increase_pct_rounded_1dp'] == round(increase, 1)
                 assert r['series_window_seconds'] == previous['series_window_seconds'] == 20
                 build = json.loads((path.parent / r['build_snapshot']).read_text(encoding='utf-8'))
-                skirk = next(c for c in build['characters'] if c['name'] == 'Skirk')
-                skill = skirk['team_effective_talent_levels']['skill']
-                assert skirk['talents_normal_skill_burst'][1] == skill['base']
-                assert skill['base'] + skill['team_bonus'] == skill['effective']
+                for character in build['characters']:
+                    skill = character.get('team_effective_talent_levels', {}).get('skill')
+                    if skill:
+                        assert character['talents_normal_skill_burst'][1] == skill['base']
+                        assert skill['base'] + skill['team_bonus'] == skill['effective']
+                progression = r['progression']
+                if 'mean_increase_pct_rounded_2dp' in progression:
+                    assert round((statistics.mean(values) / previous_stats['mean_dps'] - 1) * 100, 2) == progression['mean_increase_pct_rounded_2dp']
+                    assert round(increase, 2) == progression['median_increase_pct_rounded_2dp']
+                if 'analysis' in r:
+                    analysis = r['analysis']
+                    assert analysis['baseline_cryo_res_pct'] - analysis['reported_shred_pct'] == analysis['resulting_cryo_res_pct']
+                    assert abs((analysis['res_multiplier_after'] / analysis['res_multiplier_before'] - 1) * 100 - analysis['predicted_increase_pct']) < 1e-9
+                if 'cluster' in aggregate:
+                    cluster = aggregate['cluster']
+                    assert sum(cluster['min_dps'] <= value <= cluster['max_dps'] for value in values) == cluster['run_count']
             contributions = r.get('damage_by_character', {})
             if len(contributions) == 4:
                 assert sum(contributions.values()) == r['total_damage'], path

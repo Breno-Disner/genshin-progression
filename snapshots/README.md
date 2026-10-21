@@ -1,5 +1,7 @@
 # Snapshots
 
+- [Team C — estado parcial 21/10/2026](2026-10-21-team-c.json): níveis/caps dos quatro personagens e Escoffier A4; demais campos não reconfirmados.
+
 - [Team C — build 18/10/2026](2026-10-18-team-c.json): quatro personagens e todos os stats fornecidos; Skirk 1/8/6 base, E9 efetivo em equipe. Refinamentos e artefatos desconhecidos.
 
 - `YYYY-MM-DD.json`: observações parciais integrais da seção datada do DOCX, com parágrafos de origem. Incluem todos os dados fornecidos em texto; não completam campos ausentes com dados posteriores.

@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-10-21-team-c",
+  "evidence_quality": "user_report",
+  "source_document": "../provenance/2026-10-21-team-c.md",
+  "recorded_date": "2026-10-21",
+  "event_date": "2026-10-21",
+  "account_scope": "user-reported-progression-account",
+  "team": "C",
+  "team_identity": "skirk-escoffier-xingqiu-dahlia",
+  "record_type": "benchmark_dataset",
+  "id": "team-c-2026-10-21-20s",
+  "build_snapshot": "../snapshots/2026-10-21-team-c.json",
+  "comparison_group": "team-c-20s-abyss12-maguu-kenki100-res10",
+  "series_window_seconds": 20,
+  "protocol": {
+    "tool": "DPS Test Dummy++",
+    "tool_version": null,
+    "preset": "Abyss 12",
+    "enemy": "Maguu Kenki",
+    "enemy_level": 100,
+    "resistance_all_elements_pct": 10,
+    "physical_resistance_pct": null,
+    "physical_resistance_note": "Not explicitly restated in October 21 report; user confirms same dummy configuration.",
+    "modifiers": [],
+    "duration_seconds_approx": 20.04,
+    "automatic_rotation_detection": false,
+    "rotation_details": null
+  },
+  "unchanged_build_within_dataset": true,
+  "raw_capture_available": false,
+  "runs": [
+    {
+      "run": 1,
+      "dps": 11764,
+      "duration_seconds": 20.04,
+      "total_damage": 235749,
+      "max_hit": 18482,
+      "damage_by_character": {
+        "Skirk": 183527,
+        "Escoffier": 34034,
+        "Xingqiu": 16594,
+        "Dahlia": 1594
+      },
+      "displayed_damage_share_pct": {
+        "Skirk": 78,
+        "Escoffier": 14,
+        "Xingqiu": 7,
+        "Dahlia": 1
+      },
+      "displayed_element_share_pct": {
+        "Cryo": 92,
+        "Hydro": 8
+      }
+    },
+    {
+      "run": 2,
+      "dps": 13547,
+      "duration_seconds": 20.04,
+      "total_damage": 271463,
+      "max_hit": 18482,
+      "damage_by_character": {
+        "Skirk": 217038,
+        "Escoffier": 35554,
+        "Xingqiu": 16964,
+        "Dahlia": 1907
+      },
+      "displayed_damage_share_pct": {
+        "Skirk": 80,
+        "Escoffier": 13,
+        "Xingqiu": 6,
+        "Dahlia": 1
+      },
+      "displayed_element_share_pct": {
+        "Cryo": 93,
+        "Hydro": 7
+      }
+    },
+    {
+      "run": 3,
+      "dps": 13890,
+      "duration_seconds": 20.03,
+      "total_damage": 278267,
+      "max_hit": 14530,
+      "damage_by_character": {
+        "Skirk": 224591,
+        "Escoffier": 34325,
+        "Xingqiu": 17757,
+        "Dahlia": 1594
+      },
+      "displayed_damage_share_pct": {
+        "Skirk": 81,
+        "Escoffier": 12,
+        "Xingqiu": 6,
+        "Dahlia": 1
+      },
+      "displayed_element_share_pct": {
+        "Cryo": 93,
+        "Hydro": 7
+      }
+    },
+    {
+      "run": 4,
+      "dps": 13387,
+      "duration_seconds": 20.04,
+      "total_damage": 268256,
+      "max_hit": 18482,
+      "damage_by_character": {
+        "Skirk": 213098,
+        "Escoffier": 35032,
+        "Xingqiu": 17713,
+        "Dahlia": 2413
+      },
+      "displayed_damage_share_pct": {
+        "Skirk": 79,
+        "Escoffier": 13,
+        "Xingqiu": 7,
+        "Dahlia": 1
+      },
+      "displayed_element_share_pct": {
+        "Cryo": 92,
+        "Hydro": 8
+      }
+    },
+    {
+      "run": 5,
+      "dps": 14001,
+      "duration_seconds": 20.04,
+      "total_damage": 280573,
+      "max_hit": 18482,
+      "damage_by_character": {
+        "Skirk": 225956,
+        "Escoffier": 34849,
+        "Xingqiu": 18174,
+        "Dahlia": 1594
+      },
+      "displayed_damage_share_pct": {
+        "Skirk": 81,
+        "Escoffier": 12,
+        "Xingqiu": 6,
+        "Dahlia": 1
+      },
+      "displayed_element_share_pct": {
+        "Cryo": 93,
+        "Hydro": 7
+      }
+    },
+    {
+      "run": 6,
+      "dps": 13792,
+      "duration_seconds": 20.04,
+      "total_damage": 276384,
+      "max_hit": 18482,
+      "damage_by_character": {
+        "Skirk": 224807,
+        "Escoffier": 33477,
+        "Xingqiu": 16506,
+        "Dahlia": 1594
+      },
+      "displayed_damage_share_pct": {
+        "Skirk": 81,
+        "Escoffier": 12,
+        "Xingqiu": 6,
+        "Dahlia": 1
+      },
+      "displayed_element_share_pct": {
+        "Cryo": 93,
+        "Hydro": 7
+      }
+    }
+  ],
+  "aggregate": {
+    "evidence_quality": "derived",
+    "run_count": 6,
+    "median_dps": 13669.5,
+    "mean_dps": 13396.833333333334,
+    "mean_dps_rounded_1dp": 13396.8,
+    "best_dps": 14001,
+    "worst_dps": 11764,
+    "range_dps": 2237,
+    "practical_benchmark_dps_approx": 13670,
+    "representative_statistic": "median",
+    "cluster": {
+      "run_count": 5,
+      "min_dps": 13387,
+      "max_dps": 14001
+    },
+    "formula": "Median/mean of six displayed DPS values; range=max-min."
+  },
+  "previous_dataset": "team-c-2026-10-18-20s.json",
+  "progression": {
+    "classification": "team_state_milestone_escoffier_a4",
+    "previous_median_dps": 9999.5,
+    "current_median_dps": 13669.5,
+    "median_increase_pct_rounded_1dp": 36.7,
+    "median_increase_pct_rounded_2dp": 36.7,
+    "mean_increase_pct_rounded_2dp": 35.9,
+    "original_20s_median_dps": 8182,
+    "original_median_increase_pct_rounded_1dp": 67.1,
+    "known_major_changed_variable": "Escoffier Lv50 → Lv70/80; A4 passive online.",
+    "other_build_fields_reconfirmed": false,
+    "causal_attribution_to_single_upgrade": false
+  },
+  "analysis": {
+    "evidence_quality": "derived",
+    "mechanics_source": "User-provided RES model; not independently verified in this update.",
+    "baseline_cryo_res_pct": 10,
+    "reported_shred_pct": 55,
+    "resulting_cryo_res_pct": -45,
+    "res_multiplier_before": 0.9,
+    "res_multiplier_after": 1.225,
+    "predicted_increase_pct": 36.111111111111114,
+    "formula": "For stated RES model: R>=0 and R<0.75 gives 1-R; R<0 gives 1-R/2; ratio=1.225/0.90.",
+    "prior_reported_strongest_hit": 13578,
+    "current_reported_strongest_hit": 18482,
+    "strongest_hit_increase_pct": 36.117248490204744,
+    "strongest_hit_attribution": "User attributes these strongest-hit values to Skirk; per-hit source logs unavailable. Run 3 strongest hit is 14530, preserved separately.",
+    "interpretation": "Close predicted +36.11%, observed median +36.70% and strongest-hit +36.12% support Escoffier A4 RES shred as the dominant explanation. Escoffier level/stat growth also increased personal damage; not every component is solely RES shred.",
+    "causal_confidence_user_assessment": "strong",
+    "causal_limitations": "Strong mechanistic consistency, not an isolated-variable experiment; full updated builds and per-hit logs not supplied."
+  },
+  "evidence_assessment": {
+    "results_user_assessment": "high: six standardized raw runs",
+    "comparison_user_assessment": "high: same 20s protocol and dummy configuration",
+    "verification_performed": "Arithmetic, contribution totals, summaries, protocol/series linkage checked; raw screenshots and game mechanics not independently verified."
+  },
+  "limitations": [
+    "Preserve displayed rounded percentages without recomputing them.",
+    "Run 3 is 20.03s; other runs 20.04s.",
+    "20s series remains separate from historical 30s progression.",
+    "Full October 21 stats/weapons/talents not provided."
+  ]
+}
