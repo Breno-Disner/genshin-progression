@@ -9,7 +9,12 @@
   "team": "C",
   "record_type": "benchmark_plan",
   "id": "team-c-2026-10-22-2pc-finale-pending",
-  "status": "pending_execution",
+  "status": "results_recorded_execution_control_unverified",
+  "result_dataset": "team-c-2026-10-22-20s.json",
+  "status_history": [
+    {"date": "2026-10-22", "status": "pending_execution", "note": "At plan creation; no runs supplied."},
+    {"date": "2026-10-22", "status": "results_recorded_execution_control_unverified", "note": "Six runs subsequently supplied; no-N5D control not explicitly reconfirmed."}
+  ],
   "build_snapshot": "../snapshots/2026-10-22-skirk-finale.json",
   "comparison_group": "team-c-20s-abyss12-maguu-kenki100-res10",
   "series_window_seconds": 20,
@@ -46,7 +51,7 @@
   "runs": null,
   "aggregate": null,
   "limitations": [
-    "No new benchmark results supplied for October 22.",
+    "No results at plan creation; six-run result dataset later linked, preserving plan history.",
     "Do not infer DPS gains from character sheet changes.",
     "Historical 30s series remains separate."
   ]

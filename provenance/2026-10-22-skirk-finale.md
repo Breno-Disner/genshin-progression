@@ -22,3 +22,5 @@ Protocolo Team C de 20,04s: DPS Test Dummy++, preset Abyss 12, Maguu Kenki Lv100
 Baseline comparável: seis runs de 21/10, mediana 13.669,5 DPS; média 13.396,8; melhor 14.001; pior 11.764. Não há resultado novo de DPS neste relato.
 
 [Snapshot completo nos campos fornecidos](../snapshots/2026-10-22-skirk-finale.json) · [Plano do benchmark](../benchmarks/team-c-2026-10-22-2pc-finale-plan.json)
+
+Atualização posterior em 22/10: [seis resultados recebidos](2026-10-22-team-c-major.md). A pendência descrita acima é histórica; o plano agora vincula os resultados. Ausência de N5D não foi explicitamente reconfirmada no novo relato.

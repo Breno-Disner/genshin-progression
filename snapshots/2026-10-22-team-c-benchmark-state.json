@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-10-22-team-c-major",
+  "evidence_quality": "user_report",
+  "source_document": "../provenance/2026-10-22-team-c-major.md",
+  "recorded_date": "2026-10-22",
+  "event_date": "2026-10-22",
+  "account_scope": "user-reported-progression-account",
+  "team": "C",
+  "team_identity": "skirk-escoffier-xingqiu-dahlia",
+  "record_type": "partial_team_build_snapshot",
+  "id": "team-c-2026-10-22-benchmark-state",
+  "characters": [
+    {
+      "name": "Skirk",
+      "level": 80,
+      "level_cap": 80,
+      "talents_normal_skill_burst": null,
+      "weapon": null,
+      "stats": {
+        "atk": 1894,
+        "crit_rate_pct": 92.1,
+        "crit_damage_pct": 162,
+        "energy_recharge_pct": 131.1,
+        "em": 77,
+        "hp": 18475,
+        "def": 925
+      }
+    },
+    {
+      "name": "Escoffier",
+      "level": 70,
+      "level_cap": 80,
+      "talents_normal_skill_burst": null,
+      "weapon": null,
+      "stats": null
+    },
+    {
+      "name": "Xingqiu",
+      "level": 60,
+      "level_cap": 60,
+      "talents_normal_skill_burst": null,
+      "weapon": null,
+      "stats": null
+    },
+    {
+      "name": "Dahlia",
+      "level": 40,
+      "level_cap": 40,
+      "talents_normal_skill_burst": null,
+      "weapon": null,
+      "stats": null
+    }
+  ],
+  "skirk_artifact_snapshot": "2026-10-22-skirk-finale.json",
+  "active_buff_state": {
+    "skirk_dummy_result_cryo_damage_bonus_pct_approx": 62,
+    "previous_comparable_dummy_result_cryo_damage_bonus_pct_approx": 23,
+    "known_2pc_finale_bonus_pct": 15,
+    "unidentified_additional_skirk_damage_bonus_pp_approx": 24,
+    "calculation": "62 - 23 - 15 = approximately 24 percentage points",
+    "source_resolved": false,
+    "independent_screen_inspection": false
+  },
+  "limitations": [
+    "Dummy++ result-screen approximate Cryo bonus is distinct from the earlier post-equip character sheet, which did not supply current Cryo DMG.",
+    "Unknown additional bonus source; no item, passive or execution effect guessed.",
+    "Other current build fields not reconfirmed."
+  ]
+}

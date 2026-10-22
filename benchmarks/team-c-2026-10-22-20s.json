@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-10-22-team-c-major",
+  "evidence_quality": "user_report",
+  "source_document": "../provenance/2026-10-22-team-c-major.md",
+  "recorded_date": "2026-10-22",
+  "event_date": "2026-10-22",
+  "account_scope": "user-reported-progression-account",
+  "team": "C",
+  "team_identity": "skirk-escoffier-xingqiu-dahlia",
+  "record_type": "benchmark_dataset",
+  "id": "team-c-2026-10-22-20s",
+  "build_snapshot": "../snapshots/2026-10-22-team-c-benchmark-state.json",
+  "comparison_group": "team-c-20s-abyss12-maguu-kenki100-res10",
+  "series_window_seconds": 20,
+  "protocol": {
+    "tool": "DPS Test Dummy++",
+    "tool_version": null,
+    "preset": "Abyss 12",
+    "enemy": "Maguu Kenki",
+    "enemy_level": 100,
+    "resistance_all_elements_and_physical_pct": 10,
+    "duration_seconds": 20.04,
+    "modifiers": [],
+    "automatic_rotation_detection": false,
+    "rotation_details": null
+  },
+  "unchanged_build_within_dataset": true,
+  "raw_capture_available": false,
+  "execution_context": {
+    "prior_plan": "team-c-2026-10-22-2pc-finale-plan.json",
+    "requested_style": "Established execution; do not intentionally introduce newly learned N5D for initial comparison",
+    "n5d_usage_reconfirmed_by_results_report": null,
+    "note": "Results report does not explicitly reconfirm N5D usage; preserve plan without asserting execution verification."
+  },
+  "runs": [
+    {
+      "run": 1,
+      "dps": 26132,
+      "duration_seconds": 20.04,
+      "total_damage": 523651,
+      "max_hit": 34468,
+      "damage_by_character": {
+        "Skirk": 470347,
+        "Escoffier": 34306,
+        "Xingqiu": 17404,
+        "Dahlia": 1594
+      },
+      "displayed_damage_share_pct": {
+        "Skirk": 90,
+        "Escoffier": 7,
+        "Xingqiu": 3,
+        "Dahlia": null
+      },
+      "displayed_element_share_pct": {
+        "Cryo": 96,
+        "Hydro": 4,
+        "Physical": null
+      },
+      "percentage_note": "Dahlia percentage not supplied; physical percentage only explicitly supplied in run 5. Rounded displayed shares need not sum to 100."
+    },
+    {
+      "run": 2,
+      "dps": 24776,
+      "duration_seconds": 20.04,
+      "total_damage": 496485,
+      "max_hit": 34468,
+      "damage_by_character": {
+        "Skirk": 444866,
+        "Escoffier": 32495,
+        "Xingqiu": 17530,
+        "Dahlia": 1594
+      },
+      "displayed_damage_share_pct": {
+        "Skirk": 90,
+        "Escoffier": 7,
+        "Xingqiu": 4,
+        "Dahlia": null
+      },
+      "displayed_element_share_pct": {
+        "Cryo": 96,
+        "Hydro": 4,
+        "Physical": null
+      },
+      "percentage_note": "Dahlia percentage not supplied; physical percentage only explicitly supplied in run 5. Rounded displayed shares need not sum to 100."
+    },
+    {
+      "run": 3,
+      "dps": 25563,
+      "duration_seconds": 20.04,
+      "total_damage": 512235,
+      "max_hit": 34468,
+      "damage_by_character": {
+        "Skirk": 461383,
+        "Escoffier": 30089,
+        "Xingqiu": 19610,
+        "Dahlia": 1153
+      },
+      "displayed_damage_share_pct": {
+        "Skirk": 90,
+        "Escoffier": 6,
+        "Xingqiu": 4,
+        "Dahlia": null
+      },
+      "displayed_element_share_pct": {
+        "Cryo": 96,
+        "Hydro": 4,
+        "Physical": null
+      },
+      "percentage_note": "Dahlia percentage not supplied; physical percentage only explicitly supplied in run 5. Rounded displayed shares need not sum to 100."
+    },
+    {
+      "run": 4,
+      "dps": 24588,
+      "duration_seconds": 20.04,
+      "total_damage": 492710,
+      "max_hit": 34468,
+      "damage_by_character": {
+        "Skirk": 441118,
+        "Escoffier": 31261,
+        "Xingqiu": 18737,
+        "Dahlia": 1594
+      },
+      "displayed_damage_share_pct": {
+        "Skirk": 90,
+        "Escoffier": 6,
+        "Xingqiu": 4,
+        "Dahlia": null
+      },
+      "displayed_element_share_pct": {
+        "Cryo": 96,
+        "Hydro": 4,
+        "Physical": null
+      },
+      "percentage_note": "Dahlia percentage not supplied; physical percentage only explicitly supplied in run 5. Rounded displayed shares need not sum to 100."
+    },
+    {
+      "run": 5,
+      "dps": 24654,
+      "duration_seconds": 20.04,
+      "total_damage": 494051,
+      "max_hit": 34468,
+      "damage_by_character": {
+        "Skirk": 439281,
+        "Escoffier": 36030,
+        "Xingqiu": 16768,
+        "Dahlia": 1972
+      },
+      "displayed_damage_share_pct": {
+        "Skirk": 89,
+        "Escoffier": 7,
+        "Xingqiu": 3,
+        "Dahlia": null
+      },
+      "displayed_element_share_pct": {
+        "Cryo": 95,
+        "Hydro": 4,
+        "Physical": 1
+      },
+      "percentage_note": "Dahlia percentage not supplied; physical percentage only explicitly supplied in run 5. Rounded displayed shares need not sum to 100."
+    },
+    {
+      "run": 6,
+      "dps": 26280,
+      "duration_seconds": 20.04,
+      "total_damage": 526632,
+      "max_hit": 34468,
+      "damage_by_character": {
+        "Skirk": 471924,
+        "Escoffier": 33725,
+        "Xingqiu": 19389,
+        "Dahlia": 1594
+      },
+      "displayed_damage_share_pct": {
+        "Skirk": 90,
+        "Escoffier": 6,
+        "Xingqiu": 4,
+        "Dahlia": null
+      },
+      "displayed_element_share_pct": {
+        "Cryo": 96,
+        "Hydro": 4,
+        "Physical": null
+      },
+      "percentage_note": "Dahlia percentage not supplied; physical percentage only explicitly supplied in run 5. Rounded displayed shares need not sum to 100."
+    }
+  ],
+  "aggregate": {
+    "evidence_quality": "derived",
+    "run_count": 6,
+    "median_dps": 25169.5,
+    "mean_dps": 25332.166666666668,
+    "mean_dps_rounded_1dp": 25332.2,
+    "best_dps": 26280,
+    "worst_dps": 24588,
+    "range_dps": 1692,
+    "median_total_damage": 504360,
+    "practical_benchmark_dps_approx": 25170,
+    "representative_statistic": "median",
+    "cluster": {
+      "run_count": 6,
+      "min_dps": 24588,
+      "max_dps": 26280
+    }
+  },
+  "previous_dataset": "team-c-2026-10-21-20s.json",
+  "progression": {
+    "classification": "skirk_gear_and_current_active_buff_state",
+    "previous_median_dps": 13669.5,
+    "current_median_dps": 25169.5,
+    "median_increase_pct_rounded_1dp": 84.1,
+    "median_increase_pct_rounded_2dp": 84.13,
+    "mean_increase_pct_rounded_2dp": 89.09,
+    "original_20s_median_dps": 8182,
+    "original_median_increase_pct_rounded_2dp": 207.62,
+    "strongest_hit": {
+      "previous": 18482,
+      "current": 34468,
+      "increase_pct_rounded_2dp": 86.49
+    },
+    "character_median_damage": {
+      "Skirk": {
+        "previous": 220814.5,
+        "current": 453124.5,
+        "increase_pct_rounded_2dp": 105.21
+      },
+      "Escoffier": {
+        "previous": 34587,
+        "current": 33110,
+        "increase_pct_rounded_2dp": -4.27
+      },
+      "Xingqiu": {
+        "previous": 17338.5,
+        "current": 18133.5,
+        "increase_pct_rounded_2dp": 4.59
+      }
+    },
+    "median_curve_dps": [
+      8182,
+      9999.5,
+      13669.5,
+      25169.5
+    ],
+    "causal_attribution_to_artifacts_alone": false
+  },
+  "causal_analysis": {
+    "evidence_quality": "user_report_and_derived",
+    "skirk_cryo_damage_bonus_current_pct_approx": 62,
+    "skirk_cryo_damage_bonus_previous_pct_approx": 23,
+    "known_finale_bonus_pct": 15,
+    "unresolved_additional_damage_bonus_pp_approx": 24,
+    "unresolved_source": null,
+    "interpretation": "Repeatable benchmark progression of Skirk gear plus current active buff state. Do not attribute the entire ~84% team DPS increase solely to two Finale artifacts.",
+    "supporting_observations": [
+      "Skirk median damage +105.21%; strongest hit +86.49%.",
+      "Escoffier and Xingqiu median damage remain near prior values.",
+      "All six runs 24588–26280 DPS support repeatability."
+    ],
+    "global_change_inference": "Pattern supports a Skirk-specific effect over a uniform global dummy/preset change; not definitive identification or exclusion of every alternative.",
+    "causal_certainty": "Unresolved source, no isolated-variable proof."
+  },
+  "limitations": [
+    "User transcription; no independent inspection of raw result screens/logs.",
+    "Do not assume unresolved bonus comes from Finale or identify an unprovided source.",
+    "20s progression remains separate from historical 30s series.",
+    "Initial no-N5D execution control remains requested but not explicitly reconfirmed in this report."
+  ]
+}

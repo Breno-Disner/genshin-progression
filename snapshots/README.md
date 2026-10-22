@@ -1,5 +1,7 @@
 # Snapshots
 
+- [Team C — estado do benchmark 22/10](2026-10-22-team-c-benchmark-state.json): níveis e ficha Skirk reconfirmados; Cryo da tela Dummy++ ~62% versus ~23% anterior, com ~24 pontos de bônus adicionais não identificados além do 2pc.
+
 - [Skirk — 2pc Finale 22/10](2026-10-22-skirk-finale.json): artefatos completos nos campos fornecidos e ficha pós-equip; total de Cryo atual desconhecido.
 
 - [Team C — estado parcial 21/10/2026](2026-10-21-team-c.json): níveis/caps dos quatro personagens e Escoffier A4; demais campos não reconfirmados.

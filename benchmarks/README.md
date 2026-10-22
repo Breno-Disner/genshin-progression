@@ -4,7 +4,8 @@ Resultados transcritos; JSONs não são exports originais do DPS Test Dummy++. D
 
 | Registro | Data/precisão | Métrica | Qualidade |
 | --- | --- | --- | --- |
-| [Team C — plano pós-2pc Finale](team-c-2026-10-22-2pc-finale-plan.json) | 22/10/2026 | Pendente, sem DPS novo; baseline mediano 13.669,5 | Execução habitual, sem introduzir N5D inicialmente |
+| [Team C — gear + buff ativo, seis runs](team-c-2026-10-22-20s.json) | 22/10/2026 | Mediana 25.169,5; média 25.332,2; +84,13% mediana | ~24 pontos adicionais de bônus sem origem identificada |
+| [Team C — plano pós-2pc Finale](team-c-2026-10-22-2pc-finale-plan.json) | 22/10/2026 | Resultados vinculados; controle de execução não reconfirmado | Pedido original: execução habitual, sem introduzir N5D |
 | [Team C — A4 Escoffier, seis runs 20s](team-c-2026-10-21-20s.json) | 21/10/2026 | Mediana 13.669,5 DPS; média 13.396,8; melhor 14.001 | Relato direto; agregado calculado; +36,70% mediana |
 | [Team C — seis runs de 20s](team-c-2026-10-18-20s.json) | 18/10/2026 | Mediana 9.999,5 DPS (~10k); média 9.857,7; melhor 10.331 | Relato direto; agregado calculado |
 | [Team C — resumo anterior de 20s](team-c-previous-20s-summary.json) | data de teste não informada | 9 runs; mediana 8.182; média ~8.300 | Resumo retrospectivo do usuário; runs não fornecidos |

@@ -4,6 +4,7 @@ Importação realizada em 2026-10-15, preservando o histórico inicial do reposi
 
 | source_id | Fonte | Cobertura e limite |
 | --- | --- | --- |
+| user-report-2026-10-22-team-c-major | [Seis resultados posteriores de 22/10](2026-10-22-team-c-major.md) | Marco 25.169,5 DPS mediano; gear + buff ativo Skirk, fonte adicional não resolvida. |
 | user-report-2026-10-22-skirk-finale | [Relato 2pc Finale 22/10](2026-10-22-skirk-finale.md) | Dois artefatos, ficha pós-equip e plano de comparação sem N5D; sem DPS novo. |
 | user-report-2026-10-21-team-c | [Relato de 21/10 e análise A4](2026-10-21-team-c.md) | Seis runs, níveis/caps, percentuais e modelo RES fornecido; aritmética conferida, sem capturas/logs originais. |
 | user-report-2026-10-18-team-c | [Relato direto de 18/10](2026-10-18-team-c.md) | Build completo nos campos fornecidos, seis runs de 20s e resumo anterior de nove runs. Sem capturas/logs originais. |

@@ -55,7 +55,7 @@ def main():
                 assert r['progression']['median_increase_pct_rounded_1dp'] == round(increase, 1)
                 assert r['series_window_seconds'] == previous['series_window_seconds'] == 20
                 build = json.loads((path.parent / r['build_snapshot']).read_text(encoding='utf-8'))
-                for character in build['characters']:
+                for character in build.get('characters', []):
                     skill = character.get('team_effective_talent_levels', {}).get('skill')
                     if skill:
                         assert character['talents_normal_skill_burst'][1] == skill['base']
@@ -71,6 +71,13 @@ def main():
                 if 'cluster' in aggregate:
                     cluster = aggregate['cluster']
                     assert sum(cluster['min_dps'] <= value <= cluster['max_dps'] for value in values) == cluster['run_count']
+                if 'median_total_damage' in aggregate:
+                    assert aggregate['median_total_damage'] == statistics.median(run['total_damage'] for run in runs)
+                for name, comparison in progression.get('character_median_damage', {}).items():
+                    current = statistics.median(run['damage_by_character'][name] for run in runs)
+                    prior = statistics.median(run['damage_by_character'][name] for run in previous['runs'])
+                    assert current == comparison['current'] and prior == comparison['previous']
+                    assert round((current / prior - 1) * 100, 2) == comparison['increase_pct_rounded_2dp']
             contributions = r.get('damage_by_character', {})
             if len(contributions) == 4:
                 assert sum(contributions.values()) == r['total_damage'], path
