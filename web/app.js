@@ -37,3 +37,14 @@ document.querySelectorAll('[data-clear]').forEach(button => button.addEventListe
 ['diary', 'snapshots', 'benchmarks'].forEach(filter);
 window.addEventListener('hashchange', route);
 route();
+
+document.querySelectorAll('[data-chart-tab]').forEach(button => {
+  button.addEventListener('click', () => {
+    document.querySelectorAll('[data-chart-tab]').forEach(tab => {
+      tab.setAttribute('aria-pressed', String(tab === button));
+    });
+    document.querySelectorAll('[data-chart-panel]').forEach(panel => {
+      panel.hidden = panel.dataset.chartPanel !== button.dataset.chartTab;
+    });
+  });
+});

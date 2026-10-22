@@ -4,6 +4,7 @@ import html
 import json
 import re
 import shutil
+from progression import render as render_progression
 
 ROOT = Path(__file__).resolve().parents[1]
 REPO = 'https://github.com/Breno-Disner/genshin-progression'
@@ -112,6 +113,7 @@ def build():
         'SNAPSHOTS': ''.join(record_card(p, r) for p, r in snapshots),
         'BENCHMARKS': ''.join(benchmark_cards),
         'CONVENTIONS': markdown((ROOT / 'docs/conventions.md').read_text(encoding='utf-8')),
+        'PROGRESSION': render_progression(benchmarks, ROOT, REPO),
     }
     for key, value in replacements.items():
         template = template.replace('{{' + key + '}}', value)

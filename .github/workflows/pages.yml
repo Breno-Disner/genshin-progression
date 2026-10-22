@@ -19,7 +19,9 @@ jobs:
       - name: Validate canonical records
         run: python tools/validate.py
       - name: Build dashboard
-        run: python tools/build_site.py
+        run: |
+          python tools/test_progression.py
+          python tools/build_site.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
