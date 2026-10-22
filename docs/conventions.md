@@ -49,6 +49,7 @@ Um teste futuro deve registrar: ID imutável, conta/ambiente, data, membros e bu
 - Mudanças entre datasets representam progressão de estado da equipe. Registrar variáveis alteradas e não atribuir o ganho integral a um upgrade quando mais de uma variável mudou.
 - Talentos base/investidos e níveis efetivos em equipe são campos distintos. Em 18/10, Skirk tem 1/8/6 base e Havoc: Warp Lv9 efetivo pelo bônus de +1; nunca substituir E8 base por E9.
 - Resumos anteriores sem runs brutos permanecem resumos, com data e condições não reconfirmadas explicitamente desconhecidas.
+- Na comparação inicial após a transição 2pc Finale de 22/10, manter o estilo de execução habitual; não introduzir intencionalmente N5D dash-cancel recém-aprendido. Se testado depois, registrar como mudança de execução separada. Planos pendentes não são resultados de DPS.
 
 ## Ressalvas históricas da importação
 

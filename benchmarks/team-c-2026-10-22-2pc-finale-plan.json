@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-10-22-skirk-finale",
+  "evidence_quality": "user_report",
+  "source_document": "../provenance/2026-10-22-skirk-finale.md",
+  "recorded_date": "2026-10-22",
+  "event_date": "2026-10-22",
+  "account_scope": "user-reported-progression-account",
+  "team": "C",
+  "record_type": "benchmark_plan",
+  "id": "team-c-2026-10-22-2pc-finale-pending",
+  "status": "pending_execution",
+  "build_snapshot": "../snapshots/2026-10-22-skirk-finale.json",
+  "comparison_group": "team-c-20s-abyss12-maguu-kenki100-res10",
+  "series_window_seconds": 20,
+  "protocol": {
+    "tool": "DPS Test Dummy++",
+    "preset": "Abyss 12",
+    "enemy": "Maguu Kenki",
+    "enemy_level": 100,
+    "resistance_all_elements_and_physical_pct": 10,
+    "duration_seconds_target": 20.04,
+    "modifiers": [],
+    "automatic_rotation_detection": false
+  },
+  "execution_control": {
+    "initial_comparison_style": "User's established execution style",
+    "intentionally_introduce_n5d_dash_cancel": false,
+    "rationale": "Avoid confounding artifact progression with newly learned mechanical/execution progression.",
+    "later_n5d_comparison": "If tested later, label as a separate execution change."
+  },
+  "sampling": {
+    "minimum_unchanged_build_runs": 3,
+    "preferred_milestone_runs": 5,
+    "representative_statistic": "median",
+    "preserve_all_raw_runs": true
+  },
+  "baseline": {
+    "dataset": "team-c-2026-10-21-20s.json",
+    "run_count": 6,
+    "median_dps": 13669.5,
+    "mean_dps_rounded_1dp": 13396.8,
+    "best_dps": 14001,
+    "worst_dps": 11764
+  },
+  "runs": null,
+  "aggregate": null,
+  "limitations": [
+    "No new benchmark results supplied for October 22.",
+    "Do not infer DPS gains from character sheet changes.",
+    "Historical 30s series remains separate."
+  ]
+}

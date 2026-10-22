@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-10-22-skirk-finale",
+  "evidence_quality": "user_report",
+  "source_document": "../provenance/2026-10-22-skirk-finale.md",
+  "recorded_date": "2026-10-22",
+  "event_date": "2026-10-22",
+  "account_scope": "user-reported-progression-account",
+  "team": "C",
+  "record_type": "partial_character_build_snapshot",
+  "id": "skirk-2026-10-22-2pc-finale",
+  "character": "Skirk",
+  "level": 80,
+  "level_cap": 80,
+  "constellation": null,
+  "talents_normal_skill_burst": null,
+  "weapon": null,
+  "stats": {
+    "hp": {
+      "base": 10956,
+      "additional": 7519,
+      "total": 18475
+    },
+    "atk": {
+      "base": 925,
+      "additional": 969,
+      "total": 1894
+    },
+    "def": {
+      "base": 711,
+      "additional": 214,
+      "total": 925
+    },
+    "em": 77,
+    "crit_rate_pct": 92.1,
+    "crit_damage_pct": 162,
+    "energy_recharge_pct": 131.1,
+    "max_stamina": 240,
+    "cryo_damage_bonus_pct": null
+  },
+  "artifact_set_state": {
+    "set": "Finale of the Deep Galleries",
+    "equipped_piece_count_confirmed": 2,
+    "two_piece_bonus_active": true,
+    "two_piece_cryo_damage_bonus_pct": 15
+  },
+  "artifacts": [
+    {
+      "slot": "circlet",
+      "name": "Deep Gallery's Lost Crown",
+      "set": "Finale of the Deep Galleries",
+      "rarity": 5,
+      "enhancement": 20,
+      "main_stat": {
+        "crit_damage_pct": 62.2
+      },
+      "substats": {
+        "crit_rate_pct": 15.2,
+        "atk_pct": 10.5,
+        "atk_flat": 39,
+        "energy_recharge_pct": 4.5
+      },
+      "substat_cv": 30.4
+    },
+    {
+      "slot": "feather",
+      "name": "Deep Gallery's Distant Pact",
+      "set": "Finale of the Deep Galleries",
+      "rarity": 5,
+      "enhancement": 20,
+      "main_stat": {
+        "atk_flat": 311
+      },
+      "substats": {
+        "crit_rate_pct": 12.8,
+        "atk_pct": 9.9,
+        "em_flat": 19,
+        "def_flat": 32
+      },
+      "substat_cv": 25.6,
+      "enhancement_history": {
+        "observed_enhancement": 13,
+        "observed_crit_rate_pct": 6.2,
+        "final_enhancement": 20,
+        "final_crit_rate_pct": 12.8,
+        "remaining_enhancement_stages_contributing_to_crit_rate": 2,
+        "evidence_quality": "user_report"
+      }
+    }
+  ],
+  "artifact_aggregate": {
+    "combined_crit_rate_substats_pct": 28,
+    "combined_substat_cv": 56,
+    "cv_formula": "2 * CRIT Rate + CRIT DMG from substats only; circlet main stat excluded."
+  },
+  "historical_reference": {
+    "source_snapshot": "2026-10-18-team-c.json",
+    "atk_approx": 1475,
+    "crit_rate_pct": 74.2,
+    "crit_damage_pct": 125.1,
+    "energy_recharge_pct": 127.2,
+    "cryo_damage_bonus_pct": 22.8,
+    "environment_comparability_confirmed": false
+  },
+  "limitations": [
+    "Character sheet and artifacts supplied by user; no independent capture inspection.",
+    "Remaining three artifacts, current weapon/talents/constellation and displayed current Cryo DMG not supplied.",
+    "Do not infer current Cryo DMG as historical 22.8 plus 15 without confirming comparable sources/environment.",
+    "Do not attribute every historical-to-current stat change solely to these two artifacts."
+  ]
+}
