@@ -205,7 +205,7 @@
   },
   "previous_dataset": "team-c-2026-10-21-20s.json",
   "progression": {
-    "classification": "skirk_gear_and_current_active_buff_state",
+    "classification": "skirk_three_artifact_upgrades_and_finale_2pc",
     "previous_median_dps": 13669.5,
     "current_median_dps": 25169.5,
     "median_increase_pct_rounded_1dp": 84.1,
@@ -241,28 +241,45 @@
       13669.5,
       25169.5
     ],
-    "causal_attribution_to_artifacts_alone": false
+    "observed_gear_transition": [
+      "New +20 Finale CRIT DMG circlet",
+      "New +20 Finale feather",
+      "Existing Cryo goblet +8→+20",
+      "Finale 2pc activated (+15% Cryo DMG)"
+    ]
   },
   "causal_analysis": {
     "evidence_quality": "user_report_and_derived",
-    "skirk_cryo_damage_bonus_current_pct_approx": 62,
-    "skirk_cryo_damage_bonus_previous_pct_approx": 23,
-    "known_finale_bonus_pct": 15,
-    "unresolved_additional_damage_bonus_pp_approx": 24,
-    "unresolved_source": null,
-    "interpretation": "Repeatable benchmark progression of Skirk gear plus current active buff state. Do not attribute the entire ~84% team DPS increase solely to two Finale artifacts.",
-    "supporting_observations": [
-      "Skirk median damage +105.21%; strongest hit +86.49%.",
-      "Escoffier and Xingqiu median damage remain near prior values.",
-      "All six runs 24588–26280 DPS support repeatability."
-    ],
-    "global_change_inference": "Pattern supports a Skirk-specific effect over a uniform global dummy/preset change; not definitive identification or exclusion of every alternative.",
-    "causal_certainty": "Unresolved source, no isolated-variable proof."
+    "cryo_bonus_accounting": {
+      "source_resolved": true,
+      "historical_goblet_bonus_pct": 22.8,
+      "current_goblet_bonus_pct": 46.6,
+      "goblet_enhancement_increase_pp": 23.8,
+      "finale_2pc_bonus_pct": 15.0,
+      "current_cryo_damage_bonus_pct": 61.6,
+      "dummy_display_rounded_pct": 62,
+      "total_cryo_damage_bonus_increase_pp": 38.8,
+      "calculation": "46.6 - 22.8 = 23.8; 46.6 + 15.0 = 61.6; 61.6 - 22.8 = 38.8",
+      "additional_unknown_combat_buff_required": false,
+      "independent_screen_inspection": false
+    },
+    "interpretation": "The benchmark jump is fully consistent with the observed three artifact upgrades plus new set bonus. No unknown combat buff or changed preset is required to explain the Cryo bonus.",
+    "attribution_to_two_finale_artifacts_only": false,
+    "unidentified_cryo_bonus_uncertainty_resolved": true,
+    "remaining_execution_caveat": "No-N5D execution was requested but not explicitly reconfirmed; the goblet correction does not establish an isolated-variable experiment."
   },
   "limitations": [
     "User transcription; no independent inspection of raw result screens/logs.",
-    "Do not assume unresolved bonus comes from Finale or identify an unprovided source.",
     "20s progression remains separate from historical 30s series.",
     "Initial no-N5D execution control remains requested but not explicitly reconfirmed in this report."
+  ],
+  "corrections": [
+    {
+      "source_id": "user-correction-2026-10-22-cryo-goblet",
+      "source_document": "../provenance/2026-10-22-cryo-goblet-correction.md",
+      "evidence_quality": "user_report",
+      "corrected_date": "2026-10-22",
+      "reason": "Existing Cryo goblet enhancement +8→+20 accounts for previously unidentified bonus."
+    }
   ]
 }

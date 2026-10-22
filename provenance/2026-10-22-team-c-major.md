@@ -34,11 +34,11 @@ Anterior comparável: mediana 13.669,5; média 13.396,8; melhor 14.001; pior 11.
 
 Curva mediana padronizada de 20s: 8.182 → 9.999,5 → 13.669,5 → 25.169,5. Não fundir com a série de 30s.
 
-## Incerteza causal obrigatória
+## Causalidade corrigida pelo adendo do usuário
 
-Segundo o usuário, a tela atual do Dummy++ indica aproximadamente 62% Cryo DMG para Skirk; a anterior comparável indicava ~23%. O 2pc Finale só fornece +15 pontos percentuais. Restam aproximadamente 24 pontos adicionais de bônus da Skirk com fonte ainda não identificada: 62 − 23 − 15 ≈ 24. Valores aproximados de tela, não medições de precisão superior.
+O [adendo posterior](2026-10-22-cryo-goblet-correction.md) identifica o cálice Cryo Lavawalker's Epiphany aprimorado +8→+20: 22,8% → 46,6%, ganho de 23,8 pontos. Com 2pc Finale +15,0, o total é 61,6%, arredondado para 62% no Dummy++. A incerteza anterior foi resolvida; não há bônus Cryo sem fonte na interpretação atual.
 
-Os seis resultados são consistentes e repetíveis na transcrição, mas o salto não pode ser atribuído integralmente aos dois artefatos. Classificação: progressão de gear + estado de buffs ativos da Skirk. Crescimento do dano pessoal/maior hit da Skirk, com Escoffier/Xingqiu próximos dos valores anteriores, favorece efeito específico da Skirk sobre uma mudança global uniforme; não identifica a fonte nem prova exclusão de todas as alternativas.
+Os seis resultados permanecem inalterados. Classificação corrigida: três upgrades de artefatos mais ativação de Finale 2pc. O crescimento é plenamente consistente com essa transição observada, sem necessidade de buff de combate desconhecido ou preset alterado. Não atribuir o salto apenas às duas peças Finale, omitindo o cálice.
 
 O plano anterior pediu execução habitual sem introdução intencional de N5D. O novo relato não reconfirma explicitamente essa condição; resultados recebidos, controle de execução ainda não verificado. Não há autorização implícita para declarar que a comparação isolou apenas equipamento.
 

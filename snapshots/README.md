@@ -1,8 +1,8 @@
 # Snapshots
 
-- [Team C — estado do benchmark 22/10](2026-10-22-team-c-benchmark-state.json): níveis e ficha Skirk reconfirmados; Cryo da tela Dummy++ ~62% versus ~23% anterior, com ~24 pontos de bônus adicionais não identificados além do 2pc.
+- [Team C — estado corrigido do benchmark 22/10](2026-10-22-team-c-benchmark-state.json): Cryo 61,6% (62% arredondado), explicado por cálice 46,6% + Finale 2pc 15%; fonte totalmente identificada.
 
-- [Skirk — 2pc Finale 22/10](2026-10-22-skirk-finale.json): artefatos completos nos campos fornecidos e ficha pós-equip; total de Cryo atual desconhecido.
+- [Skirk — três artefatos e 2pc Finale 22/10](2026-10-22-skirk-finale.json): tiara/pluma novas e cálice Cryo +8→+20; ficha corrigida com Cryo 61,6%.
 
 - [Team C — estado parcial 21/10/2026](2026-10-21-team-c.json): níveis/caps dos quatro personagens e Escoffier A4; demais campos não reconfirmados.
 

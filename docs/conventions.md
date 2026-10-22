@@ -50,7 +50,7 @@ Um teste futuro deve registrar: ID imutável, conta/ambiente, data, membros e bu
 - Talentos base/investidos e níveis efetivos em equipe são campos distintos. Em 18/10, Skirk tem 1/8/6 base e Havoc: Warp Lv9 efetivo pelo bônus de +1; nunca substituir E8 base por E9.
 - Resumos anteriores sem runs brutos permanecem resumos, com data e condições não reconfirmadas explicitamente desconhecidas.
 - Na comparação inicial após a transição 2pc Finale de 22/10, manter o estilo de execução habitual; não introduzir intencionalmente N5D dash-cancel recém-aprendido. Se testado depois, registrar como mudança de execução separada. Planos pendentes não são resultados de DPS.
-- Resultados posteriores de 22/10: classificar como gear + estado de buffs ativos da Skirk. Bônus Cryo aproximado da tela Dummy++ ~23% → ~62%, com apenas +15 pontos conhecidos do 2pc; ~24 pontos adicionais permanecem sem fonte. Repetibilidade dos runs não estabelece causalidade exclusiva dos artefatos. Distinguir a instrução de não introduzir N5D de uma confirmação efetiva de execução, ausente no relato dos resultados.
+- Correção dos resultados de 22/10: classificar como três upgrades de artefatos mais Finale 2pc. Cálice Cryo +8→+20 adicionou 23,8 pontos (22,8→46,6%); com 2pc +15 o total é 61,6% (62% arredondado). Bônus antes não identificado totalmente explicado; hipótese de buff desconhecido retirada. Preservar correções no Git e não omitir o cálice na atribuição. Distinguir a instrução de não introduzir N5D de uma confirmação efetiva de execução, ausente no relato dos resultados.
 
 ## Ressalvas históricas da importação
 

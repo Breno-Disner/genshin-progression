@@ -35,6 +35,13 @@ def main():
             for field in ('source_document', 'build_snapshot', 'previous_dataset'):
                 if r.get(field):
                     assert (path.parent / r[field]).exists(), (path, field)
+            for correction in r.get('corrections', []):
+                assert (path.parent / correction['source_document']).exists()
+            accounting = r.get('cryo_bonus_accounting') or r.get('causal_analysis', {}).get('cryo_bonus_accounting')
+            if accounting:
+                assert abs(accounting['current_goblet_bonus_pct'] - accounting['historical_goblet_bonus_pct'] - accounting['goblet_enhancement_increase_pp']) < 1e-9
+                assert abs(accounting['current_goblet_bonus_pct'] + accounting['finale_2pc_bonus_pct'] - accounting['current_cryo_damage_bonus_pct']) < 1e-9
+                assert round(accounting['current_cryo_damage_bonus_pct']) == accounting['dummy_display_rounded_pct']
             if r.get('record_type') == 'benchmark_dataset':
                 runs = r['runs']
                 assert len(runs) >= 3 and r['unchanged_build_within_dataset'], path
