@@ -4,6 +4,7 @@ Resultados transcritos; JSONs não são exports originais do DPS Test Dummy++. D
 
 | Registro | Data/precisão | Métrica | Qualidade |
 | --- | --- | --- | --- |
+| [Team C — Escoffier Lv80, três runs](team-c-2026-10-23-20s.json) | 23/10/2026 | Mediana 26.381; média 26.310,7; +4,81% mediana | Preliminar: 3 vs 6 runs; variação de execução possível |
 | [Team C — três artefatos + 2pc, seis runs](team-c-2026-10-22-20s.json) | 22/10/2026 | Mediana 25.169,5; média 25.332,2; +84,13% mediana | Correção: cálice +8→+20 explica bônus; Cryo total 61,6% |
 | [Team C — plano pós-2pc Finale](team-c-2026-10-22-2pc-finale-plan.json) | 22/10/2026 | Resultados vinculados; controle de execução não reconfirmado | Pedido original: execução habitual, sem introduzir N5D |
 | [Team C — A4 Escoffier, seis runs 20s](team-c-2026-10-21-20s.json) | 21/10/2026 | Mediana 13.669,5 DPS; média 13.396,8; melhor 14.001 | Relato direto; agregado calculado; +36,70% mediana |

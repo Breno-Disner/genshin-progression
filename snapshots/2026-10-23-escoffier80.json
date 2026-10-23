@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-10-23-escoffier80",
+  "source_document": "../provenance/2026-10-23-escoffier80.md",
+  "evidence_quality": "user_report",
+  "recorded_date": "2026-10-23",
+  "event_date": "2026-10-23",
+  "account_scope": "user-reported-progression-account",
+  "team": "C",
+  "team_identity": "skirk-escoffier-xingqiu-dahlia",
+  "record_type": "partial_team_build_snapshot",
+  "id": "team-c-2026-10-23-escoffier80",
+  "characters": [
+    {
+      "name": "Escoffier",
+      "level": 80,
+      "level_cap": 80,
+      "stats": {
+        "atk": 690,
+        "hp": 17350
+      },
+      "talents_normal_skill_burst": null,
+      "weapon": null,
+      "previous_reported_state": {
+        "level": 70,
+        "level_cap": 80,
+        "atk": 662,
+        "hp": 16099,
+        "event_date": null,
+        "source_id": "user-report-2026-10-23-escoffier80"
+      }
+    },
+    {
+      "name": "Skirk",
+      "level": 80,
+      "level_cap": 80,
+      "final_ascension_performed": false,
+      "stats": null,
+      "talents_normal_skill_burst": null,
+      "weapon": null
+    }
+  ],
+  "progression": {
+    "escoffier_level80_achieved": true,
+    "skirk_final_ascension_pending": true
+  },
+  "limitations": [
+    "Only Skirk and Escoffier levels/caps and Escoffier ATK/HP reconfirmed.",
+    "Prior ATK 662 / HP 16099 supplied retrospectively; no exact prior measurement date.",
+    "Other builds and account AR/WL not newly measured. Earlier same-day pending Escoffier goal is historical, now completed."
+  ]
+}

@@ -4,6 +4,7 @@ Importação realizada em 2026-10-15, preservando o histórico inicial do reposi
 
 | source_id | Fonte | Cobertura e limite |
 | --- | --- | --- |
+| user-report-2026-10-23-escoffier80 | [Escoffier Lv80 e três runs](2026-10-23-escoffier80.md) | Novo marco posterior no mesmo dia; mediana 26.381 DPS, comparação preliminar 3 vs 6 runs. |
 | user-report-2026-10-23-account-progression | [Relato de 23/10](2026-10-23-account-progression.md) | AR54/WL7, retrospectiva aproximada do retorno a WL7 e progressão pendente de Escoffier/Skirk; sem benchmark novo. |
 | user-report-2026-10-22-team-c-major | [Seis resultados posteriores de 22/10](2026-10-22-team-c-major.md) | Marco 25.169,5 DPS mediano; atribuição corrigida pelo adendo do cálice. |
 | user-correction-2026-10-22-cryo-goblet | [Correção do cálice Cryo](2026-10-22-cryo-goblet-correction.md) | +8→+20, 22,8→46,6%; com 2pc total 61,6%; bônus antes não identificado totalmente explicado. |

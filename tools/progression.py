@@ -73,12 +73,17 @@ def render(records, root, repo):
                 date = point['date'] or 'Anterior · sem data'
                 url = f'{repo}/blob/main/{point["path"].relative_to(root).as_posix()}'
                 caption = f'Team {team} · {date} · {point["metric"]} {number(point["value"])} DPS · {point["count"]} run(s)'
+                preliminary = point['record'].get('comparison_status') == 'preliminary'
+                if preliminary:
+                    caption += ' · Comparação preliminar; amostras diferentes e possível variação de execução'
                 px, py = x(i, len(points)), y(point['value'])
                 svg.append(f'<a href="{esc(url)}" aria-label="{esc(caption)}" tabindex="0"><title>{esc(caption)}</title><circle cx="{px}" cy="{py}" r="6" fill="{color}" stroke="#101817" stroke-width="2"/></a>')
                 svg.append(f'<text x="{px}" y="{py - 14}" text-anchor="middle" fill="{color}" class="chart-value">{number(point["value"])}</text>')
                 if max_points > 1 or team == sorted(teams)[0]:
                     svg.append(f'<text x="{px}" y="295" text-anchor="middle" class="chart-axis">{esc(date)}</text>')
                 evidence = 'Resumo; runs originais ausentes' if point['summary_only'] else f'{point["count"]} run(s)'
+                if preliminary:
+                    evidence += ' · comparação preliminar; execução pode variar'
                 rows.append(f'<tr><td>Team {team}</td><td>{esc(date)}</td><td>{number(point["value"])}</td><td>{point["metric"]} · {evidence}</td><td><a class="source" href="{esc(url)}">Registro ↗</a></td></tr>')
         svg.append('</svg>')
         note = 'A linha conecta marcos, sem interpolar DPS entre eles. O primeiro resumo não tem data de teste; sua ordem vem do vínculo ao dataset seguinte.' if max_points > 1 else 'A e B têm apenas um resultado bem-sucedido cada. Linhas aparecerão quando houver novos marcos no mesmo protocolo; não extrapolamos uma evolução.'

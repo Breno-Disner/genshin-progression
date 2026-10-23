@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-10-23-escoffier80",
+  "source_document": "../provenance/2026-10-23-escoffier80.md",
+  "evidence_quality": "user_report",
+  "recorded_date": "2026-10-23",
+  "event_date": "2026-10-23",
+  "account_scope": "user-reported-progression-account",
+  "team": "C",
+  "team_identity": "skirk-escoffier-xingqiu-dahlia",
+  "record_type": "benchmark_dataset",
+  "id": "team-c-2026-10-23-20s",
+  "build_snapshot": "../snapshots/2026-10-23-escoffier80.json",
+  "comparison_group": "team-c-20s-abyss12-maguu-kenki100-res10",
+  "series_window_seconds": 20,
+  "comparison_status": "preliminary",
+  "protocol": {
+    "tool": "DPS Test Dummy++",
+    "tool_version": null,
+    "preset": "Abyss 12",
+    "enemy": "Maguu Kenki",
+    "enemy_level": 100,
+    "reported_resistance_pct": 10,
+    "resistance_scope_note": "Reported as 10% RES; elemental/physical breakdown not separately restated.",
+    "duration_seconds": 20.04,
+    "modifiers": [],
+    "automatic_rotation_detection": false,
+    "rotation_details": null
+  },
+  "unchanged_build_within_dataset": true,
+  "raw_capture_available": false,
+  "runs": [
+    {
+      "run": 1,
+      "dps": 26492,
+      "duration_seconds": 20.04,
+      "total_damage": 530864,
+      "max_hit": 34468,
+      "damage_by_character": {
+        "Skirk": 471148,
+        "Escoffier": 37844,
+        "Xingqiu": 19965,
+        "Dahlia": 1907
+      }
+    },
+    {
+      "run": 2,
+      "dps": 26059,
+      "duration_seconds": 20.04,
+      "total_damage": 522206,
+      "max_hit": 34468,
+      "damage_by_character": {
+        "Skirk": 463554,
+        "Escoffier": 37904,
+        "Xingqiu": 19154,
+        "Dahlia": 1594
+      }
+    },
+    {
+      "run": 3,
+      "dps": 26381,
+      "duration_seconds": 20.04,
+      "total_damage": 528650,
+      "max_hit": 31363,
+      "damage_by_character": {
+        "Skirk": 470874,
+        "Escoffier": 36225,
+        "Xingqiu": 19957,
+        "Dahlia": 1594
+      }
+    }
+  ],
+  "aggregate": {
+    "evidence_quality": "derived",
+    "run_count": 3,
+    "median_dps": 26381,
+    "mean_dps": 26310.666666666668,
+    "mean_dps_rounded_1dp": 26310.7,
+    "best_dps": 26492,
+    "worst_dps": 26059,
+    "range_dps": 433,
+    "representative_statistic": "median"
+  },
+  "previous_dataset": "team-c-2026-10-22-20s.json",
+  "progression": {
+    "classification": "escoffier_level80_team_state_preliminary",
+    "previous_median_dps": 25169.5,
+    "current_median_dps": 26381,
+    "median_increase_pct_rounded_1dp": 4.8,
+    "median_increase_pct_rounded_2dp": 4.81,
+    "mean_increase_pct_rounded_2dp": 3.86,
+    "character_median_damage": {
+      "Escoffier": {
+        "previous": 33110,
+        "current": 37844,
+        "increase_pct_rounded_2dp": 14.3
+      }
+    },
+    "known_change": "Escoffier 70/80 → 80/80, ATK 662→690, HP 16099→17350; Skirk remains 80/80.",
+    "causal_attribution_to_level_increase_alone": false
+  },
+  "limitations": [
+    "Only 3 new runs versus 6 previous runs; observed team improvement preliminary.",
+    "Personal damage variation may reflect execution; do not assign all gains to Escoffier levels.",
+    "No independent capture/log inspection.",
+    "Skirk final ascension remains pending.",
+    "No new execution/N5D confirmation; historical 30s series remains separate."
+  ]
+}
