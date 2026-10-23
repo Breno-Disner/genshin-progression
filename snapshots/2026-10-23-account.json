@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "record_type": "partial_account_progression_snapshot",
+  "id": "account-2026-10-23",
+  "source_id": "user-report-2026-10-23-account-progression",
+  "source_document": "../provenance/2026-10-23-account-progression.md",
+  "evidence_quality": "user_report",
+  "recorded_date": "2026-10-23",
+  "event_date": "2026-10-23",
+  "account_scope": "user-reported-progression-account",
+  "account": {
+    "adventure_rank": 54,
+    "world_level": 7
+  },
+  "overworld": {
+    "assessment": "Consistently very easy; almost too easy according to user.",
+    "need_to_lower_world_level_again": false,
+    "assessment_type": "qualitative_user_gameplay_report"
+  },
+  "retrospective_world_level_event": {
+    "event": "Restored World Level to 7 after Team C began performing comfortably.",
+    "event_date": null,
+    "approximate_event_date": "2026-10-16",
+    "date_precision": "approximately one week before 2026-10-23; not exact",
+    "recorded_date": "2026-10-23",
+    "world_level_after": 7,
+    "previous_world_level": null,
+    "chronology": "Before major Skirk artifact improvements on 2026-10-22.",
+    "interpretation": "Team C had overcome the earlier overworld difficulty bottleneck before the latest 25169.5 median DPS benchmark.",
+    "measurement_type": "qualitative_gameplay_milestone",
+    "dps": null
+  },
+  "team_c_progression": {
+    "Escoffier": {
+      "current_level": null,
+      "level_80_achieved": false,
+      "progress_description": "Approaching Lv80; not reached.",
+      "recent_resin_spent_on_progression": true,
+      "resin_amount": null
+    },
+    "Skirk": {
+      "final_ascension_performed": false,
+      "final_ascension_materials": "Nearly complete; quantities and exact missing materials not supplied.",
+      "remaining_material_quantities": null
+    }
+  },
+  "next_milestones": [
+    {
+      "goal": "Adventure Rank 55",
+      "achieved": false
+    },
+    {
+      "goal": "World Level 8",
+      "achieved": false
+    },
+    {
+      "goal": "Escoffier Lv80",
+      "achieved": false
+    },
+    {
+      "goal": "Skirk final ascension 80/90",
+      "achieved": false
+    }
+  ],
+  "latest_confirmed_benchmark": {
+    "dataset": "../benchmarks/team-c-2026-10-22-20s.json",
+    "event_date": "2026-10-22",
+    "team": "C",
+    "series_window_seconds": 20,
+    "median_dps": 25169.5,
+    "new_measurement": false
+  },
+  "limitations": [
+    "No new standardized benchmark or inferred DPS point.",
+    "Retrospective WL7 restoration date remains approximate; no exact October 16 event asserted.",
+    "Escoffier exact current level and material counts not supplied.",
+    "Unfinished levels, ascensions and AR55/WL8 remain goals, not achievements.",
+    "No other build, currency or pity updates inferred."
+  ]
+}

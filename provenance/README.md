@@ -4,6 +4,7 @@ Importação realizada em 2026-10-15, preservando o histórico inicial do reposi
 
 | source_id | Fonte | Cobertura e limite |
 | --- | --- | --- |
+| user-report-2026-10-23-account-progression | [Relato de 23/10](2026-10-23-account-progression.md) | AR54/WL7, retrospectiva aproximada do retorno a WL7 e progressão pendente de Escoffier/Skirk; sem benchmark novo. |
 | user-report-2026-10-22-team-c-major | [Seis resultados posteriores de 22/10](2026-10-22-team-c-major.md) | Marco 25.169,5 DPS mediano; atribuição corrigida pelo adendo do cálice. |
 | user-correction-2026-10-22-cryo-goblet | [Correção do cálice Cryo](2026-10-22-cryo-goblet-correction.md) | +8→+20, 22,8→46,6%; com 2pc total 61,6%; bônus antes não identificado totalmente explicado. |
 | user-report-2026-10-22-skirk-finale | [Relato 2pc Finale 22/10](2026-10-22-skirk-finale.md) | Dois artefatos, ficha pós-equip e plano de comparação sem N5D; sem DPS novo. |
