@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-10-26-27-team-c",
+  "source_document": "../provenance/2026-10-26-27-team-c.md",
+  "evidence_quality": "user_report",
+  "recorded_date": "2026-10-26",
+  "event_date": null,
+  "event_date_range": {
+    "start": "2026-10-26",
+    "end": "2026-10-27",
+    "precision": "User-supplied session range; individual run dates not supplied."
+  },
+  "event_date_label": "26–27/10/2026",
+  "account_scope": "user-reported-progression-account",
+  "team": "C",
+  "team_identity": "skirk-escoffier-xingqiu-dahlia",
+  "record_type": "partial_team_build_snapshot",
+  "id": "team-c-2026-10-26-27",
+  "characters": [
+    {
+      "name": "Skirk",
+      "level": 90,
+      "level_cap": null,
+      "final_ascension_performed": true,
+      "ascension_evidence": "Lv90 reported; final ascension is necessarily completed, exact ascension date unknown.",
+      "stats": {
+        "hp": 20302,
+        "atk": 1965,
+        "def": 1039,
+        "crit_rate_pct": 92,
+        "crit_damage_pct": 172,
+        "energy_recharge_pct": 131,
+        "cryo_damage_bonus_pct": 62,
+        "em": null
+      },
+      "stat_precision": "Percentages preserved exactly as reported; no more precise hidden values inferred.",
+      "talents_normal_skill_burst": null,
+      "weapon": null
+    },
+    {
+      "name": "Escoffier",
+      "level": 80,
+      "level_cap": null,
+      "stats": null
+    },
+    {
+      "name": "Xingqiu",
+      "level": 60,
+      "level_cap": null,
+      "stats": null
+    },
+    {
+      "name": "Dahlia",
+      "level": 49,
+      "level_cap": null,
+      "stats": null
+    }
+  ],
+  "limitations": [
+    "Session reported as October 26–27; exact run/build measurement day unknown.",
+    "Level caps, constellations, talents, weapons and current artifact details not supplied.",
+    "Skirk percent values may be display-rounded; do not replace earlier 61.6% exact Cryo bonus with a retroactive 62%.",
+    "Skirk final ascension previously pending is now completed as implied by reported Lv90; no completion day invented."
+  ]
+}

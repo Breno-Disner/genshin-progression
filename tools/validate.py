@@ -46,7 +46,8 @@ def main():
                 runs = r['runs']
                 assert len(runs) >= 3 and r['unchanged_build_within_dataset'], path
                 for run in runs:
-                    assert sum(run['damage_by_character'].values()) == run['total_damage'], (path, run['run'])
+                    if run.get('damage_by_character') is not None:
+                        assert sum(run['damage_by_character'].values()) == run['total_damage'], (path, run['run'])
                     assert abs(run['total_damage'] / run['duration_seconds'] - run['dps']) / run['dps'] < 0.002
                 values = [run['dps'] for run in runs]
                 aggregate = r['aggregate']

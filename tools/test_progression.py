@@ -40,6 +40,9 @@ class ProgressionTests(unittest.TestCase):
         self.assertIn('Valores, evidência e fontes', output)
         self.assertIn('sem escala temporal', output)
         self.assertIn('Anterior · sem data', output)
+        for _, record in self.records:
+            if record.get('record_type') == 'benchmark_dataset' and record.get('event_date_label'):
+                self.assertIn(record['event_date_label'], output)
         self.assertIn('Team A · 1 marco(s)', output)
         self.assertIn('Team B · 1 marco(s)', output)
         # Only C has sufficient observations for a connecting line.

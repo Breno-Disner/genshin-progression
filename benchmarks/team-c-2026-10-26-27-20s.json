@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-10-26-27-team-c",
+  "source_document": "../provenance/2026-10-26-27-team-c.md",
+  "evidence_quality": "user_report",
+  "recorded_date": "2026-10-26",
+  "event_date": null,
+  "event_date_range": {
+    "start": "2026-10-26",
+    "end": "2026-10-27",
+    "precision": "User-supplied session range; individual run dates not supplied."
+  },
+  "event_date_label": "26–27/10/2026",
+  "account_scope": "user-reported-progression-account",
+  "team": "C",
+  "team_identity": "skirk-escoffier-xingqiu-dahlia",
+  "record_type": "benchmark_dataset",
+  "id": "team-c-2026-10-26-27-20s",
+  "build_snapshot": "../snapshots/2026-10-26-27-team-c.json",
+  "comparison_group": "team-c-20s-abyss12-maguu-kenki100-res10",
+  "series_window_seconds": 20,
+  "baseline_status": "latest_standardized_team_c_baseline",
+  "protocol": {
+    "tool": "DPS Test Dummy++",
+    "tool_version": null,
+    "preset": "Abyss 12",
+    "enemy": "Maguu Kenki",
+    "enemy_level": 100,
+    "resistance_all_elements_pct": 10,
+    "physical_resistance_pct": null,
+    "duration_seconds": 20.04,
+    "modifiers": [],
+    "automatic_rotation_detection": false,
+    "rotation_details": null
+  },
+  "unchanged_build_within_dataset": true,
+  "raw_capture_available": false,
+  "runs": [
+    {
+      "run": 1,
+      "dps": 28038,
+      "total_damage": 561854,
+      "max_hit": 38145,
+      "duration_seconds": 20.04,
+      "damage_by_character": null
+    },
+    {
+      "run": 2,
+      "dps": 28597,
+      "total_damage": 573088,
+      "max_hit": 38145,
+      "duration_seconds": 20.04,
+      "damage_by_character": null
+    },
+    {
+      "run": 3,
+      "dps": 26656,
+      "total_damage": 534168,
+      "max_hit": 38145,
+      "duration_seconds": 20.04,
+      "damage_by_character": null
+    },
+    {
+      "run": 4,
+      "dps": 27265,
+      "total_damage": 546369,
+      "max_hit": 38145,
+      "duration_seconds": 20.04,
+      "damage_by_character": null
+    },
+    {
+      "run": 5,
+      "dps": 28907,
+      "total_damage": 579271,
+      "max_hit": 38145,
+      "duration_seconds": 20.04,
+      "damage_by_character": null
+    },
+    {
+      "run": 6,
+      "dps": 28005,
+      "total_damage": 561218,
+      "max_hit": 38145,
+      "duration_seconds": 20.04,
+      "damage_by_character": null
+    }
+  ],
+  "aggregate": {
+    "evidence_quality": "derived",
+    "run_count": 6,
+    "median_dps": 28021.5,
+    "mean_dps": 27911.333333333332,
+    "mean_dps_rounded_1dp": 27911.3,
+    "best_dps": 28907,
+    "worst_dps": 26656,
+    "range_dps": 2251,
+    "representative_statistic": "median"
+  },
+  "previous_dataset": "team-c-2026-10-23-20s.json",
+  "progression": {
+    "classification": "team_state_multiple_changed_variables",
+    "previous_median_dps": 26381,
+    "current_median_dps": 28021.5,
+    "median_increase_pct_rounded_1dp": 6.2,
+    "median_increase_pct_rounded_2dp": 6.22,
+    "mean_increase_pct_rounded_2dp": 6.08,
+    "strongest_hit": {
+      "previous": 34468,
+      "current": 38145,
+      "increase_pct_rounded_2dp": 10.67
+    },
+    "changed_variables": [
+      "Skirk level 80→90",
+      "Skirk reported CRIT DMG now 172% versus last recorded 162%",
+      "Dahlia level 40→49"
+    ],
+    "causal_attribution_to_skirk_level90_alone": false,
+    "previous_run_count": 3,
+    "current_run_count": 6
+  },
+  "future_experiment": {
+    "type": "N5D dash-cancel",
+    "status": "candidate_baseline_only",
+    "baseline_dataset": "team-c-2026-10-26-27-20s",
+    "candidate_baseline_median_dps": 28021.5,
+    "experiment_completed": false,
+    "current_n5d_usage_confirmed": null,
+    "control": "Freeze gear/team state and dummy protocol; record baseline execution explicitly, then test N5D separately with multiple runs and medians."
+  },
+  "limitations": [
+    "No character contribution data supplied; null means unknown, not zero.",
+    "Six current runs versus three previous runs; different sample sizes.",
+    "Multiple changed variables: do not attribute all gains solely to Skirk Lv90.",
+    "No completed N5D experiment or explicit current execution confirmation.",
+    "Historical 30s series remains separate; exact dates per run unknown."
+  ]
+}

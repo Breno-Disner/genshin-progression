@@ -20,6 +20,7 @@ def series(records):
         if value is None:
             continue
         point = {'id': record['id'], 'team': team, 'date': record.get('event_date'),
+                 'date_label': record.get('event_date_label'),
                  'value': value, 'count': stats.get('run_count', 1),
                  'metric': 'Mediana' if 'median_dps' in stats else 'Run único',
                  'summary_only': kind == 'benchmark_dataset_summary',
@@ -70,7 +71,7 @@ def render(records, root, repo):
                 coordinates = ' '.join(f'{x(i, len(points))},{y(point["value"])}' for i, point in enumerate(points))
                 svg.append(f'<polyline fill="none" stroke="{color}" stroke-width="3" points="{coordinates}"/>')
             for i, point in enumerate(points):
-                date = point['date'] or 'Anterior · sem data'
+                date = point['date_label'] or point['date'] or 'Anterior · sem data'
                 url = f'{repo}/blob/main/{point["path"].relative_to(root).as_posix()}'
                 caption = f'Team {team} · {date} · {point["metric"]} {number(point["value"])} DPS · {point["count"]} run(s)'
                 preliminary = point['record'].get('comparison_status') == 'preliminary'
