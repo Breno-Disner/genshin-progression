@@ -6,6 +6,7 @@ Registro canônico de progressão da conta documentada no Diário de Eventos. A 
 
 - [Dashboard](https://breno-disner.github.io/genshin-progression/): diário pesquisável, snapshots e benchmarks, atualizado automaticamente a cada push em `main`. Veja [como visualizar e publicar](docs/dashboard.md).
 - [Setembro de 2026](diary/2026-09.md) e [outubro de 2026](diary/2026-10.md): entradas datadas integrais.
+- [Novembro de 2026](diary/2026-11.md): preparação e invocações de Furina, com pity/garantia ainda pendentes.
 - [Snapshots](snapshots/README.md): observações estruturadas, baseline e pré-farm.
 - [Benchmarks](benchmarks/README.md): resultados das Teams A, B e C, com métricas e escopos separados.
 - [Convenções](docs/conventions.md): qualidade da evidência, datas, campos desconhecidos e comparabilidade.
@@ -25,4 +26,4 @@ Valores não informados são desconhecidos, nunca zero. Planos não confirmam po
 
 Com Python 3: `python tools/import_diary.py`. O script reconstrói as duas páginas mensais, a transcrição por parágrafo e os snapshots parciais a partir do DOCX arquivado. Ele não altera benchmarks nem fontes. Valide com `python tools/validate.py`.
 
-Não há OCR novo, consulta à conta do jogo ou atualização de estado atual implícita nesta importação. O último dia da importação é 2026-10-12; o diário inclui atualizações posteriores com fonte própria, atualmente com relato recebido em 2026-10-26 para a sessão de 26–27/10.
+Não há OCR novo ou consulta à conta do jogo implícita nesta importação. O último dia da importação original é 2026-10-12; o diário inclui atualizações posteriores com fonte própria, atualmente até 2026-11-04.

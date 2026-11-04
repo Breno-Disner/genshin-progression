@@ -1,5 +1,7 @@
 # Snapshots
 
+- [Furina C0 — sessão de 04/11](2026-11-04-furina-session.json): AR55/WL8, recursos antes/depois, aquisições e desejos derivados; pity exato/final e garantia pós-sessão pendentes. Bennett continua planejado.
+
 - [Team C — 26–27/10](2026-10-26-27-team-c.json): Skirk Lv90, Escoffier Lv80, Xingqiu Lv60, Dahlia Lv49; stats parciais da Skirk e intervalo de data explícito.
 
 - [Escoffier Lv80 — atualização posterior em 23/10](2026-10-23-escoffier80.json): Lv80/80 confirmado, ATQ 690, HP 17.350; Skirk 80/80, ascensão final pendente. Conclui a meta de Escoffier que ainda estava pendente no relato anterior do dia.

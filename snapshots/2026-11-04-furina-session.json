@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "record_type": "wishing_session_snapshot",
+  "id": "furina-c0-2026-11-04",
+  "source_id": "user-report-2026-11-04-furina",
+  "source_document": "../provenance/2026-11-04-furina.md",
+  "evidence_quality": "user_report",
+  "recorded_date": "2026-11-04",
+  "event_date": "2026-11-04",
+  "account_scope": "user-reported-progression-account",
+  "account": {
+    "adventure_rank": 55,
+    "world_level": 8
+  },
+  "session": {
+    "banner_type": "limited_character",
+    "goal": "Furina C0",
+    "goal_completed": true,
+    "ended_immediately_after_furina": true,
+    "capturing_radiance_animation_observed": true,
+    "animation_details": null,
+    "furina_reported_pity_band": "70–80",
+    "furina_exact_pity": null,
+    "final_pity": null,
+    "final_promotional_guarantee": null,
+    "verification_needed": "Wish history and additional confirmation; resource-derived wish count does not establish exact 5★ position."
+  },
+  "resources_before": {
+    "primogems": 15200,
+    "intertwined_fates": 3,
+    "starglitter": 80,
+    "limited_pity": 4,
+    "promotional_guaranteed": false,
+    "bennett_reserved_starglitter": 34
+  },
+  "resources_after": {
+    "primogems": 3520,
+    "intertwined_fates": 0,
+    "starglitter": 94,
+    "bennett_reserved_starglitter": 34,
+    "starglitter_available_after_reservation": 60
+  },
+  "resource_changes": {
+    "primogems": -11680,
+    "intertwined_fates": -3,
+    "starglitter": 14,
+    "starglitter_spent": 0,
+    "genesis_crystal_purchases_reported": false
+  },
+  "derived_cost": {
+    "evidence_quality": "derived",
+    "primogem_cost_per_wish": 160,
+    "wishes_from_primogems": 73,
+    "wishes_from_fates": 3,
+    "total_wishes": 76,
+    "primogem_equivalent_consumed": 12160,
+    "remaining_primogem_wish_equivalent": 22,
+    "formula": "(15200-3520)/160 + (3-0) = 76; 76*160 = 12160; 3520/160 = 22",
+    "precision": "Resource-derived count, not verified wish history."
+  },
+  "wish_bands": [
+    {
+      "pity_band_label": "4–10",
+      "relevant_results": [],
+      "exact_wish_positions": null
+    },
+    {
+      "pity_band_label": "10–20",
+      "relevant_results": [
+        "Rosaria C0"
+      ],
+      "exact_wish_positions": null
+    },
+    {
+      "pity_band_label": "20–30",
+      "relevant_results": [
+        "Charlotte C0",
+        "Valery C0"
+      ],
+      "exact_wish_positions": null
+    },
+    {
+      "pity_band_label": "30–40",
+      "relevant_results": [
+        "Valery C1"
+      ],
+      "exact_wish_positions": null
+    },
+    {
+      "pity_band_label": "40–50",
+      "relevant_results": [
+        "Rosaria C1",
+        "Espadão do Sacrifício (4★)"
+      ],
+      "exact_wish_positions": null
+    },
+    {
+      "pity_band_label": "50–60",
+      "relevant_results": [
+        "Charlotte C1"
+      ],
+      "exact_wish_positions": null
+    },
+    {
+      "pity_band_label": "60–70",
+      "relevant_results": [
+        "Valery C2",
+        "O Sino (4★)"
+      ],
+      "exact_wish_positions": null
+    },
+    {
+      "pity_band_label": "70–80",
+      "relevant_results": [
+        "Charlotte C2",
+        "Furina C0 (5★)"
+      ],
+      "exact_wish_positions": null
+    }
+  ],
+  "characters": [
+    {
+      "name": "Furina",
+      "owned_before": false,
+      "owned_after": true,
+      "constellation_after": 0,
+      "level": null,
+      "talents_normal_skill_burst": null,
+      "weapon": null,
+      "stats": null
+    },
+    {
+      "name": "Rosaria",
+      "owned_before": false,
+      "owned_after": true,
+      "constellation_after": 1,
+      "level": null,
+      "talents_normal_skill_burst": null,
+      "weapon": null,
+      "stats": null
+    },
+    {
+      "name": "Charlotte",
+      "owned_before": false,
+      "owned_after": true,
+      "constellation_after": 2,
+      "level": null,
+      "talents_normal_skill_burst": null,
+      "weapon": null,
+      "stats": null
+    },
+    {
+      "name": "Valery",
+      "owned_before": false,
+      "owned_after": true,
+      "constellation_after": 2,
+      "level": null,
+      "talents_normal_skill_burst": null,
+      "weapon": null,
+      "stats": null
+    }
+  ],
+  "acquisition_totals": {
+    "new_characters": 4,
+    "constellation_upgrades_beyond_c0": 5
+  },
+  "confirmed_four_star_weapons": [
+    {
+      "name": "Espadão do Sacrifício",
+      "copies_obtained": 1
+    },
+    {
+      "name": "O Sino",
+      "copies_obtained": 1
+    }
+  ],
+  "other_four_star_weapons": null,
+  "bennett": {
+    "constellation_goal": 0,
+    "acquired": false,
+    "status": "planned",
+    "reserved_starglitter": 34
+  },
+  "preparation_timeline": [
+    {
+      "event_date": "2026-10-29",
+      "primogems": 6173,
+      "qualifier": "exact reported balance"
+    },
+    {
+      "event_date": "2026-11-01",
+      "primogems": null,
+      "lower_bound_exclusive": 10000,
+      "qualifier": "exceeded 10000; exact balance unknown"
+    },
+    {
+      "event_date": "2026-11-02",
+      "primogems": 12600,
+      "qualifier": "approximate"
+    },
+    {
+      "event_date": "2026-11-03",
+      "primogems": 14410,
+      "qualifier": "exact reported balance"
+    },
+    {
+      "event_date": "2026-11-04",
+      "primogems": 15200,
+      "qualifier": "immediately before wishes"
+    }
+  ],
+  "preparation_context": {
+    "major_source": "Snezhnaya exploration",
+    "last_primogem_increase": 790,
+    "server_update_and_associated_rewards_approx": 600,
+    "oct29_to_nov4_balance_increase": 9027,
+    "net_balance_change_not_gross_earnings": true
+  },
+  "pending_verification": [
+    "Exact wish where Furina was obtained",
+    "Final pity after Furina",
+    "Promotional guarantee after session",
+    "Additional Capturing Radiance details if needed"
+  ],
+  "limitations": [
+    "User-provided session report; no wish-history or screenshot inspection.",
+    "Pity bands are interval descriptions, not exact wish IDs.",
+    "Keep final pity and guarantee unknown despite session ending immediately after Furina and observed animation.",
+    "Bennett remains planned; reservation is not a purchase.",
+    "Historical resource observations recorded retrospectively on November 4.",
+    "No new benchmark, inferred DPS or Team C composition update."
+  ]
+}
