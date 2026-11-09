@@ -34,7 +34,9 @@ def series(records):
                 seen = (seen or set()) | {point['id']}
                 prior = by_file.get(point['record'].get('previous_dataset'))
                 return 1 + depth(prior, seen) if prior and prior['id'] not in seen else 0
-            points.sort(key=lambda point: (depth(point), point['date'] or '', point['id']))
+            points.sort(key=lambda point: (
+                point['date'] or (point['record'].get('event_date_range') or {}).get('start', ''),
+                depth(point), point['id']))
     return groups
 
 

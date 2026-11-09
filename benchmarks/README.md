@@ -4,6 +4,7 @@ Resultados transcritos; JSONs não são exports originais do DPS Test Dummy++. D
 
 | Registro | Data/precisão | Métrica | Qualidade |
 | --- | --- | --- | --- |
+| [Team C — integração inicial da Furina](team-c-2026-11-04-furina-20s.json) | 04/11/2026 | Mediana 31.708 DPS; seis runs | Histórico; +4,13% sobre o [resumo Xingqiu](team-c-xingqiu-pre-furina-summary.json) |
 | [Team C — baseline atual, seis runs](team-c-2026-10-26-27-20s.json) | 26–27/10/2026 | Mediana 28.021,5; média 27.911,3; +6,22% mediana | Múltiplas variáveis; candidato a baseline futuro de N5D |
 | [Team C — Escoffier Lv80, três runs](team-c-2026-10-23-20s.json) | 23/10/2026 | Mediana 26.381; média 26.310,7; +4,81% mediana | Preliminar: 3 vs 6 runs; variação de execução possível |
 | [Team C — três artefatos + 2pc, seis runs](team-c-2026-10-22-20s.json) | 22/10/2026 | Mediana 25.169,5; média 25.332,2; +84,13% mediana | Correção: cálice +8→+20 explica bônus; Cryo total 61,6% |

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-11-09-recovered-furina",
+  "source_document": "../provenance/2026-11-04-furina-benchmark.md",
+  "evidence_quality": "user_report",
+  "recorded_date": "2026-11-09",
+  "event_date": null,
+  "team": "C",
+  "id": "team-c-xingqiu-pre-furina-summary",
+  "record_type": "benchmark_dataset_summary",
+  "series_window_seconds": 20,
+  "summary": {
+    "run_count": 6,
+    "median_dps": 30450
+  },
+  "members": [
+    {
+      "name": "Skirk",
+      "constellation": 0
+    },
+    {
+      "name": "Escoffier",
+      "constellation": 0
+    },
+    {
+      "name": "Xingqiu",
+      "constellation": 4
+    },
+    {
+      "name": "Dahlia",
+      "constellation": 0
+    }
+  ],
+  "runs": null,
+  "limitations": [
+    "Reported comparable reference; exact date, individual trials and independent protocol details unavailable. Excluded from the dated progression chart."
+  ]
+}

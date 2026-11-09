@@ -32,8 +32,14 @@ class ProgressionTests(unittest.TestCase):
         points = series(self.records)['team-c-20s-abyss12-maguu-kenki100-res10']['C']
         self.assertIsNone(points[0]['date'])
         self.assertTrue(points[0]['summary_only'])
-        for earlier, later in zip(points, points[1:]):
-            self.assertEqual(later['record']['previous_dataset'], earlier['path'].name)
+        positions = {point['path'].name: i for i, point in enumerate(points)}
+        for i, point in enumerate(points):
+            prior = point['record'].get('previous_dataset')
+            if prior in positions:
+                self.assertLess(positions[prior], i)
+        dates = [p['date'] or p['record'].get('event_date_range', {}).get('start')
+                 for p in points[1:]]
+        self.assertEqual(dates, sorted(dates))
 
     def test_source_table_and_single_point_teams(self):
         output = render(self.records, ROOT, 'https://example.com/repo')

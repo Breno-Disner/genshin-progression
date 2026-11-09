@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-11-09-recovered-furina",
+  "source_document": "../provenance/2026-11-04-furina-benchmark.md",
+  "evidence_quality": "user_report",
+  "recorded_date": "2026-11-09",
+  "event_date": "2026-11-04",
+  "team": "C",
+  "id": "furina-initial-integration",
+  "record_type": "partial_team_build_snapshot",
+  "account": {
+    "adventure_rank": 55,
+    "world_level": 8
+  },
+  "characters": [
+    {
+      "name": "Skirk",
+      "constellation": 0
+    },
+    {
+      "name": "Escoffier",
+      "constellation": 0
+    },
+    {
+      "name": "Furina",
+      "constellation": 0,
+      "level": 44,
+      "weapon": {
+        "name": "Splendor of Tranquil Waters",
+        "level": 60,
+        "refinement": 1
+      },
+      "talents_normal_skill_burst": [
+        1,
+        1,
+        1
+      ],
+      "stats": {
+        "hp": 9281,
+        "crit_rate_pct": 24.3,
+        "crit_damage_pct": 142.3,
+        "energy_recharge_pct": 133.3,
+        "hydro_damage_bonus_pct": 38.7
+      },
+      "artifacts": {
+        "provisional_mismatched": true,
+        "pieces_at_plus_zero": 3,
+        "hydro_goblet_enhancement": 16,
+        "complete_four_piece_golden_troupe": false,
+        "other_details": null
+      }
+    },
+    {
+      "name": "Dahlia",
+      "constellation": 0
+    }
+  ]
+}

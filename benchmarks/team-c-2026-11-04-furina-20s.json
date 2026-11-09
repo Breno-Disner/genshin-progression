@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-11-09-recovered-furina",
+  "source_document": "../provenance/2026-11-04-furina-benchmark.md",
+  "evidence_quality": "user_report",
+  "recorded_date": "2026-11-09",
+  "event_date": "2026-11-04",
+  "team": "C",
+  "id": "team-c-2026-11-04-furina-20s",
+  "record_type": "benchmark_dataset",
+  "baseline_status": "historical_initial_furina_integration",
+  "build_snapshot": "../snapshots/2026-11-04-furina-benchmark.json",
+  "comparison_group": "team-c-20s-abyss12-maguu-kenki100-res10",
+  "series_window_seconds": 20,
+  "protocol": {
+    "tool": "DPS Test Dummy++",
+    "preset": "Abyss 12",
+    "enemy": "Maguu Kenki",
+    "enemy_level": 100,
+    "resistance_all_elements_pct": 10,
+    "duration_seconds": 20.04,
+    "modifiers": null,
+    "automatic_rotation_detection": null,
+    "rotation_details": null
+  },
+  "unchanged_build_within_dataset": true,
+  "raw_capture_available": false,
+  "runs": [
+    {
+      "run": 1,
+      "dps": 31937,
+      "total_damage": 640018,
+      "max_hit": 40698,
+      "duration_seconds": 20.04,
+      "damage_by_character": null
+    },
+    {
+      "run": 2,
+      "dps": 28898,
+      "total_damage": 579096,
+      "max_hit": 40745,
+      "duration_seconds": 20.04,
+      "damage_by_character": null
+    },
+    {
+      "run": 3,
+      "dps": 30680,
+      "total_damage": 614848,
+      "max_hit": 40842,
+      "duration_seconds": 20.04,
+      "damage_by_character": null
+    },
+    {
+      "run": 4,
+      "dps": 31479,
+      "total_damage": 630799,
+      "max_hit": 40655,
+      "duration_seconds": 20.04,
+      "damage_by_character": null
+    },
+    {
+      "run": 5,
+      "dps": 32506,
+      "total_damage": 651380,
+      "max_hit": 40782,
+      "duration_seconds": 20.04,
+      "damage_by_character": null
+    },
+    {
+      "run": 6,
+      "dps": 33672,
+      "total_damage": 674753,
+      "max_hit": 41079,
+      "duration_seconds": 20.04,
+      "damage_by_character": null
+    }
+  ],
+  "aggregate": {
+    "run_count": 6,
+    "median_dps": 31708,
+    "mean_dps": 31528.666666666668,
+    "mean_dps_rounded_1dp": 31528.7,
+    "best_dps": 33672,
+    "worst_dps": 28898,
+    "range_dps": 4774,
+    "mean_total_damage": 631815.6666666666,
+    "median_total_damage": 635408.5,
+    "max_hit": 41079
+  },
+  "reported_rounded_summary": {
+    "mean_dps": 31529,
+    "mean_total_damage": 631816,
+    "median_total_damage": 635409
+  },
+  "previous_dataset": "team-c-xingqiu-pre-furina-summary.json",
+  "progression": {
+    "classification": "historical_initial_furina_integration",
+    "previous_median_dps": 30450,
+    "current_median_dps": 31708,
+    "median_increase_dps": 1258,
+    "median_increase_pct_rounded_1dp": 4.1,
+    "median_increase_pct_rounded_2dp": 4.13
+  },
+  "approximate_damage_share_pct": {
+    "Skirk": [
+      89,
+      90
+    ],
+    "Escoffier": 5,
+    "Furina": [
+      3,
+      5
+    ],
+    "Dahlia": 1
+  },
+  "limitations": [
+    "Approximate shares are not per-run breakdowns.",
+    "No extended rotation consistency or survivability measurement.",
+    "Initial historical baseline; no November 9 results imported."
+  ]
+}
