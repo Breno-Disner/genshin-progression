@@ -1,5 +1,7 @@
 # Snapshots
 
+- [Team C — 09/11](2026-11-09-team-c.json): quatro builds do Battle Chronicle, incluindo os sets incompletos de Skirk e Furina.
+
 - [Furina C0 — sessão de 04/11](2026-11-04-furina-session.json): AR55/WL8, recursos antes/depois, aquisições e desejos derivados; pity exato/final e garantia pós-sessão pendentes. Bennett continua planejado.
 
 - [Team C — 26–27/10](2026-10-26-27-team-c.json): Skirk Lv90, Escoffier Lv80, Xingqiu Lv60, Dahlia Lv49; stats parciais da Skirk e intervalo de data explícito.

@@ -26,4 +26,4 @@ Valores não informados são desconhecidos, nunca zero. Planos não confirmam po
 
 Com Python 3: `python tools/import_diary.py`. O script reconstrói as duas páginas mensais, a transcrição por parágrafo e os snapshots parciais a partir do DOCX arquivado. Ele não altera benchmarks nem fontes. Valide com `python tools/validate.py`.
 
-Não há OCR novo ou consulta à conta do jogo implícita nesta importação. O último dia da importação original é 2026-10-12; o diário inclui atualizações posteriores com fonte própria, atualmente até 2026-11-04.
+Não há OCR novo ou consulta à conta do jogo implícita nesta importação. O último dia da importação original é 2026-10-12; o diário inclui atualizações posteriores com fonte própria, atualmente até 2026-11-09.

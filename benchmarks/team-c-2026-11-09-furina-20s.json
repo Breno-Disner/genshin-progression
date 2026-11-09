@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-11-09-team-c",
+  "source_document": "../provenance/2026-11-09-team-c.md",
+  "evidence_quality": "user_report",
+  "recorded_date": "2026-11-09",
+  "event_date": "2026-11-09",
+  "account_scope": "user-reported-progression-account",
+  "team": "C",
+  "team_identity": "skirk-escoffier-furina-dahlia",
+  "id": "team-c-2026-11-09-furina-20s",
+  "record_type": "benchmark_dataset",
+  "baseline_status": "latest_standardized_team_c_baseline",
+  "build_snapshot": "../snapshots/2026-11-09-team-c.json",
+  "comparison_group": "team-c-20s-abyss12-maguu-kenki100-res10",
+  "series_window_seconds": 20,
+  "protocol": {
+    "tool": "DPS Test Dummy++",
+    "preset": "Abyss 12",
+    "enemy": "Maguu Kenki",
+    "enemy_level": 100,
+    "resistance_all_elements_pct": 10,
+    "duration_seconds": 20.04,
+    "modifiers_displayed": [],
+    "automatic_rotation_detection": false,
+    "rotation_details": null
+  },
+  "unchanged_build_within_dataset": true,
+  "raw_capture_available": false,
+  "execution_note": "User reported execution mistakes in the initial attempt; no run-specific rotation details supplied.",
+  "runs": [
+    {
+      "run": 1,
+      "dps": 45230,
+      "total_damage": 906373,
+      "max_hit": 43303,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 624811,
+        "Furina": 181921,
+        "Escoffier": 94033,
+        "Dahlia": 5608
+      }
+    },
+    {
+      "run": 2,
+      "dps": 47524,
+      "total_damage": 952372,
+      "max_hit": 43548,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 688130,
+        "Furina": 153190,
+        "Escoffier": 105616,
+        "Dahlia": 5436
+      }
+    },
+    {
+      "run": 3,
+      "dps": 44615,
+      "total_damage": 894041,
+      "max_hit": 43268,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 629090,
+        "Furina": 162950,
+        "Escoffier": 96478,
+        "Dahlia": 5523
+      }
+    },
+    {
+      "run": 4,
+      "dps": 47492,
+      "total_damage": 951736,
+      "max_hit": 43280,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 655296,
+        "Furina": 192003,
+        "Escoffier": 98959,
+        "Dahlia": 5478
+      }
+    },
+    {
+      "run": 5,
+      "dps": 46796,
+      "total_damage": 937739,
+      "max_hit": 43280,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 672628,
+        "Furina": 152880,
+        "Escoffier": 104664,
+        "Dahlia": 7567
+      }
+    },
+    {
+      "run": 6,
+      "dps": 46875,
+      "total_damage": 939325,
+      "max_hit": 43483,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 647017,
+        "Furina": 169003,
+        "Escoffier": 110572,
+        "Dahlia": 12733
+      }
+    }
+  ],
+  "aggregate": {
+    "run_count": 6,
+    "median_dps": 46835.5,
+    "mean_dps": 46422,
+    "mean_dps_rounded_1dp": 46422,
+    "best_dps": 47524,
+    "worst_dps": 44615,
+    "range_dps": 2909,
+    "mean_total_damage": 930264.3333333334,
+    "median_total_damage": 938532,
+    "max_hit": 43548
+  },
+  "approximate_damage_share_pct": {
+    "Skirk": 70,
+    "Furina": 18,
+    "Escoffier": 11,
+    "Dahlia": 1
+  },
+  "previous_dataset": "team-c-2026-11-04-furina-20s.json",
+  "progression": {
+    "classification": "team_state_multiple_upgrades",
+    "previous_median_dps": 31708,
+    "current_median_dps": 46835.5,
+    "median_increase_dps": 15127.5,
+    "median_increase_pct_rounded_1dp": 47.7,
+    "median_increase_pct_rounded_2dp": 47.71,
+    "xingqiu_reference": {
+      "dataset": "team-c-xingqiu-pre-furina-summary.json",
+      "median_dps": 30450,
+      "median_increase_dps": 16385.5,
+      "median_increase_pct_rounded_2dp": 53.81
+    },
+    "strongest_hit": {
+      "previous": 41079,
+      "current": 43548
+    },
+    "same_members_as_previous": true
+  },
+  "limitations": [
+    "Several upgrades changed; no isolated attribution to Furina alone.",
+    "The Xingqiu reference contains only a reported median and sample size.",
+    "Damage benchmark does not measure survivability or uninterrupted rotations in real encounters."
+  ]
+}

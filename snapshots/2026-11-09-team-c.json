@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-11-09-team-c",
+  "source_document": "../provenance/2026-11-09-team-c.md",
+  "evidence_quality": "user_report",
+  "recorded_date": "2026-11-09",
+  "event_date": "2026-11-09",
+  "account_scope": "user-reported-progression-account",
+  "team": "C",
+  "team_identity": "skirk-escoffier-furina-dahlia",
+  "id": "team-c-2026-11-09-furina80",
+  "record_type": "partial_team_build_snapshot",
+  "account": {
+    "adventure_rank": 55,
+    "world_level": 8
+  },
+  "stats_context": "HoYoLAB Battle Chronicle screenshot transcriptions supplied in the user report; not combat-panel values. Active effects can change combat HP/ATK. Original screenshots not inspected here.",
+  "characters": [
+    {
+      "name": "Skirk",
+      "level": 90,
+      "constellation": 0,
+      "role": "Main DPS",
+      "stats": {
+        "hp": 17197,
+        "atk": 1965,
+        "crit_rate_pct": 92.1,
+        "crit_damage_pct": 171.6,
+        "energy_recharge_pct": 131.1,
+        "cryo_damage_bonus_pct": 61.6
+      },
+      "weapon": {
+        "name": "Exaiphanes Blade",
+        "level": 90,
+        "refinement": null
+      },
+      "talents_normal_skill_burst": [
+        1,
+        8,
+        6
+      ],
+      "artifact_set_state": {
+        "set": "Deep Gallery",
+        "equipped_piece_count_confirmed": 2,
+        "four_piece_bonus_active": false
+      },
+      "artifacts": [
+        {
+          "slot": "flower",
+          "name": "Witch's Flower of Flames",
+          "enhancement": 20,
+          "main_stat": null,
+          "substats": null
+        },
+        {
+          "slot": "feather",
+          "name": "Deep Gallery's Feather",
+          "enhancement": 20,
+          "main_stat": null,
+          "substats": null
+        },
+        {
+          "slot": "sands",
+          "name": "Royal Pocket",
+          "enhancement": 20,
+          "main_stat": {
+            "atk_pct": 46.6
+          },
+          "substats": null
+        },
+        {
+          "slot": "goblet",
+          "name": "Lavawalker's Torment",
+          "enhancement": 20,
+          "main_stat": {
+            "cryo_damage_bonus_pct": 46.6
+          },
+          "substats": null
+        },
+        {
+          "slot": "circlet",
+          "name": "Deep Gallery's Lost Crown",
+          "enhancement": 20,
+          "main_stat": {
+            "crit_damage_pct": 62.2
+          },
+          "substats": null
+        }
+      ]
+    },
+    {
+      "name": "Furina",
+      "level": 80,
+      "constellation": 0,
+      "role": "Off-field Hydro DPS / buffer",
+      "stats": {
+        "hp": 24819,
+        "atk": 1182,
+        "crit_rate_pct": 57.1,
+        "crit_damage_pct": 184.1,
+        "energy_recharge_pct": 161.5,
+        "hydro_damage_bonus_pct": 46.6
+      },
+      "weapon": {
+        "name": "Splendor of Tranquil Waters",
+        "level": 80,
+        "refinement": 1
+      },
+      "talents_normal_skill_burst": [
+        1,
+        4,
+        4
+      ],
+      "artifact_set_state": {
+        "set": "Golden Troupe",
+        "equipped_piece_count_confirmed": 3,
+        "four_piece_bonus_active": false
+      },
+      "artifacts": [
+        {
+          "slot": "flower",
+          "name": "Golden Song's Variation",
+          "enhancement": 16,
+          "main_stat": null,
+          "substats": null
+        },
+        {
+          "slot": "feather",
+          "name": "Golden Bird's Shedding",
+          "enhancement": 20,
+          "main_stat": null,
+          "substats": null
+        },
+        {
+          "slot": "sands",
+          "name": "Golden Era's Prelude",
+          "enhancement": 20,
+          "main_stat": {
+            "energy_recharge_pct": 51.8
+          },
+          "substats": null
+        },
+        {
+          "slot": "goblet",
+          "name": "Wanderer's String-Kettle",
+          "enhancement": 20,
+          "main_stat": {
+            "hydro_damage_bonus_pct": 46.6
+          },
+          "substats": null
+        },
+        {
+          "slot": "circlet",
+          "name": "Conductor's Top Hat",
+          "enhancement": 20,
+          "main_stat": {
+            "crit_rate_pct": 31.1
+          },
+          "substats": null
+        }
+      ]
+    },
+    {
+      "name": "Escoffier",
+      "level": 80,
+      "constellation": 0,
+      "role": "Cryo support / healer / sub-DPS",
+      "stats": {
+        "hp": 18825,
+        "atk": 1447,
+        "crit_rate_pct": 32.7,
+        "crit_damage_pct": 83.4,
+        "energy_recharge_pct": 185.8,
+        "cryo_damage_bonus_pct": 46.6
+      },
+      "weapon": {
+        "name": "Frostbreath",
+        "level": 80,
+        "refinement": null
+      },
+      "talents_normal_skill_burst": [
+        1,
+        6,
+        6
+      ],
+      "artifact_set_state": {
+        "set": "Golden Troupe",
+        "equipped_piece_count_confirmed": 4,
+        "four_piece_bonus_active": true
+      },
+      "artifacts": [
+        {
+          "slot": "flower",
+          "name": "Golden Song's Variation",
+          "enhancement": 16,
+          "main_stat": null,
+          "substats": null
+        },
+        {
+          "slot": "feather",
+          "name": "Golden Bird's Shedding",
+          "enhancement": 20,
+          "main_stat": null,
+          "substats": null
+        },
+        {
+          "slot": "sands",
+          "name": "Golden Era's Prelude",
+          "enhancement": 16,
+          "main_stat": {
+            "energy_recharge_pct": 38.7
+          },
+          "substats": null
+        },
+        {
+          "slot": "goblet",
+          "name": "Forgotten Vessel",
+          "enhancement": 20,
+          "main_stat": {
+            "cryo_damage_bonus_pct": 46.6
+          },
+          "substats": null
+        },
+        {
+          "slot": "circlet",
+          "name": "Golden Troupe's Reward",
+          "enhancement": 20,
+          "main_stat": {
+            "atk_pct": 46.6
+          },
+          "substats": null
+        }
+      ]
+    },
+    {
+      "name": "Dahlia",
+      "level": 77,
+      "constellation": 0,
+      "role": "Shield / Hydro support",
+      "stats": {
+        "hp": 35030,
+        "atk": 802,
+        "crit_rate_pct": 12.4,
+        "crit_damage_pct": 131.6,
+        "energy_recharge_pct": 154.5
+      },
+      "weapon": {
+        "name": "Skyrider Sword",
+        "level": 50,
+        "refinement": null
+      },
+      "talents_normal_skill_burst": [
+        1,
+        5,
+        5
+      ],
+      "artifact_set_state": {
+        "set": "Noblesse Oblige",
+        "equipped_piece_count_confirmed": 4,
+        "four_piece_bonus_active": true
+      },
+      "artifacts": [
+        {
+          "slot": "flower",
+          "name": "Royal Flora",
+          "enhancement": 20,
+          "main_stat": null,
+          "substats": null
+        },
+        {
+          "slot": "feather",
+          "name": "Royal Plume",
+          "enhancement": 20,
+          "main_stat": null,
+          "substats": null
+        },
+        {
+          "slot": "sands",
+          "name": "Royal Pocket",
+          "enhancement": 20,
+          "main_stat": {
+            "hp_pct": 46.6
+          },
+          "substats": null
+        },
+        {
+          "slot": "goblet",
+          "name": "Royal Silver Urn",
+          "enhancement": 20,
+          "main_stat": {
+            "hp_pct": 46.6
+          },
+          "substats": null
+        },
+        {
+          "slot": "circlet",
+          "name": "Conductor's Top Hat",
+          "enhancement": 20,
+          "main_stat": {
+            "hp_pct": 46.6
+          },
+          "substats": null
+        }
+      ]
+    }
+  ]
+}
