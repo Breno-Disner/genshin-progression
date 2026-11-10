@@ -4,6 +4,7 @@ Resultados transcritos; JSONs não são exports originais do DPS Test Dummy++. D
 
 | Registro | Data/precisão | Métrica | Qualidade |
 | --- | --- | --- | --- |
+| [Team C — Skirk Deep Gallery 4pc](team-c-2026-11-10-deep-gallery-20s.json) | 10/11/2026 | Mediana 66.325; seis runs | +41,61% vs. 09/11; +117,82% vs. Xingqiu |
 | [Team C — Furina Lv80](team-c-2026-11-09-furina-20s.json) | 09/11/2026 | Mediana 46.835,5; seis runs | +47,71% vs. Furina Lv44; +53,81% vs. Xingqiu |
 | [Team C — integração inicial da Furina](team-c-2026-11-04-furina-20s.json) | 04/11/2026 | Mediana 31.708 DPS; seis runs | Histórico; +4,13% sobre o [resumo Xingqiu](team-c-xingqiu-pre-furina-summary.json) |
 | [Team C — baseline de outubro, seis runs](team-c-2026-10-26-27-20s.json) | 26–27/10/2026 | Mediana 28.021,5; média 27.911,3; +6,22% mediana | Múltiplas variáveis; candidato a baseline futuro de N5D |

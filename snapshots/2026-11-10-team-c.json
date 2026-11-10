@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-11-10-team-c",
+  "source_document": "../provenance/2026-11-10-team-c.md",
+  "evidence_quality": "user_report",
+  "recorded_date": "2026-11-10",
+  "event_date": "2026-11-10",
+  "team": "C",
+  "team_identity": "skirk-escoffier-furina-dahlia",
+  "id": "team-c-2026-11-10",
+  "record_type": "partial_team_build_snapshot",
+  "account": {
+    "adventure_rank": 55,
+    "world_level": 8
+  },
+  "characters": [
+    {
+      "name": "Skirk",
+      "constellation": 0,
+      "level": 90,
+      "weapon": {
+        "name": "Exaiphanes Blade",
+        "level": 90,
+        "refinement": null
+      },
+      "talents_normal_skill_burst": [
+        1,
+        9,
+        6
+      ],
+      "stats": {
+        "hp": 17496,
+        "atk": 1965,
+        "def": 982,
+        "em": 93,
+        "crit_rate_pct": 82.8,
+        "crit_damage_pct": 201.1,
+        "energy_recharge_pct": 110.4,
+        "cryo_damage_bonus_pct": 61.6
+      },
+      "artifact_set_state": {
+        "set": "Deep Gallery",
+        "equipped_piece_count_confirmed": 4,
+        "four_piece_bonus_active": true
+      },
+      "artifacts": [
+        {
+          "slot": "flower",
+          "name": "Witch's Flower of Flames",
+          "enhancement": 20,
+          "main_stat": {
+            "hp_flat": 4780
+          },
+          "substats": {
+            "crit_rate_pct": 5.4,
+            "crit_damage_pct": 14,
+            "energy_recharge_pct": 5.8,
+            "em": 58
+          },
+          "in_set": false
+        },
+        {
+          "slot": "feather",
+          "name": "Deep Gallery's Feather",
+          "enhancement": 20,
+          "main_stat": {
+            "atk_flat": 311
+          },
+          "substats": {
+            "crit_rate_pct": 12.8,
+            "atk_pct": 9.9,
+            "em": 19,
+            "def_flat": 32
+          },
+          "in_set": true
+        },
+        {
+          "slot": "sands",
+          "name": "Deep Gallery's Hourglass",
+          "enhancement": 20,
+          "main_stat": {
+            "atk_pct": 46.6
+          },
+          "substats": {
+            "crit_rate_pct": 2.7,
+            "crit_damage_pct": 24.1,
+            "hp_flat": 299,
+            "def_pct": 12.4
+          },
+          "in_set": true
+        },
+        {
+          "slot": "goblet",
+          "name": "Deep Gallery's Goblet",
+          "enhancement": 20,
+          "main_stat": {
+            "cryo_damage_bonus_pct": 46.6
+          },
+          "substats": {
+            "crit_rate_pct": 8.6,
+            "crit_damage_pct": 12.4,
+            "def_flat": 44,
+            "em": 16
+          },
+          "in_set": true
+        },
+        {
+          "slot": "circlet",
+          "name": "Deep Gallery's Lost Crown",
+          "enhancement": 20,
+          "main_stat": {
+            "crit_damage_pct": 62.2
+          },
+          "substats": {
+            "crit_rate_pct": 15.2,
+            "atk_pct": 10.5,
+            "atk_flat": 39,
+            "energy_recharge_pct": 4.5
+          },
+          "in_set": true
+        }
+      ]
+    },
+    {
+      "name": "Furina",
+      "constellation": 0
+    },
+    {
+      "name": "Escoffier",
+      "constellation": 0
+    },
+    {
+      "name": "Dahlia",
+      "constellation": 0
+    }
+  ],
+  "previous_snapshot": "2026-11-09-team-c.json",
+  "limitations": [
+    "Other members' builds were not reconfirmed. Talent levels recorded as reported; effective team talent level not supplied."
+  ]
+}

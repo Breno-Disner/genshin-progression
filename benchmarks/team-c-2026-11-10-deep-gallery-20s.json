@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-11-10-team-c",
+  "source_document": "../provenance/2026-11-10-team-c.md",
+  "evidence_quality": "user_report",
+  "recorded_date": "2026-11-10",
+  "event_date": "2026-11-10",
+  "team": "C",
+  "team_identity": "skirk-escoffier-furina-dahlia",
+  "id": "team-c-2026-11-10-deep-gallery-20s",
+  "record_type": "benchmark_dataset",
+  "baseline_status": "latest_standardized_team_c_baseline",
+  "build_snapshot": "../snapshots/2026-11-10-team-c.json",
+  "comparison_group": "team-c-20s-abyss12-maguu-kenki100-res10",
+  "series_window_seconds": 20,
+  "protocol": {
+    "tool": "DPS Test Dummy++",
+    "preset": "Abyss 12",
+    "enemy": "Maguu Kenki",
+    "enemy_level": 100,
+    "resistance_all_elements_pct": 10,
+    "duration_seconds": 20.04,
+    "modifiers_displayed": [],
+    "automatic_rotation_detection": false,
+    "rotation_details": null
+  },
+  "unchanged_build_within_dataset": true,
+  "raw_capture_available": false,
+  "runs": [
+    {
+      "run": 1,
+      "dps": 62182,
+      "total_damage": 1246129,
+      "max_hit": 64311,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 953951,
+        "Furina": 202216,
+        "Escoffier": 84231,
+        "Dahlia": 5731
+      }
+    },
+    {
+      "run": 2,
+      "dps": 63239,
+      "total_damage": 1267190,
+      "max_hit": 65523,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 988501,
+        "Furina": 168559,
+        "Escoffier": 104456,
+        "Dahlia": 5674
+      }
+    },
+    {
+      "run": 3,
+      "dps": 67823,
+      "total_damage": 1359171,
+      "max_hit": 65470,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 1033313,
+        "Furina": 212479,
+        "Escoffier": 107705,
+        "Dahlia": 5674
+      }
+    },
+    {
+      "run": 4,
+      "dps": 66594,
+      "total_damage": 1334471,
+      "max_hit": 65523,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 1029568,
+        "Furina": 190371,
+        "Escoffier": 108858,
+        "Dahlia": 5674
+      }
+    },
+    {
+      "run": 5,
+      "dps": 66056,
+      "total_damage": 1323691,
+      "max_hit": 65469,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 994121,
+        "Furina": 221614,
+        "Escoffier": 102302,
+        "Dahlia": 5654
+      }
+    },
+    {
+      "run": 6,
+      "dps": 68521,
+      "total_damage": 1373098,
+      "max_hit": 65808,
+      "duration_seconds": 20.04,
+      "damage_by_character": {
+        "Skirk": 1066745,
+        "Furina": 201060,
+        "Escoffier": 99613,
+        "Dahlia": 5680
+      }
+    }
+  ],
+  "aggregate": {
+    "run_count": 6,
+    "median_dps": 66325,
+    "mean_dps": 65735.83333333333,
+    "mean_dps_rounded_1dp": 65735.8,
+    "worst_dps": 62182,
+    "best_dps": 68521,
+    "range_dps": 6339,
+    "max_total_damage": 1373098,
+    "max_hit": 65808
+  },
+  "approximate_damage_share_pct": {
+    "Skirk": [
+      75,
+      78
+    ],
+    "Furina": [
+      13,
+      17
+    ],
+    "Escoffier": [
+      7,
+      8
+    ],
+    "Dahlia": [
+      0,
+      1
+    ]
+  },
+  "previous_dataset": "team-c-2026-11-09-furina-20s.json",
+  "progression": {
+    "classification": "multiple_skirk_upgrades",
+    "previous_median_dps": 46835.5,
+    "current_median_dps": 66325,
+    "median_increase_dps": 19489.5,
+    "median_increase_pct_rounded_1dp": 41.6,
+    "median_increase_pct_rounded_2dp": 41.61,
+    "historical_references": [
+      {
+        "dataset": "team-c-2026-11-04-furina-20s.json",
+        "median_dps": 31708,
+        "median_increase_pct_rounded_2dp": 109.17
+      },
+      {
+        "dataset": "team-c-xingqiu-pre-furina-summary.json",
+        "median_dps": 30450,
+        "median_increase_dps": 35875,
+        "median_increase_pct_rounded_2dp": 117.82
+      }
+    ],
+    "max_skirk_damage": {
+      "previous": 688130,
+      "current": 1066745,
+      "increase_pct_rounded_1dp": 55
+    },
+    "strongest_hit": {
+      "previous": 43548,
+      "current": 65808,
+      "increase_pct_rounded_1dp": 51.1
+    },
+    "skirk_changes": {
+      "crit_rate_pp": -9.3,
+      "crit_damage_pp": 29.5,
+      "energy_recharge_pp": -20.7,
+      "atk_change": 0,
+      "cryo_bonus_pp_change": 0,
+      "skill_talent_before": 8,
+      "skill_talent_after": 9
+    }
+  },
+  "limitations": [
+    "Set completion, sands, goblet, CRIT distribution and skill talent changed together. No isolated attribution to an artifact or the set.",
+    "Reported rotation did not require conventional Burst uptime; this does not establish general ER requirements."
+  ]
+}

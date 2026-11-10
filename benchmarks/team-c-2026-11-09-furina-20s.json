@@ -10,7 +10,7 @@
   "team_identity": "skirk-escoffier-furina-dahlia",
   "id": "team-c-2026-11-09-furina-20s",
   "record_type": "benchmark_dataset",
-  "baseline_status": "latest_standardized_team_c_baseline",
+  "baseline_status": "historical_standardized_team_c_baseline",
   "build_snapshot": "../snapshots/2026-11-09-team-c.json",
   "comparison_group": "team-c-20s-abyss12-maguu-kenki100-res10",
   "series_window_seconds": 20,

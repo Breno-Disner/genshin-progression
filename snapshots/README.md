@@ -1,5 +1,7 @@
 # Snapshots
 
+- [Team C — 10/11](2026-11-10-team-c.json): build atualizado da Skirk, Deep Gallery 4pc e Skill Lv9.
+
 - [Team C — 09/11](2026-11-09-team-c.json): quatro builds do Battle Chronicle, incluindo os sets incompletos de Skirk e Furina.
 
 - [Furina C0 — sessão de 04/11](2026-11-04-furina-session.json): AR55/WL8, recursos antes/depois, aquisições e desejos derivados; pity exato/final e garantia pós-sessão pendentes. Bennett continua planejado.
