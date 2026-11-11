@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "record_type": "content_clear",
+  "id": "team-c-2026-11-11-great-waves",
+  "source_id": "user-report-2026-11-11-great-waves",
+  "source_document": "../provenance/2026-11-11-great-waves.md",
+  "evidence_quality": "user_report",
+  "account_scope": "user-reported-progression-account",
+  "recorded_date": "2026-11-11",
+  "event_date": "2026-11-11",
+  "team": "C",
+  "team_identity": "skirk-escoffier-furina-dahlia",
+  "members": [
+    {
+      "name": "Skirk",
+      "level": 90
+    },
+    {
+      "name": "Furina",
+      "level": 80
+    },
+    {
+      "name": "Escoffier",
+      "level": 80
+    },
+    {
+      "name": "Dahlia",
+      "level": 80
+    }
+  ],
+  "content": "Battle Amid the Great Waves — November 2026",
+  "attempt": "best recorded November clear",
+  "clear_seconds": 144,
+  "skirk_total_damage": 2631435,
+  "strongest_hit": 60961,
+  "dps": null,
+  "total_damage": null,
+  "comparison_group": null,
+  "battlefields": [
+    {
+      "battlefield": 1,
+      "enemy": "Wavebinder",
+      "difficulty": "Normal",
+      "clear_seconds": 41,
+      "skirk_damage": 1252351,
+      "strongest_hit": 53051,
+      "highest_total_damage_contributor": "Skirk"
+    },
+    {
+      "battlefield": 2,
+      "enemy": "Emperor of Fire and Iron",
+      "difficulty": "Normal",
+      "clear_seconds": 21,
+      "skirk_damage": 600523,
+      "strongest_hit": 39468,
+      "highest_total_damage_contributor": "Skirk"
+    },
+    {
+      "battlefield": 3,
+      "enemy": "Radiant Moongecko",
+      "difficulty": "Normal",
+      "clear_seconds": 82,
+      "skirk_damage": 778561,
+      "strongest_hit": 60961,
+      "highest_total_damage_contributor": "Skirk"
+    }
+  ],
+  "historical_reference": {
+    "event_month": "2026-09",
+    "clear_seconds": 542,
+    "evidence_quality": "user_report",
+    "controlled_dps_baseline": false
+  },
+  "progression": {
+    "seconds_saved": 398,
+    "time_reduction_pct": 73.43,
+    "previous_to_current_time_ratio": 3.76,
+    "bottleneck_battlefield": 3,
+    "bottleneck_time_share_pct": 56.9
+  },
+  "limitations": [
+    "September is a historical completion-time reference. Team, builds, encounter conditions and execution were not isolated.",
+    "No overall team damage total or controlled DPS measurement supplied."
+  ]
+}

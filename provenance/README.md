@@ -4,6 +4,7 @@ Importação realizada em 2026-10-15, preservando o histórico inicial do reposi
 
 | source_id | Fonte | Cobertura e limite |
 | --- | --- | --- |
+| user-report-2026-11-11-great-waves | [Relato do desafio de novembro](2026-11-11-great-waves.md) | Três campos, tempo, dano da Skirk e referência histórica de setembro. |
 | user-report-2026-11-10-team-c | [Relato de 10/11](2026-11-10-team-c.md) | Seis testes, dano individual e artefatos de Skirk; trecho final incompleto no anexo. |
 | user-report-2026-11-09-team-c | [Relato de 09/11](2026-11-09-team-c.md) | Transcrição fornecida dos testes e builds; capturas originais não examinadas. |
 | user-report-2026-11-04-furina | [Registro da Furina C0](2026-11-04-furina.md) | Invocações, recursos e preparação retrospectiva 29/10–04/11; histórico não examinado, pity/garantia finais pendentes. |
