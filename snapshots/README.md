@@ -1,5 +1,7 @@
 # Snapshots
 
+- [Team E — 12/11](2026-11-12-team-e.json): builds reportados e investimento provisório de Mitya, Viajante Cryo e Valeriy.
+
 - [Team C — 10/11](2026-11-10-team-c.json): build atualizado da Skirk, Deep Gallery 4pc e Skill Lv9.
 
 - [Team C — 09/11](2026-11-09-team-c.json): quatro builds do Battle Chronicle, incluindo os sets incompletos de Skirk e Furina.

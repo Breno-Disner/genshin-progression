@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-11-12-team-e",
+  "source_document": "../provenance/2026-11-12-team-e.md",
+  "evidence_quality": "user_report",
+  "account_scope": "user-reported-progression-account",
+  "recorded_date": "2026-11-12",
+  "event_date": "2026-11-12",
+  "team": "E",
+  "team_identity": "stellar-conduct-mitya-cryo-traveler-escoffier-valeriy",
+  "id": "team-e-2026-11-12-stellar-conduct-23s",
+  "record_type": "benchmark_dataset",
+  "baseline_status": "initial_development_baseline",
+  "build_snapshot": "../snapshots/2026-11-12-team-e.json",
+  "comparison_group": "team-e-23s-abyss12-maguu-kenki100-res10",
+  "series_window_seconds": 23,
+  "protocol": {
+    "tool": "DPS Test Dummy++",
+    "preset": "Abyss 12",
+    "enemy": "Maguu Kenki",
+    "enemy_level": 100,
+    "resistance_all_elements_pct": 10,
+    "duration_seconds": 23.04,
+    "modifiers_displayed": [],
+    "automatic_rotation_detection": false,
+    "rotation_details": null
+  },
+  "unchanged_build_within_dataset": null,
+  "raw_capture_available": false,
+  "runs": [
+    {
+      "run": 1,
+      "dps": 10799,
+      "total_damage": 248790,
+      "max_hit": 20234,
+      "duration_seconds": 23.04,
+      "damage_by_character": {
+        "Mitya": 154672,
+        "Traveler": 934,
+        "Escoffier": 88205,
+        "Valeriy": 4979
+      }
+    },
+    {
+      "run": 2,
+      "dps": 10397,
+      "total_damage": 239545,
+      "max_hit": 19682,
+      "duration_seconds": 23.04,
+      "damage_by_character": {
+        "Mitya": 150983,
+        "Traveler": 1034,
+        "Escoffier": 83579,
+        "Valeriy": 3949
+      }
+    },
+    {
+      "run": 3,
+      "dps": 11822,
+      "total_damage": 272366,
+      "max_hit": 20234,
+      "duration_seconds": 23.04,
+      "damage_by_character": {
+        "Mitya": 181385,
+        "Traveler": 1014,
+        "Escoffier": 85255,
+        "Valeriy": 4712
+      }
+    },
+    {
+      "run": 4,
+      "dps": 11935,
+      "total_damage": 274977,
+      "max_hit": 20234,
+      "duration_seconds": 23.04,
+      "damage_by_character": {
+        "Mitya": 170620,
+        "Traveler": 596,
+        "Escoffier": 98099,
+        "Valeriy": 5662
+      }
+    },
+    {
+      "run": 5,
+      "dps": 12049,
+      "total_damage": 277599,
+      "max_hit": 19129,
+      "duration_seconds": 23.04,
+      "damage_by_character": {
+        "Mitya": 178205,
+        "Traveler": 752,
+        "Escoffier": 92818,
+        "Valeriy": 5824
+      }
+    },
+    {
+      "run": 6,
+      "dps": 10856,
+      "total_damage": 250118,
+      "max_hit": 19682,
+      "duration_seconds": 23.04,
+      "damage_by_character": {
+        "Mitya": 161841,
+        "Traveler": 852,
+        "Escoffier": 82648,
+        "Valeriy": 4777
+      }
+    }
+  ],
+  "aggregate": {
+    "run_count": 6,
+    "median_dps": 11339,
+    "mean_dps": 11309.666666666666,
+    "mean_dps_rounded_1dp": 11309.7,
+    "worst_dps": 10397,
+    "best_dps": 12049,
+    "range_dps": 1652,
+    "total_damage": 1563395,
+    "mean_total_damage": 260565.83333333334,
+    "median_total_damage": 261242,
+    "max_total_damage": 277599,
+    "max_hit": 20234,
+    "damage_by_character": {
+      "Mitya": 997706,
+      "Traveler": 5182,
+      "Escoffier": 530604,
+      "Valeriy": 29903
+    },
+    "reported_damage_share_pct": {
+      "Mitya": 63.82,
+      "Traveler": 0.33,
+      "Escoffier": 33.94,
+      "Valeriy": 1.91
+    }
+  },
+  "preliminary_comparison": {
+    "event_date": null,
+    "run_count": 1,
+    "dps": 8684,
+    "total_damage": 173893,
+    "duration_seconds": 20.02,
+    "max_hit": 19129,
+    "damage_by_character": {
+      "Mitya": 100129,
+      "Traveler": 843,
+      "Escoffier": 67403,
+      "Valeriy": 5518
+    },
+    "nominal_median_dps_change_pct": 30.57,
+    "controlled": false
+  },
+  "limitations": [
+    "One preliminary run at 20.02s versus six at 23.04s. Rotation under refinement.",
+    "Elemental damage bonuses and CRIT Rate varied on some test panels; per-trial values were not supplied.",
+    "No isolated effect of an extra Charged Attack. Personal damage attribution does not measure support value."
+  ]
+}

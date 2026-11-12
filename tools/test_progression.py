@@ -27,6 +27,9 @@ class ProgressionTests(unittest.TestCase):
                        for points in teams.values() for p in points if p['record'].get('protocol')}
             self.assertLessEqual(len(targets), 1)
         self.assertEqual(set(groups['dummy-abyss12-mitachurl100-res10']), {'A', 'B'})
+        team_e = groups['team-e-23s-abyss12-maguu-kenki100-res10']
+        self.assertEqual(set(team_e), {'E'})
+        self.assertEqual([p['record']['series_window_seconds'] for p in team_e['E']], [23])
 
     def test_undated_baseline_uses_predecessor_order(self):
         points = series(self.records)['team-c-20s-abyss12-maguu-kenki100-res10']['C']

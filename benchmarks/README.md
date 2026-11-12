@@ -4,6 +4,7 @@ Resultados transcritos; JSONs não são exports originais do DPS Test Dummy++. D
 
 | Registro | Data/precisão | Métrica | Qualidade |
 | --- | --- | --- | --- |
+| [Team E — Stellar-Conduct inicial](team-e-2026-11-12-stellar-conduct-23s.json) | 12/11/2026 | Mediana 11.339; seis testes de 23,04s | +30,57% nominal vs. teste único de 20,02s; sem controle |
 | [Team C — Battle Amid the Great Waves](team-c-2026-11-11-great-waves.json) | 11/11/2026 | Clear 144s; três campos | −73,43% vs. setembro; comparação histórica de tempo |
 | [Team C — Skirk Deep Gallery 4pc](team-c-2026-11-10-deep-gallery-20s.json) | 10/11/2026 | Mediana 66.325; seis runs | +41,61% vs. 09/11; +117,82% vs. Xingqiu |
 | [Team C — Furina Lv80](team-c-2026-11-09-furina-20s.json) | 09/11/2026 | Mediana 46.835,5; seis runs | +47,71% vs. Furina Lv44; +53,81% vs. Xingqiu |

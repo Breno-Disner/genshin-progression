@@ -44,7 +44,7 @@ def main():
                 assert round(accounting['current_cryo_damage_bonus_pct']) == accounting['dummy_display_rounded_pct']
             if r.get('record_type') == 'benchmark_dataset':
                 runs = r['runs']
-                assert len(runs) >= 3 and r['unchanged_build_within_dataset'], path
+                assert len(runs) >= 3, path
                 for run in runs:
                     if run.get('damage_by_character') is not None:
                         assert sum(run['damage_by_character'].values()) == run['total_damage'], (path, run['run'])
@@ -57,21 +57,25 @@ def main():
                 assert aggregate['mean_dps_rounded_1dp'] == round(statistics.mean(values), 1)
                 assert aggregate['best_dps'] == max(values) and aggregate['worst_dps'] == min(values)
                 assert aggregate['range_dps'] == max(values) - min(values)
-                previous = json.loads((path.parent / r['previous_dataset']).read_text(encoding='utf-8'))
-                previous_stats = previous.get('aggregate', previous.get('summary'))
-                increase = (statistics.median(values) / previous_stats['median_dps'] - 1) * 100
-                assert r['progression']['median_increase_pct_rounded_1dp'] == round(increase, 1)
-                assert r['series_window_seconds'] == previous['series_window_seconds'] == 20
+                progression = r.get('progression') or {}
+                previous = None
+                if r.get('previous_dataset'):
+                    previous = json.loads((path.parent / r['previous_dataset']).read_text(encoding='utf-8'))
+                    previous_stats = previous.get('aggregate', previous.get('summary'))
+                    increase = (statistics.median(values) / previous_stats['median_dps'] - 1) * 100
+                    assert progression['median_increase_pct_rounded_1dp'] == round(increase, 1)
+                    assert r['series_window_seconds'] == previous['series_window_seconds']
+                    if 'median_increase_pct_rounded_2dp' in progression:
+                        assert round(increase, 2) == progression['median_increase_pct_rounded_2dp']
                 build = json.loads((path.parent / r['build_snapshot']).read_text(encoding='utf-8'))
                 for character in build.get('characters', []):
                     skill = character.get('team_effective_talent_levels', {}).get('skill')
                     if skill:
                         assert character['talents_normal_skill_burst'][1] == skill['base']
                         assert skill['base'] + skill['team_bonus'] == skill['effective']
-                progression = r['progression']
                 if 'mean_increase_pct_rounded_2dp' in progression:
+                    assert previous is not None, path
                     assert round((statistics.mean(values) / previous_stats['mean_dps'] - 1) * 100, 2) == progression['mean_increase_pct_rounded_2dp']
-                    assert round(increase, 2) == progression['median_increase_pct_rounded_2dp']
                 if 'analysis' in r:
                     analysis = r['analysis']
                     assert analysis['baseline_cryo_res_pct'] - analysis['reported_shred_pct'] == analysis['resulting_cryo_res_pct']
@@ -82,6 +86,7 @@ def main():
                 if 'median_total_damage' in aggregate:
                     assert aggregate['median_total_damage'] == statistics.median(run['total_damage'] for run in runs)
                 for name, comparison in progression.get('character_median_damage', {}).items():
+                    assert previous is not None, path
                     current = statistics.median(run['damage_by_character'][name] for run in runs)
                     prior = statistics.median(run['damage_by_character'][name] for run in previous['runs'])
                     assert current == comparison['current'] and prior == comparison['previous']

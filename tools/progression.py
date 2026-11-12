@@ -1,7 +1,7 @@
 """Build source-linked DPS series without merging protocols or inventing dates."""
 import html
 
-COLORS = {'A': '#e8c17a', 'B': '#c4a5ef', 'C': '#89d9cd'}
+COLORS = {'A': '#e8c17a', 'B': '#c4a5ef', 'C': '#89d9cd', 'E': '#f19d9d'}
 
 
 def series(records):
@@ -52,7 +52,8 @@ def render(records, root, repo):
         sample = next(iter(teams.values()))[-1]['record']
         protocol = sample.get('protocol') or {}
         label = protocol.get('enemy', key)
-        title = f'{label} · Lv{protocol.get("enemy_level", "?")}'
+        window = sample.get('series_window_seconds') or round(protocol.get('duration_seconds') or 20)
+        title = f'{label} · Lv{protocol.get("enemy_level", "?")} · ~{window}s'
         tabs.append(f'<button type="button" data-chart-tab="{index}" aria-pressed="{str(index == 0).lower()}" aria-controls="progression-panel-{index}">{esc(title)}</button>')
         max_points = max(len(points) for points in teams.values())
         top = max(point['value'] for points in teams.values() for point in points)
@@ -89,6 +90,6 @@ def render(records, root, repo):
                     evidence += ' · comparação preliminar; execução pode variar'
                 rows.append(f'<tr><td>Team {team}</td><td>{esc(date)}</td><td>{number(point["value"])}</td><td>{point["metric"]} · {evidence}</td><td><a class="source" href="{esc(url)}">Registro ↗</a></td></tr>')
         svg.append('</svg>')
-        note = 'A linha conecta marcos, sem interpolar DPS entre eles. O primeiro resumo não tem data de teste; sua ordem vem do vínculo ao dataset seguinte.' if max_points > 1 else 'A e B têm apenas um resultado bem-sucedido cada. Linhas aparecerão quando houver novos marcos no mesmo protocolo; não extrapolamos uma evolução.'
-        panels.append(f'<div id="progression-panel-{index}" data-chart-panel="{index}"'+(' hidden' if index else '')+f'><div class="chart-legend">{"".join(legends)}</div><p class="muted">{esc(title)} · Abyss 12 · RES base 10% · janela de ~20s. Medianas quando há múltiplos runs; A/B são runs únicos.</p><div class="chart-scroll">{"".join(svg)}</div><p class="chart-caption">Marcos em ordem registrada · sem escala temporal</p><p class="muted">{esc(note)}</p><details><summary>Valores, evidência e fontes</summary><div class="table-wrap"><table><thead><tr><th>Equipe</th><th>Marco</th><th>DPS</th><th>Amostra</th><th>Fonte</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div></details></div>')
+        note = 'A linha conecta marcos, sem interpolar DPS entre eles.' if max_points > 1 else 'Cada equipe tem um único marco neste protocolo. Uma linha aparecerá quando houver outro marco comparável.'
+        panels.append(f'<div id="progression-panel-{index}" data-chart-panel="{index}"'+(' hidden' if index else '')+f'><div class="chart-legend">{"".join(legends)}</div><p class="muted">{esc(title)} · Abyss 12 · RES base 10%. A tabela distingue medianas de runs únicos.</p><div class="chart-scroll">{"".join(svg)}</div><p class="chart-caption">Marcos em ordem registrada · sem escala temporal</p><p class="muted">{esc(note)}</p><details><summary>Valores, evidência e fontes</summary><div class="table-wrap"><table><thead><tr><th>Equipe</th><th>Marco</th><th>DPS</th><th>Amostra</th><th>Fonte</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div></details></div>')
     return '<div class="record progression"><div class="chart-tabs" aria-label="Protocolo do gráfico">'+''.join(tabs)+'</div>'+''.join(panels)+'<p class="muted">Protocolos separados. Excluídos: tentativa A com setup falho, planos, clears de domínio, hits individuais e recordações antigas/30s. Ganhos refletem o estado completo da equipe; não isolam um único upgrade.</p></div>'

@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "source_id": "user-report-2026-11-12-team-e",
+  "source_document": "../provenance/2026-11-12-team-e.md",
+  "evidence_quality": "user_report",
+  "account_scope": "user-reported-progression-account",
+  "recorded_date": "2026-11-12",
+  "event_date": "2026-11-12",
+  "team": "E",
+  "team_identity": "stellar-conduct-mitya-cryo-traveler-escoffier-valeriy",
+  "id": "team-e-2026-11-12",
+  "record_type": "partial_team_build_snapshot",
+  "stats_context": "User transcription of HoYoLAB Battle Chronicle. Some in-test values differ due to effects; original screenshots not inspected.",
+  "characters": [
+    {
+      "name": "Mitya",
+      "level": 70,
+      "constellation": 0,
+      "weapon": {
+        "name": "Dawning Frost",
+        "level": 50,
+        "refinement": 1
+      },
+      "talents_normal_skill_burst": [
+        6,
+        2,
+        3
+      ],
+      "stats": {
+        "hp": 10302,
+        "atk": 838,
+        "def": 793,
+        "em": 255,
+        "crit_rate_pct": 27.2,
+        "crit_damage_pct": 126.7,
+        "energy_recharge_pct": 110.4
+      },
+      "artifacts": {
+        "provisional_mismatched": true,
+        "atk_sands_enhancement": 20,
+        "other_pieces_enhancement": 0,
+        "complete_set_bonus_documented": false
+      }
+    },
+    {
+      "name": "Cryo Traveler",
+      "level": 70,
+      "constellation": null,
+      "weapon": {
+        "name": "Prototype Rancour",
+        "level": 70,
+        "refinement": 2
+      },
+      "talents_normal_skill_burst": [
+        2,
+        5,
+        4
+      ],
+      "stats": {
+        "hp": 15244,
+        "atk": 989,
+        "crit_rate_pct": 5,
+        "crit_damage_pct": 70.2,
+        "energy_recharge_pct": 110
+      },
+      "artifacts": {
+        "provisional_mismatched": true,
+        "flower_enhancement": 16,
+        "other_pieces_enhancement": 0
+      }
+    },
+    {
+      "name": "Escoffier",
+      "level": 80,
+      "constellation": 0,
+      "weapon": {
+        "name": "Frostbreath",
+        "level": 80,
+        "refinement": 1
+      },
+      "talents_normal_skill_burst": [
+        1,
+        6,
+        6
+      ],
+      "stats": {
+        "hp": 18825,
+        "atk": 1447,
+        "crit_rate_pct": 32.7,
+        "crit_damage_pct": 83.4,
+        "energy_recharge_pct": 185.8,
+        "cryo_damage_bonus_pct": 46.6
+      },
+      "artifact_set_state": {
+        "set": "Golden Troupe",
+        "four_piece_bonus_active": true
+      },
+      "artifacts": {
+        "flower_enhancement": 16,
+        "plume_enhancement": 20,
+        "er_sands_enhancement": 16,
+        "cryo_goblet_enhancement": 20,
+        "atk_circlet_enhancement": 20
+      }
+    },
+    {
+      "name": "Valeriy",
+      "level": 22,
+      "constellation": 6,
+      "weapon": {
+        "name": "Favonius Sword",
+        "level": 60,
+        "refinement": 2
+      },
+      "talents_normal_skill_burst": [
+        4,
+        4,
+        1
+      ],
+      "stats": {
+        "hp": 3790,
+        "atk": 613,
+        "crit_rate_pct": 7.7,
+        "crit_damage_pct": 67.9,
+        "energy_recharge_pct": 157.4
+      },
+      "artifacts": {
+        "foundryman_pieces": 4,
+        "viridescent_pieces": 1,
+        "all_pieces_enhancement": 0,
+        "reported_four_piece_bonus_active": false
+      }
+    }
+  ]
+}

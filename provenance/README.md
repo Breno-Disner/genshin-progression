@@ -4,6 +4,7 @@ Importação realizada em 2026-10-15, preservando o histórico inicial do reposi
 
 | source_id | Fonte | Cobertura e limite |
 | --- | --- | --- |
+| user-report-2026-11-12-team-e | [Relato da Team E](2026-11-12-team-e.md) | Seis testes, builds e comparação preliminar; capturas originais não examinadas. |
 | user-report-2026-11-11-great-waves | [Relato do desafio de novembro](2026-11-11-great-waves.md) | Três campos, tempo, dano da Skirk e referência histórica de setembro. |
 | user-report-2026-11-10-team-c | [Relato de 10/11](2026-11-10-team-c.md) | Seis testes, dano individual e artefatos de Skirk; trecho final incompleto no anexo. |
 | user-report-2026-11-09-team-c | [Relato de 09/11](2026-11-09-team-c.md) | Transcrição fornecida dos testes e builds; capturas originais não examinadas. |
